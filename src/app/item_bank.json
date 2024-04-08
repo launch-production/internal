@@ -770,7 +770,7 @@
     "item1": {
       "question_meta_data": {
         "question_text": "Daily income rarely went over $300.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -859,7 +859,7 @@
     "item2": {
       "question_meta_data": {
         "question_text": "Total monthly utilities spending was generally lower than $300.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -948,7 +948,7 @@
     "item3": {
       "question_meta_data": {
         "question_text": "Most daily savings were above $20.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -1037,7 +1037,7 @@
     "item4": {
       "question_meta_data": {
         "question_text": "Yearly spending in all categories did not exceed $10,000 in 2020.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -1126,7 +1126,7 @@
     "item5": {
       "question_meta_data": {
         "question_text": "Daily spendings rarely went over $90.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -1215,7 +1215,7 @@
     "item6": {
       "question_meta_data": {
         "question_text": "Most daily entertainment spending were above $80.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -1304,7 +1304,7 @@
     "item7": {
       "question_meta_data": {
         "question_text": "The range of daily savings in Jul was about $10 to $50.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -1393,7 +1393,7 @@
     "item8": {
       "question_meta_data": {
         "question_text": "Most high daily entertainment spendings occur when income is also high.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -1482,7 +1482,7 @@
     "item9": {
       "question_meta_data": {
         "question_text": "Most daily income were between $100 to $500.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -1571,7 +1571,7 @@
     "item10": {
       "question_meta_data": {
         "question_text": "Most daily utilities spending were below $20.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -1660,7 +1660,7 @@
     "item11": {
       "question_meta_data": {
         "question_text": "Most high daily savings occur when income is high.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -1749,7 +1749,7 @@
     "item12": {
       "question_meta_data": {
         "question_text": "As daily income and savings decreased, there were more food spendings less than $10.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -1838,7 +1838,7 @@
     "item13": {
       "question_meta_data": {
         "question_text": "Total spending increased from 2020 to 2023.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -1927,7 +1927,7 @@
     "item14": {
       "question_meta_data": {
         "question_text": "Monthly food spending consistently increased in the second half of the given year.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -2016,7 +2016,7 @@
     "item15": {
       "question_meta_data": {
         "question_text": "Total monthly spending generally decreased throughout the given year.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -2105,7 +2105,7 @@
     "item16": {
       "question_meta_data": {
         "question_text": "Total monthly entertainment spending was generally constant throughout the given year.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -2194,7 +2194,7 @@
     "item17": {
       "question_meta_data": {
         "question_text": "Daily spending generally fluctuated between $30 to $40.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -2283,7 +2283,7 @@
     "item18": {
       "question_meta_data": {
         "question_text": "Daily utilities spending generally increased in the first half of the given month.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -2372,7 +2372,7 @@
     "item19": {
       "question_meta_data": {
         "question_text": "Daily savings generally increased as income increased.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -2461,7 +2461,7 @@
     "item20": {
       "question_meta_data": {
         "question_text": "There is generally a positive relationship between income and spending for all spending categories during the years of 2020 and 2023.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -2550,7 +2550,7 @@
     "item21": {
       "question_meta_data": {
         "question_text": "Most daily savings were between $15 to $20 for this given year, and it's progressively more rare to have higher daily savings.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -2639,7 +2639,7 @@
     "item22": {
       "question_meta_data": {
         "question_text": "The number of times that daily spendings were around $50 increased from 2020 to 2023.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -2728,7 +2728,7 @@
     "item23": {
       "question_meta_data": {
         "question_text": "As income and savings increased, spending also consistently increased.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -2817,7 +2817,7 @@
     "item24": {
       "question_meta_data": {
         "question_text": "As savings decrease but income increases, daily transport spending decreases.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -2906,7 +2906,7 @@
     "item25": {
       "question_meta_data": {
         "question_text": "There were more dramatic dips in daily savings in the first half of the given month than the second half.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -2995,7 +2995,7 @@
     "item26": {
       "question_meta_data": {
         "question_text": "Entertainment daily spending had the most dramatic drop around the middle of the given month compared to other spending categories.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -3084,7 +3084,7 @@
     "item27": {
       "question_meta_data": {
         "question_text": "Daily income in the second half of the given month was generally higher than those of the first half.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -3173,7 +3173,7 @@
     "item28": {
       "question_meta_data": {
         "question_text": "Total spending for all categories decreased from Jul to Oct.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -3262,7 +3262,7 @@
     "item29": {
       "question_meta_data": {
         "question_text": "There were more dramatic dips in daily savings in the second half of the given year compared to the first half.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -3351,7 +3351,7 @@
     "item30": {
       "question_meta_data": {
         "question_text": "Daily food spending was consistently higher than daily transport spending in the first 10 days of the given month.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -3440,7 +3440,7 @@
     "item31": {
       "question_meta_data": {
         "question_text": "The range of daily utilities spending was wider than the range of daily entertainment spending in Jul.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -3529,7 +3529,7 @@
     "item32": {
       "question_meta_data": {
         "question_text": "The range of daily entertainment spendings was about the same each month of the given year.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -3618,7 +3618,7 @@
     "item33": {
       "question_meta_data": {
         "question_text": "The range of daily savings was approximately between $5 and $50, but most daily savings were near $50.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -3707,7 +3707,7 @@
     "item34": {
       "question_meta_data": {
         "question_text": "The range of daily income in Aug was wider than in Sept.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -3796,7 +3796,7 @@
     "item35": {
       "question_meta_data": {
         "question_text": "Compared to Aug, there were more instances of high daily spendings when daily savings were low in Jul.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -3885,7 +3885,7 @@
     "item36": {
       "question_meta_data": {
         "question_text": "As income and savings increase, daily food spending also increased in the given month.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -3974,7 +3974,7 @@
     "item37": {
       "question_meta_data": {
         "question_text": "For each spending category, total spending was higher in 2023 than in 2020.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {
@@ -4063,7 +4063,7 @@
     "item38": {
       "question_meta_data": {
         "question_text": "Monthly spending on food has been consistently lower than $400.",
-        "question_topic": "Create a chart that supports or negates the following statement:"
+        "question_topic": "Create charts that best support or negate the following statement:"
       },
       "dataset": "day_by_day",
       "question_vis": {

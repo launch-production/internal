@@ -254,6 +254,7 @@ const ConstructionItemComponent = (props) => {
   const [currentProgress, setCurrentProgress] = useState({})
   const [redirectTo, setRedirectTo] = useState("")
   const [loading, setLoading] = useState(true);
+  const [answerSet, setAnswerSet] = useState([]);
   
   console.log("in CREATE item component!")
   console.log(props)
@@ -889,71 +890,96 @@ const ConstructionItemComponent = (props) => {
     
     let prev_index = props.item-1
     let prev_item = "item_"+prev_index
-    if (prev_index <= 0) {
-        prev_item = "instructions"
-    }
-    if (showTextBox && itemAnswer == "no answer") {
-        document.getElementById("requiredLabel").classList.add("showDescription")
-        document.getElementById("requiredLabel").classList.remove("hideDescription")
-        console.log(selectedChart)
-        console.log(selectedVar)
-        updateProgress(pID, prev_item, showTextBox, selectedChart, selectedVar)
-        return;
-    }
+    // if (prev_index <= 0) {
+    //     prev_item = "instructions"
+    // }
+    // if (showTextBox && itemAnswer == "no answer") {
+    //     document.getElementById("requiredLabel").classList.add("showDescription")
+    //     document.getElementById("requiredLabel").classList.remove("hideDescription")
+    //     console.log(selectedChart)
+    //     console.log(selectedVar)
+    //     updateProgress(pID, prev_item, showTextBox, selectedChart, selectedVar)
+    //     return;
+    // }
 
-    console.log(showTextBox)
-    if (props.assessment && !showTextBox) {
-        setShowTextBox(true);
-        updateProgress(pID, prev_item, true, selectedChart, selectedVar)
-        return;
-    }
+    // console.log(showTextBox)
+    // if (props.assessment && !showTextBox) {
+    //     setShowTextBox(true);
+    //     updateProgress(pID, prev_item, true, selectedChart, selectedVar)
+    //     return;
+    // }
     let current_item = props.item;
     let next_item = current_item + 1
     console.log(next_item)
-    
-    if (props.assessment) {
-        if (next_item <= 16) {
 
-            // let text_answer = ""
-            // if (props.assessment) {
-            let text_answer = document.getElementById("questionAnswer").value
-            // } else {
-            // text_answer = "placeholder"
-            // }
-            // console.log(text_answer)
+    console.log(answerSet)
+    const answer_spec = loadVis
+    // let update_answers = answerSet
+    // update_answers.push(loadVis)
+    setAnswerSet([ // with a new array
+    ...answerSet, // that contains all the old items
+    answer_spec // and one new item at the end
+  ])
+    console.log(answerSet)
+
+    let answers_container = document.getElementById("displayAnswers")
+
+    let show_answer = document.createElement("div")
+    show_answer.id = "answer" + answerSet.length
+    answers_container.appendChild(show_answer)
+    embed('#'+ show_answer.id, loadVis, {"actions": false});
+
+    // for (let index = 0; index < answerSet.length; index += 1) {
+    //   answers_container.innerHTML = ""
+    //   let show_answer = document.createElement("div")
+    //   show_answer.id = "answer" + index
+    //   answers_container.appendChild(show_answer)
+    //   embed('#'+ show_answer.id, answerSet[index], {"actions": false});
+    // }
+    
+    // if (props.assessment) {
+    //     if (next_item <= 16) {
+
+    //         // let text_answer = ""
+    //         // if (props.assessment) {
+    //         let text_answer = document.getElementById("questionAnswer").value
+    //         // } else {
+    //         // text_answer = "placeholder"
+    //         // }
+    //         // console.log(text_answer)
             
-            // let text_answer = "placeholder"
-            document.getElementById("proceeding").classList.remove("hideDescription")
-            updateProgress(pID, "item_"+props.item, false, selectedChart, selectedVar)
-            // console.log(document.getElementById("nextButtonValue").value)
-            handleSubmit(e, "item_"+current_item, startTime, text_answer, itemAnswer, startTime)
-            // let url_pid = "?PROLIFIC_PID=" + pID;
-            // router.push('/Q'+next_item+url_pid)
+    //         // let text_answer = "placeholder"
+    //         document.getElementById("proceeding").classList.remove("hideDescription")
+    //         updateProgress(pID, "item_"+props.item, false, selectedChart, selectedVar)
+    //         // console.log(document.getElementById("nextButtonValue").value)
+    //         handleSubmit(e, "item_"+current_item, startTime, text_answer, itemAnswer, startTime)
+    //         // let url_pid = "?PROLIFIC_PID=" + pID;
+    //         // router.push('/Q'+next_item+url_pid)
         
         
-        }
-    } else {
-        if (next_item <= 6) {
-            let chart_tiles = document.getElementsByClassName("chartTilesContainer")
-            console.log(chart_tiles)
-            // let answered = false
-            // for (let index = 0; index < chart_tiles.length; index += 1) {
-            //   if (chart_tiles[index].classList.contains("selectedChart")) {
-            //     answered = true
-            //   }
-            // }
-            if (!selectedChart || !selectedVar) {
-              document.getElementById("questionContainer").classList.add("highlightRequired")
-              document.getElementById("questionContainer").focus()
-              return;
-            }
-            let text_answer = ""
-            document.getElementById("proceeding").classList.remove("hideDescription")
-            updateProgress(pID, "training_"+props.item, false, selectedChart, selectedVar)
-            // console.log(document.getElementById("nextButtonValue").value)
-            handleSubmit(e, "training_"+current_item, startTime, text_answer, itemAnswer, startTime)
-        }
-    }
+    //     }
+    // } else {
+    //     if (next_item <= 6) {
+    //         let chart_tiles = document.getElementsByClassName("chartTilesContainer")
+    //         console.log(chart_tiles)
+    //         // let answered = false
+    //         // for (let index = 0; index < chart_tiles.length; index += 1) {
+    //         //   if (chart_tiles[index].classList.contains("selectedChart")) {
+    //         //     answered = true
+    //         //   }
+    //         // }
+    //         if (!selectedChart || !selectedVar) {
+    //           document.getElementById("questionContainer").classList.add("highlightRequired")
+    //           document.getElementById("questionContainer").focus()
+    //           return;
+    //         }
+    //         let text_answer = ""
+    //         document.getElementById("proceeding").classList.remove("hideDescription")
+    //         updateProgress(pID, "training_"+props.item, false, selectedChart, selectedVar)
+    //         // console.log(document.getElementById("nextButtonValue").value)
+    //         handleSubmit(e, "training_"+current_item, startTime, text_answer, itemAnswer, startTime)
+    //     }
+    // }
     
     
 
@@ -991,6 +1017,10 @@ const ConstructionItemComponent = (props) => {
             <div id='chartTypes'>
             {!props.assessment ? <div id="toReconstruct"></div> : null}
                 {props.assessment ? <div>
+                    <div id="displayAnswers">
+                     
+                    </div>
+                    <hr></hr>
                     <p>Select a mark type for your chart</p>
                     <div id="chartTypesTiles">
                     {chart_types.map(chart_tiles => (
