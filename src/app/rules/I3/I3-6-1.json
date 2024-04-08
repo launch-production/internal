@@ -1,0 +1,20 @@
+{
+    "data": {
+      "url": "data/cars.json"
+    },
+    "mark": {
+        "type": "bar",
+        "clip": true
+    },
+    "encoding": {
+      "x": {
+        "field": "Cylinders",
+        "type": "ordinal"
+      },
+      "y": {
+        "field": "Horsepower",
+        "type": "quantitative",
+        "aggregate": "distinct"
+      }
+    }
+  }

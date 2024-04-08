@@ -1,0 +1,560 @@
+[
+  {
+    "Date": "2022-07-01",
+    "Spending": 32.0496,
+    "Income": 413.1664,
+    "Savings": 41.4497,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-02",
+    "Spending": 45.1432,
+    "Income": 310.9318,
+    "Savings": 38.7887,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-03",
+    "Spending": 34.3965,
+    "Income": 275.5006,
+    "Savings": 22.2366,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-04",
+    "Spending": 60.1594,
+    "Income": 256.3603,
+    "Savings": 34.2952,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-05",
+    "Spending": 63.1044,
+    "Income": 275.0933,
+    "Savings": 32.2857,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-06",
+    "Spending": 35.9441,
+    "Income": 303.144,
+    "Savings": 24.7828,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-07",
+    "Spending": 33.5718,
+    "Income": 314.2149,
+    "Savings": 19.7798,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-08",
+    "Spending": 7.5789,
+    "Income": 259.4359,
+    "Savings": 46.6109,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-09",
+    "Spending": 51.3621,
+    "Income": 274.8154,
+    "Savings": 24.1345,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-10",
+    "Spending": 53.4256,
+    "Income": 291.6081,
+    "Savings": 12.1789,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-11",
+    "Spending": 69.2052,
+    "Income": 320.0259,
+    "Savings": 36.1217,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-12",
+    "Spending": 7.2456,
+    "Income": 224.8133,
+    "Savings": 22.6441,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-13",
+    "Spending": 65.97,
+    "Income": 231.2155,
+    "Savings": 43.1031,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-14",
+    "Spending": 36.926,
+    "Income": 307.9493,
+    "Savings": 39.0844,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-15",
+    "Spending": 71.583,
+    "Income": 243.1465,
+    "Savings": 29.2724,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-16",
+    "Spending": 81.1047,
+    "Income": 330.9199,
+    "Savings": 42.592,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-17",
+    "Spending": 65.6897,
+    "Income": 340.0912,
+    "Savings": 31.1217,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-18",
+    "Spending": 48.3481,
+    "Income": 403.5438,
+    "Savings": 48.4714,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-19",
+    "Spending": 63.1971,
+    "Income": 306.4135,
+    "Savings": 39.7176,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-20",
+    "Spending": 49.8318,
+    "Income": 396.6069,
+    "Savings": 36.2281,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-21",
+    "Spending": 62.0402,
+    "Income": 308.1702,
+    "Savings": 34.6294,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-22",
+    "Spending": 51.3714,
+    "Income": 299.0955,
+    "Savings": 18.1534,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-23",
+    "Spending": 32.7217,
+    "Income": 349.534,
+    "Savings": 36.7797,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-24",
+    "Spending": 42.7391,
+    "Income": 265.9497,
+    "Savings": 48.3485,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-25",
+    "Spending": 54.4855,
+    "Income": 371.2004,
+    "Savings": 33.5419,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-26",
+    "Spending": 70.7996,
+    "Income": 351.2807,
+    "Savings": 38.9665,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-27",
+    "Spending": 59.7398,
+    "Income": 345.7312,
+    "Savings": 20.2235,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-28",
+    "Spending": 21.0796,
+    "Income": 329.3391,
+    "Savings": 30.3664,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-29",
+    "Spending": 27.7464,
+    "Income": 379.6856,
+    "Savings": 7.5974,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-30",
+    "Spending": 65.7377,
+    "Income": 374.9409,
+    "Savings": 19.3559,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-31",
+    "Spending": 28.867,
+    "Income": 211.7246,
+    "Savings": 33.9163,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-08-01",
+    "Spending": 39.5404,
+    "Income": 302.1047,
+    "Savings": 37.5208,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-02",
+    "Spending": 66.4948,
+    "Income": 252.706,
+    "Savings": 18.7405,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-03",
+    "Spending": 45.278,
+    "Income": 275.6313,
+    "Savings": 40.2291,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-04",
+    "Spending": 56.8268,
+    "Income": 182.1656,
+    "Savings": 32.3099,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-05",
+    "Spending": 34.7173,
+    "Income": 183.3356,
+    "Savings": 28.5076,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-06",
+    "Spending": 57.7354,
+    "Income": 279.0749,
+    "Savings": 48.3096,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-07",
+    "Spending": 44.5097,
+    "Income": 335.3075,
+    "Savings": 47.6836,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-08",
+    "Spending": 50.8967,
+    "Income": 314.0426,
+    "Savings": 29.6774,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-09",
+    "Spending": 63.525,
+    "Income": 363.7834,
+    "Savings": 37.5351,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-10",
+    "Spending": 33.7285,
+    "Income": 286.5751,
+    "Savings": 25.6727,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-11",
+    "Spending": 50.1075,
+    "Income": 303.2711,
+    "Savings": 20.1992,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-12",
+    "Spending": 70.794,
+    "Income": 261.5364,
+    "Savings": 23.1422,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-13",
+    "Spending": 69.8201,
+    "Income": 227.015,
+    "Savings": 27.3442,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-14",
+    "Spending": 44.8738,
+    "Income": 302.0881,
+    "Savings": 16.0594,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-15",
+    "Spending": 31.6937,
+    "Income": 362.1279,
+    "Savings": 39.6787,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-16",
+    "Spending": 0.7035,
+    "Income": 322.8675,
+    "Savings": 40.1462,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-17",
+    "Spending": 27.1328,
+    "Income": 241.6959,
+    "Savings": 18.9789,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-18",
+    "Spending": 41.0764,
+    "Income": 208.7194,
+    "Savings": 31.0991,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-19",
+    "Spending": 32.2088,
+    "Income": 185.5981,
+    "Savings": 27.4693,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-20",
+    "Spending": 77.5565,
+    "Income": 313.1976,
+    "Savings": 23.741,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-21",
+    "Spending": 10.8479,
+    "Income": 233.9023,
+    "Savings": 31.5838,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-22",
+    "Spending": 54.4771,
+    "Income": 246.532,
+    "Savings": 20.7518,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-23",
+    "Spending": 15.6385,
+    "Income": 367.8991,
+    "Savings": 45.4099,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-24",
+    "Spending": 33.8848,
+    "Income": 219.7432,
+    "Savings": 29.9472,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-25",
+    "Spending": 40.488,
+    "Income": 244.4153,
+    "Savings": 31.3238,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-26",
+    "Spending": 47.0453,
+    "Income": 264.9546,
+    "Savings": 13.184,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-27",
+    "Spending": 56.4758,
+    "Income": 256.4966,
+    "Savings": 23.9008,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-28",
+    "Spending": 51.9557,
+    "Income": 371.3724,
+    "Savings": 32.048,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-29",
+    "Spending": 65.9127,
+    "Income": 305.4949,
+    "Savings": 49.3665,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-30",
+    "Spending": 28.4387,
+    "Income": 370.8307,
+    "Savings": 42.7107,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-31",
+    "Spending": 43.4595,
+    "Income": 366.9405,
+    "Savings": 22.5451,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Aug"
+  }
+]

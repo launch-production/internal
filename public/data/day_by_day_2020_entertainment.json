@@ -1,0 +1,839 @@
+[
+  {
+    "Date": "2020-01-02",
+    "Spending": 18.1575,
+    "Income": 329.3144,
+    "Savings": 11.9506,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2020-01-07",
+    "Spending": 7.9192,
+    "Income": 294.8369,
+    "Savings": 2.1186,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2020-01-14",
+    "Spending": 29.8744,
+    "Income": 39.7154,
+    "Savings": 13.8256,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2020-01-17",
+    "Spending": 10.4506,
+    "Income": 60.2767,
+    "Savings": 6.3046,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2020-01-26",
+    "Spending": 16.2634,
+    "Income": 199.7865,
+    "Savings": 13.3949,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2020-02-02",
+    "Spending": 29.6857,
+    "Income": 29.7804,
+    "Savings": 0.4265,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2020-02-13",
+    "Spending": 28.3447,
+    "Income": 205.0185,
+    "Savings": 9.2296,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2020-02-16",
+    "Spending": 22.3253,
+    "Income": 186.6463,
+    "Savings": 7.6775,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2020-02-17",
+    "Spending": 16.9879,
+    "Income": 193.5171,
+    "Savings": 13.5865,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2020-02-25",
+    "Spending": 27.8634,
+    "Income": 355.6861,
+    "Savings": 13.5336,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2020-03-01",
+    "Spending": 7.6241,
+    "Income": 452.6162,
+    "Savings": 12.7147,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-07",
+    "Spending": 27.3569,
+    "Income": 157.2769,
+    "Savings": 5.9962,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-08",
+    "Spending": 15.1879,
+    "Income": 233.5932,
+    "Savings": 11.6275,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-09",
+    "Spending": 25.6274,
+    "Income": 350.0688,
+    "Savings": 4.8045,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-24",
+    "Spending": 27.166,
+    "Income": 217.0998,
+    "Savings": 10.5637,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-25",
+    "Spending": 24.4024,
+    "Income": 24.9388,
+    "Savings": 2.5498,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-26",
+    "Spending": 21.5883,
+    "Income": 312.7546,
+    "Savings": 7.7838,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-28",
+    "Spending": 42.2052,
+    "Income": 146.096,
+    "Savings": 15.2262,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-31",
+    "Spending": 15.8365,
+    "Income": 170.143,
+    "Savings": 1.1564,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-04-03",
+    "Spending": 31.5535,
+    "Income": 328.146,
+    "Savings": 7.036,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-06",
+    "Spending": 3.9332,
+    "Income": 301.1158,
+    "Savings": 5.7165,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-12",
+    "Spending": 9.6006,
+    "Income": 312.151,
+    "Savings": 1.6389,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-15",
+    "Spending": 25.6317,
+    "Income": 320.357,
+    "Savings": 1.5236,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-19",
+    "Spending": 31.2795,
+    "Income": 213.4911,
+    "Savings": 6.483,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-24",
+    "Spending": 29.2429,
+    "Income": 308.4488,
+    "Savings": 12.5854,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-26",
+    "Spending": 30.3992,
+    "Income": 309.7055,
+    "Savings": 10.1026,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-27",
+    "Spending": 27.4189,
+    "Income": 77.9678,
+    "Savings": 12.8965,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-28",
+    "Spending": 32.5554,
+    "Income": 259.8638,
+    "Savings": 5.6278,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-30",
+    "Spending": 15.1863,
+    "Income": 171.0947,
+    "Savings": 11.5765,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-05-02",
+    "Spending": 19.6826,
+    "Income": 347.7807,
+    "Savings": 9.8162,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-05",
+    "Spending": 10.852,
+    "Income": 298.2926,
+    "Savings": 11.9093,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-08",
+    "Spending": 16.3602,
+    "Income": 225.8618,
+    "Savings": 12.1008,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-12",
+    "Spending": 0.0318,
+    "Income": 213.6237,
+    "Savings": 22.9668,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-14",
+    "Spending": 15.3994,
+    "Income": 165.3809,
+    "Savings": 4.0676,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-17",
+    "Spending": 27.2582,
+    "Income": 296.1414,
+    "Savings": 13.2668,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-18",
+    "Spending": 26.673,
+    "Income": 108.3555,
+    "Savings": 9.2572,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-23",
+    "Spending": 34.7075,
+    "Income": 270.5909,
+    "Savings": 8.2056,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-26",
+    "Spending": 25.3065,
+    "Income": 381.154,
+    "Savings": 5.3889,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-27",
+    "Spending": 21.0198,
+    "Income": 227.7989,
+    "Savings": 9.4303,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-29",
+    "Spending": 20.8723,
+    "Income": 333.9601,
+    "Savings": 2.5171,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-31",
+    "Spending": 17.5013,
+    "Income": 121.5389,
+    "Savings": 23.1724,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-06-01",
+    "Spending": 31.551,
+    "Income": 118.6347,
+    "Savings": 9.4275,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2020-06-07",
+    "Spending": 8.004,
+    "Income": 302.4634,
+    "Savings": 10.2439,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2020-06-10",
+    "Spending": 14.5059,
+    "Income": 239.1948,
+    "Savings": 8.2783,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2020-06-11",
+    "Spending": 25.2105,
+    "Income": 296.6127,
+    "Savings": 9.088,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2020-06-13",
+    "Spending": 15.6109,
+    "Income": 263.3602,
+    "Savings": 7.7636,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2020-06-14",
+    "Spending": 13.2268,
+    "Income": 279.0733,
+    "Savings": 9.4556,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2020-06-15",
+    "Spending": 29.5914,
+    "Income": 188.141,
+    "Savings": 2.9854,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2020-06-26",
+    "Spending": 16.9119,
+    "Income": 239.3205,
+    "Savings": 9.0264,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2020-06-28",
+    "Spending": 25.4882,
+    "Income": 229.9942,
+    "Savings": 12.4078,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2020-07-03",
+    "Spending": 26.193,
+    "Income": 307.5475,
+    "Savings": 10.9527,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2020-07-06",
+    "Spending": 22.8125,
+    "Income": 162.3989,
+    "Savings": 8.4031,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2020-07-09",
+    "Spending": 21.1303,
+    "Income": 254.3454,
+    "Savings": 15.4543,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2020-07-28",
+    "Spending": 7.0492,
+    "Income": 261.8322,
+    "Savings": 13.0731,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2020-07-30",
+    "Spending": 32.6172,
+    "Income": 415.1219,
+    "Savings": 0.3774,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2020-08-03",
+    "Spending": 6.5155,
+    "Income": 30.1257,
+    "Savings": 8.0692,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2020-08-06",
+    "Spending": 15.5395,
+    "Income": 278.6793,
+    "Savings": 13.844,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2020-08-10",
+    "Spending": 24.3243,
+    "Income": 330.5496,
+    "Savings": 11.8869,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2020-08-26",
+    "Spending": 8.7194,
+    "Income": 99.8045,
+    "Savings": 7.5693,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2020-08-27",
+    "Spending": 6.5869,
+    "Income": 180.7182,
+    "Savings": 7.014,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2020-08-30",
+    "Spending": 28.6208,
+    "Income": 226.4612,
+    "Savings": 1.4649,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2020-09-04",
+    "Spending": 16.4212,
+    "Income": 248.1411,
+    "Savings": 8.1391,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2020-09-08",
+    "Spending": 29.3178,
+    "Income": 292.7548,
+    "Savings": 12.0928,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2020-09-10",
+    "Spending": 10.9392,
+    "Income": 421.8552,
+    "Savings": 13.1057,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2020-09-13",
+    "Spending": 13.0759,
+    "Income": 199.8755,
+    "Savings": 18.7991,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2020-09-15",
+    "Spending": 9.0538,
+    "Income": 165.4953,
+    "Savings": 12.9604,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2020-09-17",
+    "Spending": 24.1028,
+    "Income": 340.5654,
+    "Savings": 5.0364,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2020-09-21",
+    "Spending": 29.8035,
+    "Income": 163.1551,
+    "Savings": 15.3992,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2020-09-22",
+    "Spending": 28.0635,
+    "Income": 150.89,
+    "Savings": 8.0924,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2020-09-23",
+    "Spending": 21.196,
+    "Income": 269.0714,
+    "Savings": 9.269,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2020-09-29",
+    "Spending": 15.1885,
+    "Income": 94.0165,
+    "Savings": 0.4628,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2020-10-01",
+    "Spending": 44.2991,
+    "Income": 137.7169,
+    "Savings": 4.8789,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2020-10-04",
+    "Spending": 15.3295,
+    "Income": 122.9498,
+    "Savings": 6.5041,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2020-10-17",
+    "Spending": 21.9308,
+    "Income": 169.1837,
+    "Savings": 12.2321,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2020-10-22",
+    "Spending": 30.5104,
+    "Income": 189.5501,
+    "Savings": 9.6307,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2020-10-24",
+    "Spending": 9.6556,
+    "Income": 205.8681,
+    "Savings": 13.5548,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2020-10-26",
+    "Spending": 32.7368,
+    "Income": 342.8555,
+    "Savings": 10.0091,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2020-11-16",
+    "Spending": 30.5535,
+    "Income": 268.2129,
+    "Savings": 6.3645,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2020-11-18",
+    "Spending": 28.3388,
+    "Income": 230.5215,
+    "Savings": 21.6758,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2020-11-19",
+    "Spending": 18.3072,
+    "Income": 201.8037,
+    "Savings": 15.2886,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2020-11-20",
+    "Spending": 15.9557,
+    "Income": 186.3986,
+    "Savings": 14.7182,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2020-11-22",
+    "Spending": 17.6813,
+    "Income": 176.1336,
+    "Savings": 11.0812,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2020-11-24",
+    "Spending": 20.2231,
+    "Income": 169.4,
+    "Savings": 20.2798,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2020-11-30",
+    "Spending": 18.6935,
+    "Income": 6.2286,
+    "Savings": 10.2062,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2020-12-07",
+    "Spending": 22.8513,
+    "Income": 280.899,
+    "Savings": 12.693,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2020-12-08",
+    "Spending": 15.4121,
+    "Income": 264.7722,
+    "Savings": 13.2076,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2020-12-11",
+    "Spending": 36.1942,
+    "Income": 266.7463,
+    "Savings": 3.6963,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2020-12-12",
+    "Spending": 13.8333,
+    "Income": 368.88,
+    "Savings": 13.266,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2020-12-13",
+    "Spending": 23.8454,
+    "Income": 361.8206,
+    "Savings": 14.2443,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2020-12-15",
+    "Spending": 9.7143,
+    "Income": 171.8879,
+    "Savings": 6.0431,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2020-12-18",
+    "Spending": 3.9491,
+    "Income": 275.0307,
+    "Savings": 11.4914,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2020-12-20",
+    "Spending": 41.5844,
+    "Income": 317.8116,
+    "Savings": 11.6546,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2020-12-31",
+    "Spending": 2.6331,
+    "Income": 22.4856,
+    "Savings": 13.9714,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Dec"
+  }
+]

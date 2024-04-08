@@ -1,0 +1,29 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Log-scaled Histogram.  We may improve the support of this. See https://github.com/vega/vega-lite/issues/4792.",
+    "data": {
+        "url": "data/log_data.json"
+    },
+    "transform": [{
+        "calculate": "log(datum.x)/log(10)", "as": "log_x"
+    }, {
+        "bin": true,
+        "field": "log_x",
+        "as": "bin_log_x"
+    }, {
+      "calculate": "pow(10, datum.bin_log_x)", "as": "x1"
+    }, {
+      "calculate": "pow(10, datum.bin_log_x_end)", "as": "x2"
+    }],
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "num",
+        "scale": {"type": "log", "base": 10},
+        "axis": {"tickCount": 5}
+      },
+      "x2": {"field": "x2"},
+      "y": {"aggregate": "count"}
+    }
+  }
+  

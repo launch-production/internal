@@ -1,0 +1,9 @@
+{
+    "transformation_index": ["bin", "count", "sort", "stack"],
+    "actions": {
+        "bin": "images/transformations/bin_icon.svg",
+        "count": "images/transformations/count_icon.svg",
+        "sort": "images/transformations/sort_icon.svg",
+        "stack": "images/transformations/stack_icon.svg"
+    }
+}

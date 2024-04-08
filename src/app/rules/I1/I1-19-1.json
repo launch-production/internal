@@ -1,0 +1,22 @@
+{
+    "data": {
+      "url": "data/stacked_data.json"
+    },
+    "mark": "point",
+    "encoding": {
+      "y": {
+        "aggregate": "sum",
+        "field": "num",
+        "type": "quantitative",
+        "stack": true
+      },
+      "x": {
+        "field": "group",
+        "type": "nominal"
+      },
+      "color": {
+        "field": "x",
+        "type": "nominal"
+      }
+    }
+  }

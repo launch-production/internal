@@ -1,0 +1,119 @@
+[
+  {
+    "Date": "2022-07-07",
+    "Spending": 33.5718,
+    "Income": 314.2149,
+    "Savings": 19.7798,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-12",
+    "Spending": 7.2456,
+    "Income": 224.8133,
+    "Savings": 22.6441,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-15",
+    "Spending": 71.583,
+    "Income": 243.1465,
+    "Savings": 29.2724,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-16",
+    "Spending": 81.1047,
+    "Income": 330.9199,
+    "Savings": 42.592,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-19",
+    "Spending": 63.1971,
+    "Income": 306.4135,
+    "Savings": 39.7176,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-29",
+    "Spending": 27.7464,
+    "Income": 379.6856,
+    "Savings": 7.5974,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-30",
+    "Spending": 65.7377,
+    "Income": 374.9409,
+    "Savings": 19.3559,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-08-03",
+    "Spending": 45.278,
+    "Income": 275.6313,
+    "Savings": 40.2291,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-04",
+    "Spending": 56.8268,
+    "Income": 182.1656,
+    "Savings": 32.3099,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-10",
+    "Spending": 33.7285,
+    "Income": 286.5751,
+    "Savings": 25.6727,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-25",
+    "Spending": 40.488,
+    "Income": 244.4153,
+    "Savings": 31.3238,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-26",
+    "Spending": 47.0453,
+    "Income": 264.9546,
+    "Savings": 13.184,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-27",
+    "Spending": 56.4758,
+    "Income": 256.4966,
+    "Savings": 23.9008,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  }
+]

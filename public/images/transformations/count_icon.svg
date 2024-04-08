@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 68 68" style="enable-background:new 0 0 68 68;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:2;}
+	.st2{stroke:#000000;stroke-miterlimit:10;}
+	.st3{font-family:'AvenirNext-Medium';}
+	.st4{font-size:12px;}
+</style>
+<g>
+	<rect x="1.5" y="1.5" class="st0" width="65" height="65"/>
+	<g>
+		<ellipse class="st1" cx="43.07" cy="21.49" rx="13" ry="11.25"/>
+		<ellipse class="st1" cx="24" cy="37.99" rx="12.07" ry="8.75"/>
+		<circle class="st2" cx="18.57" cy="36.24" r="1.5"/>
+		<circle class="st2" cx="24.57" cy="35.24" r="1.5"/>
+		<circle class="st2" cx="27.57" cy="41.24" r="1.5"/>
+		<rect x="36.07" y="17.74" class="st2" width="4" height="4"/>
+		<rect x="43.07" y="13.74" class="st2" width="4" height="4"/>
+		<rect x="39.07" y="24.74" class="st2" width="4" height="4"/>
+		<rect x="46.07" y="22.74" class="st2" width="4" height="4"/>
+	</g>
+	<text transform="matrix(1 0 0 1 18.2147 57.7215)" class="st3 st4">count</text>
+	<text transform="matrix(1 0 0 1 9.4687 30.1317)" class="st3 st4">3</text>
+	<text transform="matrix(1 0 0 1 23.4805 15.1317)" class="st3 st4">4</text>
+</g>
+</svg>

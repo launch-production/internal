@@ -1,0 +1,20 @@
+{
+    "data": {
+      "url": "data/seattle-weather.csv"
+    },
+    "mark": "line",
+    "encoding": {
+      "x": {
+        "field": "precipitation",
+        "type": "quantitative"
+      },
+      "y": {
+        "field": "temp_min",
+        "type": "quantitative"
+      },
+      "size": {
+        "field": "wind",
+        "type": "quantitative"
+      }
+    }
+  }

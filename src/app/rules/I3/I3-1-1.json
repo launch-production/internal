@@ -1,0 +1,16 @@
+{
+    "data": {
+      "url": "data/cars.json"
+    },
+    "mark": "tick",
+    "encoding": {
+      "x": {
+        "field": "Cylinders",
+        "type": "ordinal"
+      },
+      "color": {
+        "field": "Origin",
+        "type": "nominal"
+      }
+    }
+  }

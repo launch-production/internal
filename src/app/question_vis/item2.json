@@ -1,0 +1,18 @@
+{
+    "width": 250,
+    "height": 250,
+    "data": {
+      "url": "data/cars.json"
+    },
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "Origin",
+        "aggregate": "count",
+        "type": "nominal"
+      },
+      "y": {
+        "aggregate": "count"
+      }
+    }
+  }

@@ -1,0 +1,34 @@
+{
+    "bin": {
+        "data_types": ["nominal", "temporal"],
+        "encodings": []
+    },
+    "count": {
+        "data_types": [],
+        "encodings": []
+    },
+    "des_sort": {
+        "data_types": [],
+        "encodings": ["size", "seq_color", "div_color", "qual_color"]
+    },
+    "mean": {
+        "data_types": ["nominal", "temporal"],
+        "encodings": ["size", "seq_color", "div_color", "qual_color"]
+    },
+    "reverse": {
+        "data_types": [],
+        "encodings": []
+    },
+    "stack": {
+        "data_types": [],
+        "encodings": ["size", "seq_color", "div_color", "qual_color"]
+    },
+    "sum": {
+        "data_types": ["nominal", "temporal"],
+        "encodings": ["size", "seq_color", "div_color", "qual_color"]
+    },
+    "truncate": {
+        "data_types": ["nominal"],
+        "encodings": []
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "mark": "point",
+    "data": {
+        "url": "data/log_data_point.json"
+    },
+    "encoding": {
+      "x": {"field": "x", "type": "quantitative"},
+      "y": {
+        "field": "var", "type": "quantitative",
+        "scale": {"type": "log"}
+      }
+    }
+  }

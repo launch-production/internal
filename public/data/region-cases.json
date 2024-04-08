@@ -1,0 +1,230 @@
+[
+  {
+    "region": "Region1",
+    "total_population": 1483789,
+    "total_cases": 192893,
+    "cases_per_100_people": 13
+  },
+  {
+    "region": "Region29",
+    "total_population": 1450376,
+    "total_cases": 319083,
+    "cases_per_100_people": 22
+  },
+  {
+    "region": "Region14",
+    "total_population": 1411067,
+    "total_cases": 1312293,
+    "cases_per_100_people": 93
+  },
+  {
+    "region": "Region22",
+    "total_population": 1359668,
+    "total_cases": 380708,
+    "cases_per_100_people": 28.0001
+  },
+  {
+    "region": "Region6",
+    "total_population": 1260099,
+    "total_cases": 604848,
+    "cases_per_100_people": 48
+  },
+  {
+    "region": "Region28",
+    "total_population": 1216114,
+    "total_cases": 401318,
+    "cases_per_100_people": 33
+  },
+  {
+    "region": "Region20",
+    "total_population": 1077133,
+    "total_cases": 484710,
+    "cases_per_100_people": 45
+  },
+  {
+    "region": "Region9",
+    "total_population": 1110619,
+    "total_cases": 233230,
+    "cases_per_100_people": 21
+  },
+  {
+    "region": "Region5",
+    "total_population": 1017281,
+    "total_cases": 315358,
+    "cases_per_100_people": 31.0001
+  },
+  {
+    "region": "Region37",
+    "total_population": 1003841,
+    "total_cases": 170653,
+    "cases_per_100_people": 17
+  },
+  {
+    "region": "Region36",
+    "total_population": 862547,
+    "total_cases": 629660,
+    "cases_per_100_people": 73.0001
+  },
+  {
+    "region": "Region17",
+    "total_population": 799482,
+    "total_cases": 663571,
+    "cases_per_100_people": 83.0001
+  },
+  {
+    "region": "Region3",
+    "total_population": 730638,
+    "total_cases": 664881,
+    "cases_per_100_people": 91.0001
+  },
+  {
+    "region": "Region35",
+    "total_population": 639636,
+    "total_cases": 409368,
+    "cases_per_100_people": 64.0002
+  },
+  {
+    "region": "Region26",
+    "total_population": 588487,
+    "total_cases": 353093,
+    "cases_per_100_people": 60.0001
+  },
+  {
+    "region": "Region7",
+    "total_population": 505012,
+    "total_cases": 257557,
+    "cases_per_100_people": 51.0002
+  },
+  {
+    "region": "Region33",
+    "total_population": 475911,
+    "total_cases": 161810,
+    "cases_per_100_people": 34.0001
+  },
+  {
+    "region": "Region24",
+    "total_population": 428185,
+    "total_cases": 42819,
+    "cases_per_100_people": 10.0001
+  },
+  {
+    "region": "Region19",
+    "total_population": 384211,
+    "total_cases": 3843,
+    "cases_per_100_people": 1.0002
+  },
+  {
+    "region": "Region12",
+    "total_population": 341254,
+    "total_cases": 146740,
+    "cases_per_100_people": 43.0002
+  },
+  {
+    "region": "Region27",
+    "total_population": 321343,
+    "total_cases": 189593,
+    "cases_per_100_people": 59.0002
+  },
+  {
+    "region": "Region31",
+    "total_population": 286580,
+    "total_cases": 74511,
+    "cases_per_100_people": 26.0001
+  },
+  {
+    "region": "Region32",
+    "total_population": 194080,
+    "total_cases": 29112,
+    "cases_per_100_people": 15
+  },
+  {
+    "region": "Region2",
+    "total_population": 187208,
+    "total_cases": 108581,
+    "cases_per_100_people": 58.0002
+  },
+  {
+    "region": "Region8",
+    "total_population": 174976,
+    "total_cases": 50744,
+    "cases_per_100_people": 29.0005
+  },
+  {
+    "region": "Region34",
+    "total_population": 162236,
+    "total_cases": 38937,
+    "cases_per_100_people": 24.0002
+  },
+  {
+    "region": "Region38",
+    "total_population": 106827,
+    "total_cases": 44868,
+    "cases_per_100_people": 42.0006
+  },
+  {
+    "region": "Region15",
+    "total_population": 105534,
+    "total_cases": 88649,
+    "cases_per_100_people": 84.0004
+  },
+  {
+    "region": "Region23",
+    "total_population": 73677,
+    "total_cases": 28735,
+    "cases_per_100_people": 39.0013
+  },
+  {
+    "region": "Region10",
+    "total_population": 71762,
+    "total_cases": 50234,
+    "cases_per_100_people": 70.0008
+  },
+  {
+    "region": "Region18",
+    "total_population": 40834,
+    "total_cases": 21643,
+    "cases_per_100_people": 53.0024
+  },
+  {
+    "region": "Region4",
+    "total_population": 40229,
+    "total_cases": 37011,
+    "cases_per_100_people": 92.0008
+  },
+  {
+    "region": "Region16",
+    "total_population": 23449,
+    "total_cases": 22043,
+    "cases_per_100_people": 94.004
+  },
+  {
+    "region": "Region21",
+    "total_population": 22949,
+    "total_cases": 9180,
+    "cases_per_100_people": 40.0017
+  },
+  {
+    "region": "Region13",
+    "total_population": 8186,
+    "total_cases": 7368,
+    "cases_per_100_people": 90.0073
+  },
+  {
+    "region": "Region30",
+    "total_population": 10511,
+    "total_cases": 1998,
+    "cases_per_100_people": 19.0087
+  },
+  {
+    "region": "Region11",
+    "total_population": 5259,
+    "total_cases": 3892,
+    "cases_per_100_people": 74.0065
+  },
+  {
+    "region": "Region25",
+    "total_population": 6569,
+    "total_cases": 2300,
+    "cases_per_100_people": 35.0129
+  }
+]

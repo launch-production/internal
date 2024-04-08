@@ -1,0 +1,13 @@
+[
+    {"x": "D", "group": "A", "num": 1},
+    {"x": "E", "group": "B", "num": 2},
+    {"x": "D", "group": "C", "num": 3},
+    {"x": "E", "group": "A", "num": 4},
+    {"x": "D", "group": "B", "num": 5},
+    {"x": "E", "group": "C", "num": 6},
+    {"x": "D", "group": "A", "num": 7},
+    {"x": "E", "group": "B", "num": 8},
+    {"x": "D", "group": "C", "num": 9},
+    {"x": "E", "group": "A", "num": 10},
+    {"x": "D", "group": "B", "num": 11}
+  ]

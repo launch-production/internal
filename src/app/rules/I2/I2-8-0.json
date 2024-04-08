@@ -1,0 +1,18 @@
+{
+    "data": {
+      "url": "data/cars.json"
+    },
+    "mark": "bar",
+    "encoding": {
+      "y": {
+        "field": "Horsepower",
+        "type": "quantitative",
+        "aggregate": "distinct",
+        "stack": true
+      },
+      "color": {
+        "field": "Origin",
+        "type": "nominal"
+      }
+    }
+  }

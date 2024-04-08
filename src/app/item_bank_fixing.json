@@ -1,0 +1,1790 @@
+{
+    "status": {
+        "item1": false,
+        "item2": false
+    },
+    "datasets": {
+      "cars": {
+        "Name": {"type": "nominal", "full_name": "Car name", "description": "The name for each car in this dataset.", "truncate": null},
+        "Miles_per_Gallon": {"type": "quantitative", "full_name": "Miles per Gallon", "description": "The distance a car can travel per gallon of fuel. ", "truncate": [20, 60]},
+        "Cylinders": {"type": "ordinal", "full_name": "Cylinders", "description": "This generates power for a car. Generally, more cylinders produce more power.", "truncate": null},
+        "Displacement": {"type": "quantitative", "full_name": "Displacement", "description": "This also helps to generate power for a car. Bigger displacement helps to generate more power.", "truncate": [200, 600]},
+        "Horsepower": {"type": "quantitative", "full_name": "Horsepower", "description": "A measure for the power of an engine. The higher the horsepower, the faster the car can go.", "truncate": [20, 60]},
+        "Weight_in_lbs": {"type": "quantitative", "full_name": "Weight in lbs", "description": "The weight of a car in pounds.", "truncate": [3000, 6000]},
+        "Acceleration": {"type": "quantitative", "full_name": "Acceleration", "description": "The rate at which a car can increase its speed.", "truncate": [20, 30]},
+        "Year": {"type": "temporal", "full_name": "Year", "description": "The year of production", "truncate": ["1975-01-01", "1980-01-01"]},
+        "Origin": {"type": "nominal", "full_name": "Origin", "description": "The origin of the car.", "truncate": null}
+      },
+      "seattle-weather": {
+        "date": {"type": "temporal", "full_name": "Date", "description": "Seattle on this date.", "color": "qual", "truncate": ["2014-07-01", "2015-01-02"]},
+        "precipitation": {"type": "quantitative", "full_name": "Precipitation (mm)", "description": "Water that fall from clouds and reach the ground.", "color": "seq", "truncate": [20, 60], "truncate_bar": []},
+        "temp_max": {"type": "quantitative", "full_name": "Maximum temperature", "description": "Maximum temperature on a particular day in Seattle.",  "color": "seq", "truncate": [10, 40]},
+        "temp_min": {"type": "quantitative", "full_name": "Minimum temperature", "description": "Minimum temperature on a particular day in Seattle.",  "color": "div", "truncate": [0, 20]},
+        "wind": {"type": "quantitative", "full_name": "Wind speed (m/s)", "description": "The speed of wind in meters per second.",  "color": "qual", "truncate": [4, 10]},
+        "weather": {"type": "nominal", "full_name": "Weather", "description": "Weather on a particular day in Seattle.",  "color": "qual", "truncate": null}
+      },
+      "region-cases": {
+        "region": {"type": "nominal", "full_name": "Region code", "description": "The code for a region in this dataset.", "truncate": null},
+        "total_population": {"type": "quantitative", "full_name": "Total population", "description": "Total population in a region.", "truncate": null},
+        "total_cases": {"type": "quantitative", "full_name": "Total confirmed cases", "description": "Total number of confirmed cases in a region.", "truncate": null},
+        "cases_per_100_people": {"type": "quantitative", "full_name": "Cases per 100 people", "description": "Confirmed cases per 100 people in a region.", "truncate": null}
+      },
+      "movies": {
+        "Title": {"type": "nominal", "full_name": "Movie title", "description": "", "truncate": null},
+        "US_Gross": {"type": "quantitative", "full_name": "US profit (dollars)", "description": "", "truncate": null},
+        "Worldwide_Gross": {"type": "quantitative", "full_name": "Worldwide profit (dollars)", "description": "", "truncate": null},
+        
+        "Production_Budget": {"type": "quantitative", "full_name": "Production Budget (dollars)", "description": "", "truncate": null},
+        "Release_Date": {"type": "temporal", "full_name": "Release date", "description": "", "truncate": null},
+        
+        "IMDB_Rating": {"type": "quantitative", "full_name": "IMDB rating", "description": "", "truncate": null}
+        
+      },
+      "movies_archive": {
+        "US_DVD_Sales": {"type": "quantitative", "full_name": "DVD sales (dollars)", "description": "", "truncate": null},
+        "MPAA_Rating": {"type": "nominal", "full_name": "MPAA rating", "description": "", "truncate": null},
+        "Running_Time_min": {"type": "quantitative", "full_name": "Minimum running time", "description": "", "truncate": null},
+        "Distributor": {"type": "nominal", "full_name": "Distributor", "description": "", "truncate": null},
+        "Source": {"type": "nominal", "full_name": "Source", "description": "", "truncate": null},
+        "Major_Genre": {"type": "nominal", "full_name": "Genre", "description": "", "truncate": null},
+        "Creative_Type": {"type": "nominal", "full_name": "Creative type", "description": "", "truncate": null},
+        "Director": {"type": "nominal", "full_name": "Director", "description": "", "truncate": null},
+        "Rotten_Tomatoes_Rating": {"type": "ordinal", "full_name": "Rotten tomatoes rating", "description": "", "truncate": null},
+        "IMDB_Votes": {"type": "quantitative", "full_name": "IMDB votes", "description": "", "truncate": null}
+      },
+      "day_by_day_testing": {
+        "day_of_week": {"type": "nominal", "full_name": "Day in week", "description": "", "truncate": null},
+        "weather": {"type": "nominal", "full_name": "Weather", "description": "", "truncate": null},
+        "rainfall": {"type": "quantitative", "full_name": "Rainfall (mm)", "description": "", "truncate": null},
+        "breakfast": {"type": "quantitative", "full_name": "Breakfast", "description": "", "truncate": null},
+        "lunch": {"type": "quantitative", "full_name": "Lunch", "description": "", "truncate": null},
+        "dinner": {"type": "quantitative", "full_name": "Dinner", "description": "", "truncate": null},
+        "bread": {"type": "quantitative", "full_name": "Bread", "description": "", "truncate": null},
+        "vegetables": {"type": "quantitative", "full_name": "Vegetables ", "description": "", "truncate": null},
+        "fruits": {"type": "quantitative", "full_name": "Fruits", "description": "", "truncate": null},
+        "drinks": {"type": "quantitative", "full_name": "Drinks", "description": "", "truncate": null},
+        "coffee": {"type": "quantitative", "full_name": "Coffee", "description": "", "truncate": null},
+        "tea": {"type": "quantitative", "full_name": "Tea", "description": "", "truncate": null},
+        "bus": {"type": "quantitative", "full_name": "Bus", "description": "", "truncate": null},
+        "train": {"type": "quantitative", "full_name": "Train", "description": "", "truncate": null},
+        "dairy": {"type": "quantitative", "full_name": "Dairy", "description": "", "truncate": null},
+        "meat": {"type": "quantitative", "full_name": "Meat", "description": "", "truncate": null},
+        "snacks": {"type": "quantitative", "full_name": "Snacks", "description": "", "truncate": null},
+        "movies": {"type": "quantitative", "full_name": "Movies", "description": "", "truncate": null},
+        "concert": {"type": "quantitative", "full_name": "Concert", "description": "", "truncate": null},
+        "groceries": {"type": "quantitative", "full_name": "Groceries", "description": "", "truncate": null},
+        "transit": {"type": "quantitative", "full_name": "Transit", "description": "", "truncate": null},
+        "entertainment": {"type": "quantitative", "full_name": "Entertainment", "description": "", "truncate": null},
+        "caffeinated_drinks": {"type": "quantitative", "full_name": "Caffeinated drinks", "description": "", "truncate": null},
+        "meals": {"type": "quantitative", "full_name": "Full meals", "description": "", "truncate": null},
+        "day_spending": {"type": "quantitative", "full_name": "Total spending ($)", "description": "", "truncate": null},
+        "internet_time": {"type": "quantitative", "full_name": "Total time (hrs) on internet", "description": "", "truncate": null},
+        "outdoors_time": {"type": "quantitative", "full_name": "Total time (hrs) outdoors", "description": "", "truncate": null},
+        "indoors_time": {"type": "quantitative", "full_name": "Total time (hrs) indoors", "description": "", "truncate": null},
+        "sleep_length": {"type": "quantitative", "full_name": "Total time (hrs) slept", "description": "", "truncate": null},
+        "savings": {"type": "quantitative", "full_name": "Total savings ($)", "description": "", "truncate": null},
+        "phone_time": {"type": "quantitative", "full_name": "Total time (hrs) on phone", "description": "", "truncate": null},
+        "heart_rate": {"type": "quantitative", "full_name": "Heart rate (bpm)", "description": "", "truncate": null},
+        "steps_count": {"type": "quantitative", "full_name": "Steps count", "description": "", "truncate": null}
+      },
+      "day_by_day": {
+      "Date": {"type": "temporal", "full_name": "Date", "description": "", "truncate": null},
+      "Spending": {"type": "quantitative", "full_name": "Spending ($)", "description": "", "truncate": null},
+      "Income": {"type": "quantitative", "full_name": "Income ($)", "description": "", "truncate": null},
+      "Savings": {"type": "quantitative", "full_name": "Savings ($)", "description": "", "truncate": null},
+      "Spending_Category": {"type": "nominal", "full_name": "Spending category", "description": "", "truncate": null},
+      "Year": {"type": "ordinal", "full_name": "Year", "description": "", "truncate": null},
+      "Month": {"type": "ordinal", "full_name": "Month", "description": "", "truncate": null}
+    }
+    },
+    "training1": {
+      "question_meta_data": {
+        "question_text": "Reconstruct the chart shown below.",
+        "question_topic": "Jan 2023"
+      },
+      "dataset": "day_by_day",
+      "model_vis": {
+        "data": {
+          "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+          "type": "bar"
+        },
+        "encoding": {
+          "x": {
+            "field": "Month",
+            "type": "ordinal",
+            "sort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"]
+          },
+          "y": {
+            "field": "Spending",
+            "aggregate": "sum",
+            "type": "quantitative"
+            
+          },
+          "color": {
+            "field": "Spending_Category",
+            "type": "nominal"
+          }
+        }
+      },
+      "question_vis": {
+          "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+          },
+          "mark": {
+            "type": "bar"
+          },
+          "encoding": {
+            "x": {
+              "field": "",
+              "type": ""
+            },
+            "y": {
+              "field": "",
+              "type": ""
+              
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "bar",
+            "encodings": {
+              "x": {
+                  "data": "", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        },
+        "manage_state": {
+          "chart_type": "",
+          "encodings": {
+            "x": {
+                "data": "", 
+                "transformation": ""
+            },
+            "y": {
+                "data": "",
+                "transformation": ""
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "color": {
+              "data": "",
+              "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "qual_color": {
+              "data": "",
+              "transformation": ""
+            }
+        }  
+      }
+        
+    },
+    "training2": {
+      "question_meta_data": {
+        "question_text": "Reconstruct the chart shown below.",
+        "question_topic": "Jan 2023"
+      },
+      "dataset": "day_by_day",
+      "model_vis": {
+        "data": {
+          "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+          "type": "line"
+        },
+        "encoding": {
+          "x": {
+            "field": "Date",
+            "type": "temporal"
+          },
+          "y": {
+            "field": "Income",
+            "type": "quantitative"
+            
+          }
+        }
+      },
+      "question_vis": {
+          "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+          },
+          "mark": {
+            "type": "bar"
+          },
+          "encoding": {
+            "x": {
+              "field": "",
+              "type": ""
+            },
+            "y": {
+              "field": "",
+              "type": ""
+              
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "bar",
+            "encodings": {
+              "x": {
+                  "data": "", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        },
+        "manage_state": {
+          "chart_type": "",
+          "encodings": {
+            "x": {
+                "data": "", 
+                "transformation": ""
+            },
+            "y": {
+                "data": "",
+                "transformation": ""
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "color": {
+              "data": "",
+              "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "qual_color": {
+              "data": "",
+              "transformation": ""
+            }
+        }  
+      }
+        
+    },
+    "training3": {
+      "question_meta_data": {
+        "question_text": "Reconstruct the chart shown below.",
+        "question_topic": "Jan 2023"
+      },
+      "dataset": "day_by_day",
+      "model_vis": {
+        "data": {
+          "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+          "type": "point"
+        },
+        "encoding": {
+          "x": {
+            "field": "Savings",
+            "type": "quantitative"
+          },
+          "y": {
+            "field": "Spending_Category",
+            "type": "nominal"
+            
+          },
+          "size": {
+            "field": "Spending",
+            "type": "quantitative"
+          }
+        }
+      },
+      "question_vis": {
+          "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+          },
+          "mark": {
+            "type": "bar"
+          },
+          "encoding": {
+            "x": {
+              "field": "",
+              "type": ""
+            },
+            "y": {
+              "field": "",
+              "type": ""
+              
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "bar",
+            "encodings": {
+              "x": {
+                  "data": "", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        },
+        "manage_state": {
+          "chart_type": "",
+          "encodings": {
+            "x": {
+                "data": "", 
+                "transformation": ""
+            },
+            "y": {
+                "data": "",
+                "transformation": ""
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "color": {
+              "data": "",
+              "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "qual_color": {
+              "data": "",
+              "transformation": ""
+            }
+        }  
+      }
+        
+    },
+    "training4": {
+      "question_meta_data": {
+        "question_text": "Reconstruct the chart shown below.",
+        "question_topic": "Jan 2023"
+      },
+      "dataset": "day_by_day",
+      "model_vis": {
+        "data": {
+          "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+          "type": "bar"
+        },
+        "encoding": {
+          "x": {
+            "field": "Spending",
+            "type": "quantitative",
+            "bin": true
+          },
+          "y": {
+            "aggregate": "count"
+            
+          }
+        }
+      },
+      "question_vis": {
+          "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+          },
+          "mark": {
+            "type": "bar"
+          },
+          "encoding": {
+            "x": {
+              "field": "",
+              "type": ""
+            },
+            "y": {
+              "field": "",
+              "type": ""
+              
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "bar",
+            "encodings": {
+              "x": {
+                  "data": "", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        },
+        "manage_state": {
+          "chart_type": "",
+          "encodings": {
+            "x": {
+                "data": "", 
+                "transformation": ""
+            },
+            "y": {
+                "data": "",
+                "transformation": ""
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "color": {
+              "data": "",
+              "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "qual_color": {
+              "data": "",
+              "transformation": ""
+            }
+        }  
+      }
+        
+    },
+    "training5": {
+      "question_meta_data": {
+        "question_text": "Reconstruct the chart shown below.",
+        "question_topic": "Jan 2023"
+      },
+      "dataset": "day_by_day",
+      "model_vis": {
+        "data": {
+          "url": "data/day_by_day_2023.json"
+        },
+        "mark": {
+          "type": "area"
+        },
+        "encoding": {
+          "x": {
+            "field": "Month",
+            "type": "ordinal",
+            "sort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"]
+          },
+          "y": {
+            "field": "Spending",
+            "aggregate": "sum",
+            "type": "quantitative"
+            
+          },
+          "color": {
+            "field": "Spending_Category",
+            "type": "nominal"
+          }
+        }
+      },
+      "question_vis": {
+          "data": {
+            "url": "data/day_by_day_2023.json"
+          },
+          "mark": {
+            "type": "bar"
+          },
+          "encoding": {
+            "x": {
+              "field": "",
+              "type": ""
+            },
+            "y": {
+              "field": "",
+              "type": ""
+              
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "bar",
+            "encodings": {
+              "x": {
+                  "data": "", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        },
+        "manage_state": {
+          "chart_type": "",
+          "encodings": {
+            "x": {
+                "data": "", 
+                "transformation": ""
+            },
+            "y": {
+                "data": "",
+                "transformation": ""
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "color": {
+              "data": "",
+              "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "qual_color": {
+              "data": "",
+              "transformation": ""
+            }
+        }  
+      }
+        
+    },
+    "item1": {
+      "question_meta_data": {
+        "question_text": "Daily income in Jan 2023 rarely went over $300",
+        "question_topic": "weather in Seattle"
+      },
+      "dataset": "day_by_day",
+      "question_vis": {
+          "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+          },
+          "mark": {
+            "type": "bar"
+          },
+          "encoding": {
+            "x": {
+              "field": "",
+              "type": ""
+            },
+            "y": {
+              "field": "",
+              "type": ""
+              
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "bar",
+            "encodings": {
+              "x": {
+                  "data": "", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        },
+        "manage_state": {
+          "chart_type": "",
+          "encodings": {
+            "x": {
+                "data": "", 
+                "transformation": ""
+            },
+            "y": {
+                "data": "",
+                "transformation": ""
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "color": {
+              "data": "",
+              "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "qual_color": {
+              "data": "",
+              "transformation": ""
+            }
+        }  
+      }
+        
+    },
+    "item0": {
+      "question_meta_data": {
+        "question_text": "When the precipitation is less than 10mm but greater than 0mm, what is weather in which Seattle reaches the lowest minimum temperature?",
+        "question_topic": "weather in Seattle"
+      },
+      "dataset": "seattle-weather",
+      "question_vis": {
+          "data": {
+            "url": "data/seattle-weather.json"
+          },
+          "mark": {
+            "type": "point"
+          },
+          "encoding": {
+            "x": {
+              "field": "weather",
+              "type": "nominal"
+            },
+            "y": {
+              "field": "precipitation",
+              "type": "quantitative"
+              
+            },
+            "color": {
+              "field": "temp_min",
+              "type": "quantitative",
+              "scale": {
+                "scheme": "dark2"
+              }
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "point",
+            "encodings": {
+              "x": {
+                  "data": "weather", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "precipitation",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "temp_min",
+                "transformation": ""
+              }
+          }  
+        },
+        "manage_state": {
+          "chart_type": "point",
+          "encodings": {
+            "x": {
+                "data": "weather", 
+                "transformation": ""
+            },
+            "y": {
+                "data": "precipitation",
+                "transformation": ""
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "qual_color": {
+              "data": "temp_min",
+              "transformation": ""
+            }
+        }  
+      }
+        
+    },
+    "item2": {
+      "question_meta_data": {
+        "question_text": "Cars that have horsepower greater than 200 are generally originated from where?",
+        "question_topic": "cars with different origins"
+      },
+      "dataset": "cars",
+      "question_vis": {
+          "data": {
+            "url": "data/cars.json"
+          },
+          "mark": {
+            "type": "point"
+          },
+          "encoding": {
+            "x": {
+              "field": "Horsepower",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "Miles_per_Gallon",
+              "type": "quantitative"
+            },
+            "size": {
+              "field": "Origin",
+              "type": "nominal"
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "point",
+            "encodings": {
+              "x": {
+                  "data": "Horsepower", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "Miles_per_Gallon",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "Origin",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        },
+        "manage_state": {
+            "chart_type": "point",
+            "encodings": {
+              "x": {
+                  "data": "Horsepower", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "Miles_per_Gallon",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "Origin",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        }
+        
+    },
+    "item3": {
+      "question_meta_data": {
+        "question_text": "Approximately how many cars are from the origin that had the highest production?",
+        "question_topic": "cars with different origins"
+      },
+      "dataset": "cars",
+      "question_vis": {
+          "data": {
+            "url": "data/cars.json"
+          },
+          "mark": {
+            "type": "bar"
+          },
+          "encoding": {
+            "x": {
+              "field": "Origin",
+              "aggregate": "count",
+              "type": "nominal"
+            },
+            "y": {
+              "aggregate": "count"
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "bar",
+            "encodings": {
+              "x": {
+                  "data": "Origin", 
+                  "transformation": "count"
+              },
+              "y": {
+                  "data": "",
+                  "transformation": "count"
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }
+            
+        },
+        "manage_state": {
+            "chart_type": "bar",
+            "encodings": {
+              "x": {
+                  "data": "Origin", 
+                  "transformation": "count"
+              },
+              "y": {
+                  "data": "",
+                  "transformation": "count"
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }
+            
+        }
+    },
+    "item4": {
+      "question_meta_data": {
+        "question_text": "What is the trend of the acceleration as miles per gallon increases for cars shown below?",
+        "question_topic": "cars with different origins"
+      },
+      "dataset": "cars",
+      "question_vis": {
+          "data": {
+            "url": "data/cars.json"
+          },
+          "mark": {
+            "type": "bar"
+          },
+          "encoding": {
+            "x": {
+              "field": "Miles_per_Gallon",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "Acceleration",
+              "type": "quantitative"
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "bar",
+            "encodings": {
+              "x": {
+                  "data": "Miles_per_Gallon", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "Acceleration",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }
+            
+        },
+        "manage_state": {
+            "chart_type": "bar",
+            "encodings": {
+              "x": {
+                  "data": "Miles_per_Gallon", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "Acceleration",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }
+            
+        }
+    },
+    "item5": {
+      "question_meta_data": {
+        "question_text": "What is the approximate minimum temperature when it snows in Seattle and the wind speed is between 4 to 6 meters per second?",
+        "question_topic": "weather in Seattle"
+      },
+      "dataset": "seattle-weather",
+      "question_vis": {
+          "data": {
+            "url": "data/seattle-weather.json"
+          },
+          "mark": {
+            "type": "point"
+          },
+          "encoding": {
+            "x": {
+              "field": "weather",
+              "type": "nominal"
+            },
+            "y": {
+              "field": "wind",
+              "type": "quantitative"
+            },
+            "size": {
+              "field": "temp_min",
+              "type": "quantitative"
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "point",
+            "encodings": {
+              "x": {
+                  "data": "weather", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "wind",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "temp_min",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }
+            
+        },
+        "manage_state": {
+            "chart_type": "point",
+            "encodings": {
+              "x": {
+                  "data": "weather", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "wind",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "temp_min",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }
+            
+        }
+    },
+    "item6": {
+      "question_meta_data": {
+        "question_text": "What is the trend of the maximum temperature between 2014 and 2015?",
+        "question_topic": "weather in Seattle"
+      },
+      "dataset": "seattle-weather",
+      "question_vis": {
+          "data": {
+            "url": "data/seattle-weather.json"
+          },
+          "mark": {
+            "type": "line"
+          },
+          "encoding": {
+            "x": {
+              "field": "date",
+              "type": "temporal"
+            },
+            "y": {
+              "field": "temp_max",
+              "type": "quantitative",
+              "scale": {
+                "reverse": true
+              }
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "line",
+            "encodings": {
+              "x": {
+                  "data": "date", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "temp_max",
+                  "transformation": "reverse"
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }
+            
+        },
+        "manage_state": {
+            "chart_type": "line",
+            "encodings": {
+              "x": {
+                  "data": "date", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "temp_max",
+                  "transformation": "reverse"
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }
+            
+        }
+    },
+    "item7": {
+      "question_meta_data": {
+        "question_text": "What is the name of the car that has the highest horsepower?",
+        "question_topic": "cars with different origins"
+      },
+      "dataset": "cars",
+      "question_vis": {
+          "data": {
+            "url": "data/cars.json"
+          },
+          "mark": {
+            "type": "point"
+          },
+          "encoding": {
+            "x": {
+              "field": "Horsepower",
+              "type": "quantitative"
+            },
+            "color": {
+              "field": "Name",
+              "type": "nominal",
+              "scale": {
+                "scheme": "dark2"
+              }
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "point",
+            "encodings": {
+              "x": {
+                  "data": "Horsepower", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "Name",
+                "transformation": ""
+              }
+          }
+            
+        },
+        "manage_state": {
+            "chart_type": "point",
+            "encodings": {
+              "x": {
+                  "data": "Horsepower", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "Name",
+                "transformation": ""
+              }
+          }
+            
+        }
+    },
+    "item8": {
+      "question_meta_data": {
+        "question_text": "Is the total precipitation higher when it snows in Seattle or when it rains?",
+        "question_topic": "weather in Seattle"
+      },
+      "dataset": "seattle-weather",
+      "question_vis": {
+          "data": {
+            "url": "data/seattle-weather.json"
+          },
+          "mark": {
+            "type": "bar"
+          },
+          "encoding": {
+            "x": {
+              "field": "weather",
+              "type": "nominal"
+            },
+            "y": {
+              "field": "precipitation",
+              "type": "quantitative",
+              "aggregate": "mean"
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "bar",
+            "encodings": {
+              "x": {
+                  "data": "weather", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "precipitation",
+                  "transformation": "mean"
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }
+            
+        },
+        "manage_state": {
+            "chart_type": "bar",
+            "encodings": {
+              "x": {
+                  "data": "weather", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "precipitation",
+                  "transformation": "mean"
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }
+            
+        }
+    },
+    "item9": {
+      "question_meta_data": {
+        "question_text": "What is the range of wind speed in Seattle?",
+        "question_topic": "weather in Seattle"
+      },
+      "dataset": "seattle-weather",
+      "question_vis": {
+          "data": {
+            "url": "data/seattle-weather.json"
+          },
+          "mark": {
+            "type": "bar"
+          },
+          "encoding": {
+            "x": {
+              "field": "wind",
+              "type": "quantitative",
+              "aggregate": "mean"
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "bar",
+            "encodings": {
+              "x": {
+                  "data": "wind", 
+                  "transformation": "mean"
+              },
+              "y": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }
+            
+        },
+        "manage_state": {
+            "chart_type": "bar",
+            "encodings": {
+              "x": {
+                  "data": "wind", 
+                  "transformation": "mean"
+              },
+              "y": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }
+            
+        }
+    },
+    "item10": {
+      "question_meta_data": {
+        "question_text": "What is the range of weight in lbs for cars originated from Japan?",
+        "question_topic": "cars with different origins"
+      },
+      "dataset": "cars",
+      "question_vis": {
+          "data": {
+            "url": "data/cars.json"
+          },
+          "mark": {
+            "type": "point"
+          },
+          "encoding": {
+            "x": {
+              "field": "Weight_in_lbs",
+              "type": "quantitative"
+            },
+            "color": {
+              "field": "Origin",
+              "type": "nominal",
+              "scale": {
+                "scheme": "dark2"
+              }
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "point",
+            "encodings": {
+              "x": {
+                  "data": "Weight_in_lbs", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "Origin",
+                "transformation": ""
+              }
+          }
+            
+        },
+        "manage_state": {
+            "chart_type": "point",
+            "encodings": {
+              "x": {
+                  "data": "Weight_in_lbs", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "Origin",
+                "transformation": ""
+              }
+          }
+            
+        }
+    },
+    "item11": {
+      "question_meta_data": {
+        "question_text": "How did maximum temperature change between 2014 to 2015?",
+        "question_topic": "weather in Seattle"
+      },
+      "dataset": "seattle-weather",
+      "question_vis": {
+          "data": {
+            "url": "data/seattle-weather.json"
+          },
+          "mark": {
+            "type": "line",
+            "clip": true
+          },
+          "encoding": {
+            "x": {
+              "field": "date",
+              "type": "temporal",
+              "scale": {
+                "domain": ["2014-07-01", "2015-01-02"]
+              }
+            },
+            "y": {
+              "field": "temp_max",
+              "type": "quantitative"
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "line",
+            "encodings": {
+              "x": {
+                  "data": "date", 
+                  "transformation": "truncate"
+              },
+              "y": {
+                  "data": "temp_max",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }
+            
+        },
+        "manage_state": {
+            "chart_type": "line",
+            "encodings": {
+              "x": {
+                  "data": "date", 
+                  "transformation": "truncate"
+              },
+              "y": {
+                  "data": "temp_max",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }
+            
+        }
+    },
+    "item12": {
+      "question_meta_data": {
+        "question_text": "Which region has the highest risk and should mandate vaccines?",
+        "question_topic": "confirmed cases for an unknown virus"
+      },
+      "dataset": "region-cases",
+      "question_vis": {
+          "data": {
+            "url": "data/region-cases.json"
+          },
+          "mark": {
+            "type": "bar"
+          },
+          "encoding": {
+            "x": {
+              "field": "total_cases",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "region",
+              "type": "nominal"
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "bar",
+            "encodings": {
+              "x": {
+                  "data": "total_cases", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "region",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }
+            
+        },
+        "manage_state": {
+            "chart_type": "bar",
+            "encodings": {
+              "x": {
+                  "data": "total_cases", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "region",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }
+            
+        }
+    }
+}

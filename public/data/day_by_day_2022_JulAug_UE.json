@@ -1,0 +1,308 @@
+[
+  {
+    "Date": "2022-07-01",
+    "Spending": 32.0496,
+    "Income": 413.1664,
+    "Savings": 41.4497,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-02",
+    "Spending": 45.1432,
+    "Income": 310.9318,
+    "Savings": 38.7887,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-04",
+    "Spending": 60.1594,
+    "Income": 256.3603,
+    "Savings": 34.2952,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-05",
+    "Spending": 63.1044,
+    "Income": 275.0933,
+    "Savings": 32.2857,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-07",
+    "Spending": 33.5718,
+    "Income": 314.2149,
+    "Savings": 19.7798,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-09",
+    "Spending": 51.3621,
+    "Income": 274.8154,
+    "Savings": 24.1345,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-12",
+    "Spending": 7.2456,
+    "Income": 224.8133,
+    "Savings": 22.6441,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-13",
+    "Spending": 65.97,
+    "Income": 231.2155,
+    "Savings": 43.1031,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-15",
+    "Spending": 71.583,
+    "Income": 243.1465,
+    "Savings": 29.2724,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-16",
+    "Spending": 81.1047,
+    "Income": 330.9199,
+    "Savings": 42.592,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-17",
+    "Spending": 65.6897,
+    "Income": 340.0912,
+    "Savings": 31.1217,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-18",
+    "Spending": 48.3481,
+    "Income": 403.5438,
+    "Savings": 48.4714,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-19",
+    "Spending": 63.1971,
+    "Income": 306.4135,
+    "Savings": 39.7176,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-20",
+    "Spending": 49.8318,
+    "Income": 396.6069,
+    "Savings": 36.2281,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-22",
+    "Spending": 51.3714,
+    "Income": 299.0955,
+    "Savings": 18.1534,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-23",
+    "Spending": 32.7217,
+    "Income": 349.534,
+    "Savings": 36.7797,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-28",
+    "Spending": 21.0796,
+    "Income": 329.3391,
+    "Savings": 30.3664,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-29",
+    "Spending": 27.7464,
+    "Income": 379.6856,
+    "Savings": 7.5974,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-30",
+    "Spending": 65.7377,
+    "Income": 374.9409,
+    "Savings": 19.3559,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-08-01",
+    "Spending": 39.5404,
+    "Income": 302.1047,
+    "Savings": 37.5208,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-03",
+    "Spending": 45.278,
+    "Income": 275.6313,
+    "Savings": 40.2291,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-04",
+    "Spending": 56.8268,
+    "Income": 182.1656,
+    "Savings": 32.3099,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-05",
+    "Spending": 34.7173,
+    "Income": 183.3356,
+    "Savings": 28.5076,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-06",
+    "Spending": 57.7354,
+    "Income": 279.0749,
+    "Savings": 48.3096,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-08",
+    "Spending": 50.8967,
+    "Income": 314.0426,
+    "Savings": 29.6774,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-10",
+    "Spending": 33.7285,
+    "Income": 286.5751,
+    "Savings": 25.6727,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-17",
+    "Spending": 27.1328,
+    "Income": 241.6959,
+    "Savings": 18.9789,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-19",
+    "Spending": 32.2088,
+    "Income": 185.5981,
+    "Savings": 27.4693,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-20",
+    "Spending": 77.5565,
+    "Income": 313.1976,
+    "Savings": 23.741,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-25",
+    "Spending": 40.488,
+    "Income": 244.4153,
+    "Savings": 31.3238,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-26",
+    "Spending": 47.0453,
+    "Income": 264.9546,
+    "Savings": 13.184,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-27",
+    "Spending": 56.4758,
+    "Income": 256.4966,
+    "Savings": 23.9008,
+    "Spending_Category": "Utilities",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-28",
+    "Spending": 51.9557,
+    "Income": 371.3724,
+    "Savings": 32.048,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-30",
+    "Spending": 28.4387,
+    "Income": 370.8307,
+    "Savings": 42.7107,
+    "Spending_Category": "Entertainment",
+    "Year": 2022,
+    "Month": "Aug"
+  }
+]

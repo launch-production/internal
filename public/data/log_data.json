@@ -1,0 +1,13 @@
+[
+    {"x": 0.01, "group": "A", "num": 1},
+    {"x": 0.1, "group": "B", "num": 2},
+    {"x": 1, "group": "C", "num": 3},
+    {"x": 1, "group": "D", "num": 4},
+    {"x": 1, "group": "E", "num": 5},
+    {"x": 1, "group": "F", "num": 6},
+    {"x": 10, "group": "G", "num": 7},
+    {"x": 10, "group": "H", "num": 8},
+    {"x": 100, "group": "I", "num": 9},
+    {"x": 500, "group": "J", "num": 10},
+    {"x": 800, "group": "K", "num": 11}
+  ]

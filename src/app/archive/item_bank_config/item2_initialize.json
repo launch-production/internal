@@ -1,0 +1,22 @@
+{
+    "x_axis": {
+        "data": "Origin", 
+        "transformation": "count"
+    },
+    "y_axis": {
+        "data": "",
+        "transformation": "count"
+    },
+    "size": {
+        "data": "",
+        "transformation": ""
+    },
+    "seq_color": {
+        "data": "",
+        "transformation": ""
+    },
+    "div_color": {
+        "data": "",
+        "transformation": ""
+    }
+}

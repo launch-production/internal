@@ -1,0 +1,22 @@
+{
+    "data": {
+      "url": "data/cars.json"
+    },
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "temporal"
+      },
+      "y": {
+        "field": "Horsepower",
+        "type": "quantitative",
+        "aggregate": "sum",
+        "stack": true
+      },
+      "color": {
+        "field": "Origin",
+        "type": "nominal"
+      }
+    }
+  }

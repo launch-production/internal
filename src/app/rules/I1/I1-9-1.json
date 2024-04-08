@@ -1,0 +1,17 @@
+{
+    "data": {
+      "url": "data/log_data.json"
+    },
+    "mark": "point",
+    "encoding": {
+      "x": {
+        "field": "group",
+        "type": "ordinal"
+      },
+      "y": {
+        "field": "x",
+        "type": "quantitative",
+        "scale": {}
+      }
+    }
+  }

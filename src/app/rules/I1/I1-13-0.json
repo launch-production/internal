@@ -1,0 +1,15 @@
+{
+    "data": {
+      "url": "data/seattle-weather.csv"
+    },
+    "mark": "bar",
+    "encoding": {
+      "y": {
+        "aggregate": "count"
+      },
+      "x": {
+        "field": "date",
+        "type": "temporal"
+      }
+    }
+  }

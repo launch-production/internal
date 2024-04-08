@@ -1,0 +1,471 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+select {
+  height: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+#tilesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  width: fit-content;
+  margin-top: 2rem;
+}
+
+img {
+  width: 4rem;
+}
+
+#data {
+  margin-left: 2rem;
+  margin-right: 4rem;
+  margin-bottom: 1rem;
+  width: 8rem;
+  /* text-align: center; */
+}
+
+#encodings {
+  display: flex;
+  flex-direction: column;
+}
+
+#encodingsColorSize {
+  display: flex;
+  flex-direction: column;
+}
+
+.mappingContainerColorSize {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6rem;
+  margin-top: 2rem;
+}
+
+#chartTypes {
+  /* padding-bottom: 1rem; */
+  margin-bottom: 0px;
+  width: fit-content;
+}
+
+#chartTypesTiles {
+  display: flex;
+  flex-direction: row;
+
+}
+
+#encodings {
+  margin-left: 0px;
+}
+
+#data {
+  margin-right: 0px;
+}
+
+.marginRight {
+  margin-right: 0px !important;
+}
+
+.marginLeft {
+  margin-left: 0px !important;
+}
+
+#data, #encodings, #transformations {
+  width: fit-content;
+  height: fit-content;
+}
+
+/* #transformations {
+  height: 500px;
+  flex-direction: column;
+  flex-wrap: wrap;
+} */
+
+/* #chartTypes {
+  margin-right: 4rem;
+} */
+
+#visContainer, #questionContainer {
+  margin: auto;
+  margin-top: 1rem;
+}
+
+#visContainer {
+  width: 800px;
+  justify-content: space-evenly;
+}
+
+#questionContainer {
+  overflow-wrap: normal;
+  width: 800px;
+  /* padding: 0.5rem; */
+}
+
+#trainingLabel {
+  width: 800px;
+  margin: auto;
+}
+
+#answerVis {
+  margin-left: 1rem;
+  /* padding: 1rem; */
+  width: 350px;
+}
+
+#nextButton {
+  margin: auto;
+  width: 6rem;
+  margin-top: 2rem;
+  /* margin-bottom: 4rem; */
+  border-width: 1px;
+  border-style: solid;
+  background-color: gray;
+  text-align: center;
+  color: white;
+}
+
+#proceeding, #missingRequired {
+  margin: auto;
+  width: fit-content;
+  margin-top: 1rem;
+}
+
+#visContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+#questionVis {
+  height: 300px;
+  width: 420px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#toReconstruct {
+  height: 260px;
+  width: fit-content;
+  /* margin-right: 2rem;
+  margin-top: 2rem;
+  padding-bottom: 1rem; */
+}
+
+.inputSpace {
+  width: 62px;
+  height: 62px;
+  border-width: 1px;
+  border-style: dashed;
+  display: flex;
+  justify-content: center;
+}
+
+.mappingContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.dataTileContainer, .transformationTileContainer {
+  margin-bottom: 0.4rem;
+  margin-right: 0.5rem;
+}
+
+/* .dataDescriptionsContainer {
+  margin-bottom: 0.6rem;
+} */
+
+#metaData {
+  margin-bottom: 0.4rem;
+  display: flex;
+  flex-direction: row;
+}
+
+#metaDataColumn {
+  margin-left: 2rem;
+}
+
+
+.showDescription {
+  display: block;
+}
+
+.hideDescription {
+  display: none;
+}
+
+.dataTiles {
+  width: 60px;
+  height: 60px;
+  border-width: 1px;
+  border-style: solid;
+  /* z-index: 2; */
+  overflow-x: scroll;
+  
+}
+
+.dataDescriptionsContainer {
+  width: 100px;
+  margin-right: 2rem;
+  height: 60px;
+  font-size: small;
+  margin-bottom: 0.6rem;
+}
+
+.dataTiles p{
+  margin-left: 0.2rem;
+  margin-right: 0.5rem;
+  font-size: small;
+}
+
+#removeIcon {
+  /* display: none; */
+  position: absolute;
+  z-index: 1;
+}
+
+.staticColumn {
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
+  
+}
+
+/* .staticColumn p {
+  top: 50%;
+} */
+
+#mappingZone {
+  /* display: flex;
+  flex-direction: row; */
+  background-color: WhiteSmoke;
+  /* padding-bottom: 1rem; */
+  width: 15vw;
+  min-height: 98vh;
+  /* height: 100vh; */
+  border: 1px dashed;
+}
+
+#mappingZone p {
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  margin-top: 40vh;
+  color: gray;
+}
+
+.chartTiles:hover, .dataTiles:hover, #nextButton:hover, .transformationTiles:hover, .choiceOption:hover, .usabilityChoiceOption:hover {
+  cursor: pointer;
+}
+
+.removeMouseOver {
+  opacity: 0.4;
+  text-decoration: line-through;
+}
+
+.removeMouseOut {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.selectedChart {
+  width: fit-content;
+  /* margin: auto; */
+  background-color: #0033ff1c;
+}
+
+.selectedAnswer {
+  background-color: #0033ff1c;
+}
+
+.unselectChart {
+  width: fit-content;
+  margin: auto;
+  background-color: transparent;
+}
+
+.tileMovableSpace {
+  background-color: #20994d45;
+}
+
+.tileMoved {
+  background-color: transparent;
+}
+
+.highlightBackground {
+  background-color: antiquewhite;
+}
+
+.highlightRequired {
+  background-color: mistyrose;
+}
+
+#advanceContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+#yAxis {
+  width: fit-content;
+  height: 300px;
+  margin-top: 2rem;
+  /* margin-right: 1rem; */
+  /* background-color: red; */
+}
+
+#mappingContainer p {
+  text-align: left;
+}
+
+#xAxisLabel {
+  margin-top: 0px;
+}
+
+#encoding_x {
+  display: flex;
+  flex-direction: column;
+}
+
+.mappingContainerX {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.xTiles {
+  margin-right: 1rem;
+}
+
+/* .xTiles p {
+  margin-top: 0px;
+} */
+
+.xContainer {
+  width: fit-content;
+  margin: auto;
+}
+
+#placeholder {
+  width: 105px;
+}
+
+#workingTiles {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  margin: auto;
+}
+
+#datasetTiles, #actionTiles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#globalContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: max-content;
+}
+
+#interactionZone {
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
+  width: fit-content;
+  /* height: 1000px; */
+  margin: auto;
+}
+
+#placeholderInstructions {
+  background-color: whitesmoke;
+  height: 330px;
+  width: 420px;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#placeholderInstructions p {
+  margin-top: 30%;
+}
+
+#TFoptions, #usabilityChoiceOptionContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.choiceOption {
+  width: 100px;
+  text-align: center;
+  border: 1px solid;
+  margin-right: 1rem;
+}
+
+/* textarea::placeholder {
+  line-height: normal;
+} */
+
+.usabilityChoiceOption {
+  width: 80px;
+  border: 1px solid;
+  margin-right: 1rem;
+  height: 40px;
+  text-align: center;
+}
+
+.usabilityChoiceOption p {
+  margin: 0.7rem;
+}
+
+.usabilityChoiceLabel {
+  width: 85px;
+  margin-right: 1rem;
+}
+
+#usabilityLabelsContainer {
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.usabilityQA {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+}
+
+.usabilityQA textarea {
+  width: 100%;
+  height: 4rem;
+}

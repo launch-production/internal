@@ -1,0 +1,22 @@
+{
+    "x_axis": {
+        "data": "Horsepower", 
+        "transformation": ""
+    },
+    "y_axis": {
+        "data": "Miles_per_Gallon",
+        "tranasformation": ""
+    },
+    "size": {
+        "data": "Origin",
+        "tranasformation": ""
+    },
+    "seq_color": {
+        "data": "",
+        "tranasformation": ""
+    },
+    "div_color": {
+        "data": "",
+        "tranasformation": ""
+    }
+}

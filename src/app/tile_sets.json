@@ -1,0 +1,70 @@
+{
+    "bar": {
+        "chart": "images/chart_types/bar_icon.svg",
+        "encodings": {
+            "size": "images/encodings/size_icon.svg",
+            "seq_color": "images/encodings/seq_colors_icon.svg",
+            "div_color": "images/encodings/div_colors_icon.svg",
+            "qual_color": "images/encodings/qual_colors_icon.svg"
+        },
+        "transformations": {
+            "bin": "images/transformations/bin_icon.svg",
+            "count": "images/transformations/count_icon.svg",
+            "des_sort": "images/transformations/descending_sort_icon.svg",
+            "mean": "images/transformations/mean_icon.svg",
+            "stack": "images/transformations/stack_icon.svg",
+            "sum": "images/transformations/sum_icon.svg"
+        }
+    },
+    "line": {
+        "chart": "images/chart_types/line_icon.svg",
+        "encodings": {
+            "size": "images/encodings/size_icon.svg",
+            "seq_color": "images/encodings/seq_colors_icon.svg",
+            "div_color": "images/encodings/div_colors_icon.svg",
+            "qual_color": "images/encodings/qual_colors_icon.svg"
+        },
+        "transformations": {
+            "bin": "images/transformations/bin_icon.svg",
+            "count": "images/transformations/count_icon.svg",
+            "des_sort": "images/transformations/descending_sort_icon.svg",
+            "mean": "images/transformations/mean_icon.svg",
+            "stack": "images/transformations/stack_icon.svg",
+            "sum": "images/transformations/sum_icon.svg"
+        }
+    },
+    "point": {
+        "chart": "images/chart_types/scatter_icon.svg",
+        "encodings": {
+            "size": "images/encodings/size_icon.svg",
+            "seq_color": "images/encodings/seq_colors_icon.svg",
+            "div_color": "images/encodings/div_colors_icon.svg",
+            "qual_color": "images/encodings/qual_colors_icon.svg"
+        },
+        "transformations": {
+            "bin": "images/transformations/bin_icon.svg",
+            "count": "images/transformations/count_icon.svg",
+            "des_sort": "images/transformations/descending_sort_icon.svg",
+            "mean": "images/transformations/mean_icon.svg",
+            "stack": "images/transformations/stack_icon.svg",
+            "sum": "images/transformations/sum_icon.svg"
+        }
+    },
+    "area": {
+        "chart": "images/chart_types/area_icon.svg",
+        "encodings": {
+            "size": "images/encodings/size_icon.svg",
+            "seq_color": "images/encodings/seq_colors_icon.svg",
+            "div_color": "images/encodings/div_colors_icon.svg",
+            "qual_color": "images/encodings/qual_colors_icon.svg"
+        },
+        "transformations": {
+            "bin": "images/transformations/bin_icon.svg",
+            "count": "images/transformations/count_icon.svg",
+            "des_sort": "images/transformations/descending_sort_icon.svg",
+            "mean": "images/transformations/mean_icon.svg",
+            "stack": "images/transformations/stack_icon.svg",
+            "sum": "images/transformations/sum_icon.svg"
+        }
+    }
+}

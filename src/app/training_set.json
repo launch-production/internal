@@ -1,0 +1,464 @@
+{
+    "status": {
+        "item1": false,
+        "item2": false
+    },
+    "datasets": {
+      "cars": {
+        "Name": {"type": "nominal", "full_name": "Car name", "description": "The name for each car in this dataset.", "truncate": null},
+        "Miles_per_Gallon": {"type": "quantitative", "full_name": "Miles per Gallon", "description": "The distance a car can travel per gallon of fuel. ", "truncate": [20, 60]},
+        "Cylinders": {"type": "ordinal", "full_name": "Cylinders", "description": "This generates power for a car. Generally, more cylinders produce more power.", "truncate": null},
+        "Displacement": {"type": "quantitative", "full_name": "Displacement", "description": "This also helps to generate power for a car. Bigger displacement helps to generate more power.", "truncate": [200, 600]},
+        "Horsepower": {"type": "quantitative", "full_name": "Horsepower", "description": "A measure for the power of an engine. The higher the horsepower, the faster the car can go.", "truncate": [20, 60]},
+        "Weight_in_lbs": {"type": "quantitative", "full_name": "Weight in lbs", "description": "The weight of a car in pounds.", "truncate": [3000, 6000]},
+        "Acceleration": {"type": "quantitative", "full_name": "Acceleration", "description": "The rate at which a car can increase its speed.", "truncate": [20, 30]},
+        "Year": {"type": "temporal", "full_name": "Year", "description": "The year of production", "truncate": ["1975-01-01", "1980-01-01"]},
+        "Origin": {"type": "nominal", "full_name": "Origin", "description": "The origin of the car.", "truncate": null}
+      },
+      "seattle-weather": {
+        "date": {"type": "temporal", "full_name": "Date", "description": "Seattle on this date.", "truncate": ["2014-07-01", "2015-01-02"]},
+        "precipitation": {"type": "quantitative", "full_name": "Precipitation (mm)", "description": "Water that fall from clouds and reach the ground.", "truncate": [20, 60], "truncate_bar": []},
+        "temp_max": {"type": "quantitative", "full_name": "Maximum temperature", "description": "Maximum temperature on a particular day in Seattle.", "truncate": [10, 40]},
+        "temp_min": {"type": "quantitative", "full_name": "Minimum temperature", "description": "Minimum temperature on a particular day in Seattle.", "truncate": [0, 20]},
+        "wind": {"type": "quantitative", "full_name": "Wind speed (m/s)", "description": "The speed of wind in meters per second.", "truncate": [4, 10]},
+        "weather": {"type": "nominal", "full_name": "Weather", "description": "Weather on a particular day in Seattle.", "truncate": null}
+      },
+      "region-cases": {
+        "region": {"type": "nominal", "full_name": "Region code", "description": "The code for a region in this dataset.", "truncate": null},
+        "total_population": {"type": "quantitative", "full_name": "Total population", "description": "Total population in a region.", "truncate": null},
+        "total_cases": {"type": "quantitative", "full_name": "Total confirmed cases", "description": "Total number of confirmed cases in a region.", "truncate": null},
+        "cases_per_100_people": {"type": "quantitative", "full_name": "Cases per 100 people", "description": "Confirmed cases per 100 people in a region.", "truncate": null}
+      }
+    },
+    "item100": {
+      "question_meta_data": {
+        "question_text": "The question will be associated with a chart, which will be displayed below.",
+        "question_topic": "Each question you need to answer will be displayed here:",
+        "highlight_component": "question"
+      },
+      "dataset": "seattle-weather",
+      "question_vis": {
+          "data": {
+            "url": "data/seattle-weather.json"
+          },
+          "mark": {
+            "type": "point"
+          },
+          "encoding": {
+            "x": {
+              "field": "date",
+              "type": "temporal"
+            },
+            "y": {
+              "field": "wind",
+              "type": "quantitative"
+              
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "point",
+            "encodings": {
+              "x": {
+                  "data": "date", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "wind",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        },
+        "manage_state": {
+            "chart_type": "point",
+            "encodings": {
+              "x": {
+                  "data": "date", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "wind",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        }
+        
+    },
+    "item101": {
+      "question_meta_data": {
+        "question_text": "Change the mark type to line. Enter 'line' in the text box when you're done and click 'Next' on the bottom of this page to proceed.",
+        "question_topic": "Mark type determines the chart type. You can change it by clicking the desired mark tile.",
+        "highlight_component": "mark"
+      },
+      "dataset": "seattle-weather",
+      "question_vis": {
+          "data": {
+            "url": "data/seattle-weather.json"
+          },
+          "mark": {
+            "type": "point"
+          },
+          "encoding": {
+            "x": {
+              "field": "date",
+              "type": "temporal"
+            },
+            "y": {
+              "field": "wind",
+              "type": "quantitative"
+              
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "point",
+            "encodings": {
+              "x": {
+                  "data": "date", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "wind",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        },
+        "manage_state": {
+            "chart_type": "point",
+            "encodings": {
+              "x": {
+                  "data": "date", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "wind",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        }
+        
+    },
+    "item102": {
+      "question_meta_data": {
+        "question_text": "Drag 'weather' to the 'x-axis' encoding to replace 'date'. Change the mark type to 'point'. Enter 'weather-point' in the text box when you're done and click 'Next' on the bottom of this page to proceed.",
+        "question_topic": "The 'Data' tiles represent the dataset the current question asks about. Drag the desired data to encoding to plot it on the chart. The possible places the dragged tile can go will be highlighted.",
+        "highlight_component": "data"
+      },
+      "dataset": "seattle-weather",
+      "question_vis": {
+          "data": {
+            "url": "data/seattle-weather.json"
+          },
+          "mark": {
+            "type": "line"
+          },
+          "encoding": {
+            "x": {
+              "field": "date",
+              "type": "temporal"
+            },
+            "y": {
+              "field": "wind",
+              "type": "quantitative"
+              
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "line",
+            "encodings": {
+              "x": {
+                  "data": "date", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "wind",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        },
+        "manage_state": {
+            "chart_type": "line",
+            "encodings": {
+              "x": {
+                  "data": "date", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "wind",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        }
+        
+    },
+    "item103": {
+      "question_meta_data": {
+        "question_text": "Drag 'count' to the 'y-axis' encoding to plot the count of records for each 'weather'. Remove data 'wind' by dragging the tile off. Change the mark type to 'bar'. Enter 'count-weather' in the text box when you're done and click 'Next' on the bottom of this page to proceed.",
+        "question_topic": "The 'Transformation' tiles represent the possible set of transformations. Drag the desired transformation to an encoding to transform that data encoding. The possible places the dragged tile can go will be highlighted.",
+        "highlight_component": "transformations"
+      },
+      "dataset": "seattle-weather",
+      "question_vis": {
+          "data": {
+            "url": "data/seattle-weather.json"
+          },
+          "mark": {
+            "type": "point"
+          },
+          "encoding": {
+            "x": {
+              "field": "weather",
+              "type": "nominal"
+            },
+            "y": {
+              "field": "wind",
+              "type": "quantitative"
+              
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "point",
+            "encodings": {
+              "x": {
+                  "data": "weather", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "wind",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        },
+        "manage_state": {
+            "chart_type": "point",
+            "encodings": {
+              "x": {
+                  "data": "weather", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "wind",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        }
+        
+    },
+    "item104": {
+      "question_meta_data": {
+        "question_text": "You are now ready to proceed to the questions in the survey. The layout of each question will be the same as the training you just completed. Your task is to use charts to answer questions. You can change the chart display using the given tiles if it helps you in correctly answering the question.",
+        "question_topic": "Instructions",
+        "highlight_component": ""
+      },
+      "dataset": "seattle-weather",
+      "question_vis": {
+          "data": {
+            "url": "data/seattle-weather.json"
+          },
+          "mark": {
+            "type": "point"
+          },
+          "encoding": {
+            "x": {
+              "field": "weather",
+              "type": "nominal"
+            },
+            "y": {
+              "field": "wind",
+              "type": "quantitative"
+              
+            }
+          }
+        },
+        "initialize": {
+            "chart_type": "point",
+            "encodings": {
+              "x": {
+                  "data": "weather", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "wind",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        },
+        "manage_state": {
+            "chart_type": "point",
+            "encodings": {
+              "x": {
+                  "data": "weather", 
+                  "transformation": ""
+              },
+              "y": {
+                  "data": "wind",
+                  "transformation": ""
+              },
+              "size": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "seq_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "div_color": {
+                  "data": "",
+                  "transformation": ""
+              },
+              "qual_color": {
+                "data": "",
+                "transformation": ""
+              }
+          }  
+        }
+        
+    }
+
+}

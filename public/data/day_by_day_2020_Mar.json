@@ -1,0 +1,281 @@
+[
+  {
+    "Date": "2020-03-01",
+    "Spending": 7.6241,
+    "Income": 452.6162,
+    "Savings": 12.7147,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-02",
+    "Spending": 15.4382,
+    "Income": 165.7647,
+    "Savings": 4.703,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-03",
+    "Spending": 11.6968,
+    "Income": 109.3169,
+    "Savings": 11.2592,
+    "Spending_Category": "Utilities",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-04",
+    "Spending": 23.4012,
+    "Income": 94.6256,
+    "Savings": 14.9963,
+    "Spending_Category": "Utilities",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-05",
+    "Spending": 30.6638,
+    "Income": 39.1173,
+    "Savings": 26.9307,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-06",
+    "Spending": 32.1613,
+    "Income": 222.7664,
+    "Savings": 3.9796,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-07",
+    "Spending": 27.3569,
+    "Income": 157.2769,
+    "Savings": 5.9962,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-08",
+    "Spending": 15.1879,
+    "Income": 233.5932,
+    "Savings": 11.6275,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-09",
+    "Spending": 25.6274,
+    "Income": 350.0688,
+    "Savings": 4.8045,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-10",
+    "Spending": 7.5368,
+    "Income": 158.2638,
+    "Savings": 2.8547,
+    "Spending_Category": "Utilities",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-11",
+    "Spending": 23.8092,
+    "Income": 260.1746,
+    "Savings": 11.8581,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-12",
+    "Spending": 5.6957,
+    "Income": 151.1724,
+    "Savings": 13.198,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-13",
+    "Spending": 9.5155,
+    "Income": 276.4578,
+    "Savings": 4.772,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-14",
+    "Spending": 17.815,
+    "Income": 106.4687,
+    "Savings": 18.5593,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-15",
+    "Spending": 5.1006,
+    "Income": 253.0765,
+    "Savings": 8.5299,
+    "Spending_Category": "Utilities",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-16",
+    "Spending": 31.7271,
+    "Income": 204.7595,
+    "Savings": 16.2845,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-17",
+    "Spending": 5.2017,
+    "Income": 200.0917,
+    "Savings": 12.192,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-18",
+    "Spending": 15.6961,
+    "Income": 93.4529,
+    "Savings": 5.1769,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-19",
+    "Spending": 9.4836,
+    "Income": 30.9846,
+    "Savings": 12.3026,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-20",
+    "Spending": 35.2259,
+    "Income": 395.919,
+    "Savings": 11.1751,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-21",
+    "Spending": 25.9283,
+    "Income": 252.3868,
+    "Savings": 13.2163,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-22",
+    "Spending": 17.7734,
+    "Income": 180.7245,
+    "Savings": 14.566,
+    "Spending_Category": "Utilities",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-23",
+    "Spending": 27.1289,
+    "Income": 295.7739,
+    "Savings": 14.9414,
+    "Spending_Category": "Utilities",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-24",
+    "Spending": 27.166,
+    "Income": 217.0998,
+    "Savings": 10.5637,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-25",
+    "Spending": 24.4024,
+    "Income": 24.9388,
+    "Savings": 2.5498,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-26",
+    "Spending": 21.5883,
+    "Income": 312.7546,
+    "Savings": 7.7838,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-27",
+    "Spending": 26.5976,
+    "Income": 16.1503,
+    "Savings": 16.8117,
+    "Spending_Category": "Utilities",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-28",
+    "Spending": 42.2052,
+    "Income": 146.096,
+    "Savings": 15.2262,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-29",
+    "Spending": 8.1605,
+    "Income": 139.3121,
+    "Savings": 11.1697,
+    "Spending_Category": "Utilities",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-30",
+    "Spending": 19.2604,
+    "Income": 320.0865,
+    "Savings": 2.7621,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-31",
+    "Spending": 15.8365,
+    "Income": 170.143,
+    "Savings": 1.1564,
+    "Spending_Category": "Entertainment",
+    "Year": 2020,
+    "Month": "Mar"
+  }
+]

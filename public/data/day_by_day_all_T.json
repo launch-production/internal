@@ -1,0 +1,3098 @@
+[
+  {
+    "Date": "2020-01-01",
+    "Spending": 20.1875,
+    "Income": 385.9009,
+    "Savings": 1.1013,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2020-01-04",
+    "Spending": 14.0083,
+    "Income": 300.3048,
+    "Savings": 15.8312,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2020-01-06",
+    "Spending": 23.8979,
+    "Income": 377.5831,
+    "Savings": 17.7988,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2020-01-09",
+    "Spending": 3.7333,
+    "Income": 212.0209,
+    "Savings": 3.1617,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2020-01-21",
+    "Spending": 14.0369,
+    "Income": 313.4053,
+    "Savings": 14.9719,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2020-01-22",
+    "Spending": 1.8529,
+    "Income": 249.9512,
+    "Savings": 10.5358,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2020-01-24",
+    "Spending": 1.1906,
+    "Income": 207.8775,
+    "Savings": 3.5507,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2020-01-25",
+    "Spending": 7.348,
+    "Income": 384.1162,
+    "Savings": 7.5883,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2020-02-03",
+    "Spending": 21.8493,
+    "Income": 348.8323,
+    "Savings": 8.7199,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2020-02-05",
+    "Spending": 5.6449,
+    "Income": 239.4723,
+    "Savings": 9.1133,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2020-02-07",
+    "Spending": 2.4091,
+    "Income": 134.5854,
+    "Savings": 7.2863,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2020-02-24",
+    "Spending": 25.0582,
+    "Income": 69.3975,
+    "Savings": 6.0093,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2020-02-27",
+    "Spending": 25.329,
+    "Income": 82.4125,
+    "Savings": 15.2774,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2020-03-06",
+    "Spending": 32.1613,
+    "Income": 222.7664,
+    "Savings": 3.9796,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-11",
+    "Spending": 23.8092,
+    "Income": 260.1746,
+    "Savings": 11.8581,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-16",
+    "Spending": 31.7271,
+    "Income": 204.7595,
+    "Savings": 16.2845,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-19",
+    "Spending": 9.4836,
+    "Income": 30.9846,
+    "Savings": 12.3026,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-21",
+    "Spending": 25.9283,
+    "Income": 252.3868,
+    "Savings": 13.2163,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-03-30",
+    "Spending": 19.2604,
+    "Income": 320.0865,
+    "Savings": 2.7621,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2020-04-04",
+    "Spending": 25.9496,
+    "Income": 352.9848,
+    "Savings": 14.9986,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-11",
+    "Spending": 24.1938,
+    "Income": 85.3067,
+    "Savings": 18.4678,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-21",
+    "Spending": 31.2887,
+    "Income": 226.6139,
+    "Savings": 12.7939,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-22",
+    "Spending": 15.3587,
+    "Income": 153.3854,
+    "Savings": 6.9915,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-29",
+    "Spending": 29.5092,
+    "Income": 0.4672,
+    "Savings": 3.1415,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-05-11",
+    "Spending": 26.3344,
+    "Income": 67.4618,
+    "Savings": 6.7776,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-21",
+    "Spending": 7.9481,
+    "Income": 116.0564,
+    "Savings": 10.3915,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-24",
+    "Spending": 23.7247,
+    "Income": 244.9591,
+    "Savings": 4.9351,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-30",
+    "Spending": 16.089,
+    "Income": 317.6547,
+    "Savings": 7.8469,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-06-09",
+    "Spending": 26.5317,
+    "Income": 130.3633,
+    "Savings": 20.157,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2020-06-12",
+    "Spending": 13.006,
+    "Income": 305.1786,
+    "Savings": 6.5143,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2020-06-18",
+    "Spending": 5.6485,
+    "Income": 309.4252,
+    "Savings": 11.5333,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2020-06-21",
+    "Spending": 21.4393,
+    "Income": 118.1571,
+    "Savings": 6.0729,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2020-06-23",
+    "Spending": 14.2921,
+    "Income": 183.0402,
+    "Savings": 6.8323,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2020-06-24",
+    "Spending": 32.7718,
+    "Income": 9.2628,
+    "Savings": 4.9684,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2020-07-01",
+    "Spending": 6.3969,
+    "Income": 243.1516,
+    "Savings": 9.1472,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2020-07-02",
+    "Spending": 18.0149,
+    "Income": 141.5385,
+    "Savings": 9.7837,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2020-07-04",
+    "Spending": 40.6821,
+    "Income": 337.3495,
+    "Savings": 10.3429,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2020-07-07",
+    "Spending": 26.9132,
+    "Income": 350.0232,
+    "Savings": 14.6706,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2020-07-15",
+    "Spending": 2.9634,
+    "Income": 167.611,
+    "Savings": 24.6626,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2020-07-24",
+    "Spending": 24.9582,
+    "Income": 253.4006,
+    "Savings": 9.7857,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2020-07-27",
+    "Spending": 18.0633,
+    "Income": 60.0602,
+    "Savings": 4.5057,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2020-07-29",
+    "Spending": 21.4188,
+    "Income": 189.0154,
+    "Savings": 13.1066,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2020-08-02",
+    "Spending": 23.5254,
+    "Income": 44.6518,
+    "Savings": 0.1541,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2020-08-04",
+    "Spending": 27.0769,
+    "Income": 354.6081,
+    "Savings": 2.1691,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2020-08-05",
+    "Spending": 15.8911,
+    "Income": 278.8848,
+    "Savings": 22.5283,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2020-08-19",
+    "Spending": 7.3327,
+    "Income": 109.8748,
+    "Savings": 4.0239,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2020-08-22",
+    "Spending": 23.7707,
+    "Income": 171.7986,
+    "Savings": 8.341,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2020-08-29",
+    "Spending": 27.4442,
+    "Income": 298.5901,
+    "Savings": 12.1016,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2020-08-31",
+    "Spending": 23.9516,
+    "Income": 134.0106,
+    "Savings": 15.7672,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2020-09-01",
+    "Spending": 25.0912,
+    "Income": 55.7027,
+    "Savings": 14.3105,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2020-09-03",
+    "Spending": 20.9258,
+    "Income": 58.6896,
+    "Savings": 12.4862,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2020-09-09",
+    "Spending": 5.3921,
+    "Income": 168.2887,
+    "Savings": 14.1198,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2020-09-11",
+    "Spending": 13.1965,
+    "Income": 260.6605,
+    "Savings": 5.9527,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2020-09-14",
+    "Spending": 8.6637,
+    "Income": 19.2106,
+    "Savings": 6.0038,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2020-10-06",
+    "Spending": 43.0018,
+    "Income": 111.787,
+    "Savings": 10.5272,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2020-10-09",
+    "Spending": 8.6044,
+    "Income": 188.3638,
+    "Savings": 15.4761,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2020-10-12",
+    "Spending": 7.8641,
+    "Income": 152.0977,
+    "Savings": 9.8567,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2020-10-14",
+    "Spending": 17.4268,
+    "Income": 215.8373,
+    "Savings": 8.8731,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2020-10-16",
+    "Spending": 33.8772,
+    "Income": 140.7444,
+    "Savings": 4.8549,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2020-10-21",
+    "Spending": 23.8487,
+    "Income": 167.6922,
+    "Savings": 4.5277,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2020-10-31",
+    "Spending": 21.2538,
+    "Income": 85.9888,
+    "Savings": 12.4957,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2020-11-05",
+    "Spending": 8.2395,
+    "Income": 313.2459,
+    "Savings": 4.6522,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2020-11-07",
+    "Spending": 33.1677,
+    "Income": 282.707,
+    "Savings": 7.1744,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2020-11-08",
+    "Spending": 43.9291,
+    "Income": 251.9864,
+    "Savings": 19.5658,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2020-11-11",
+    "Spending": 39.9643,
+    "Income": 117.1426,
+    "Savings": 1.2261,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2020-11-13",
+    "Spending": 7.7166,
+    "Income": 158.9296,
+    "Savings": 15.5964,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2020-11-15",
+    "Spending": 27.5701,
+    "Income": 107.3659,
+    "Savings": 16.6354,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2020-11-23",
+    "Spending": 15.5192,
+    "Income": 237.5031,
+    "Savings": 5.5786,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2020-11-28",
+    "Spending": 0.0074,
+    "Income": 230.1382,
+    "Savings": 3.4962,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2020-12-02",
+    "Spending": 19.4759,
+    "Income": 281.5856,
+    "Savings": 14.0299,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2020-12-06",
+    "Spending": 32.3545,
+    "Income": 235.7691,
+    "Savings": 0.8682,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2020-12-09",
+    "Spending": 26.2348,
+    "Income": 259.9384,
+    "Savings": 9.3347,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2020-12-19",
+    "Spending": 31.2227,
+    "Income": 287.3655,
+    "Savings": 3.3669,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2020-12-24",
+    "Spending": 26.5387,
+    "Income": 232.429,
+    "Savings": 9.6005,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2020-12-25",
+    "Spending": 40.1208,
+    "Income": 184.6444,
+    "Savings": 19.679,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2020-12-28",
+    "Spending": 6.0034,
+    "Income": 289.5985,
+    "Savings": 20.3386,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2020-12-29",
+    "Spending": 7.122,
+    "Income": 356.9205,
+    "Savings": 9.9461,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2020-12-30",
+    "Spending": 10.3158,
+    "Income": 163.1018,
+    "Savings": 7.1753,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-01-01",
+    "Spending": 46.6339,
+    "Income": 430.5468,
+    "Savings": 14.9865,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-07",
+    "Spending": 22.6864,
+    "Income": 436.3225,
+    "Savings": 24.9433,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-09",
+    "Spending": 34.8939,
+    "Income": 304.8148,
+    "Savings": 21.0119,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-20",
+    "Spending": 8.9601,
+    "Income": 194.7612,
+    "Savings": 13.5105,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-21",
+    "Spending": 16.3432,
+    "Income": 263.1294,
+    "Savings": 15.4973,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-26",
+    "Spending": 21.7765,
+    "Income": 4.7356,
+    "Savings": 25.1076,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-27",
+    "Spending": 36.8558,
+    "Income": 282.5129,
+    "Savings": 23.478,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-02-04",
+    "Spending": 28.4109,
+    "Income": 291.3747,
+    "Savings": 25.0325,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-05",
+    "Spending": 53.635,
+    "Income": 400.904,
+    "Savings": 22.7112,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-13",
+    "Spending": 17.5152,
+    "Income": 400.6404,
+    "Savings": 26.4295,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-16",
+    "Spending": 20.8074,
+    "Income": 263.5605,
+    "Savings": 15.9935,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-18",
+    "Spending": 73.3864,
+    "Income": 235.3427,
+    "Savings": 15.9066,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-20",
+    "Spending": 5.4397,
+    "Income": 165.4639,
+    "Savings": 14.2874,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-21",
+    "Spending": 22.7032,
+    "Income": 249.6689,
+    "Savings": 14.3883,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-23",
+    "Spending": 5.3184,
+    "Income": 285.3058,
+    "Savings": 16.7608,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-24",
+    "Spending": 39.4979,
+    "Income": 380.0115,
+    "Savings": 23.7229,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-25",
+    "Spending": 54.6611,
+    "Income": 255.1329,
+    "Savings": 19.2577,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-28",
+    "Spending": 42.2409,
+    "Income": 445.7401,
+    "Savings": 15.227,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-03-01",
+    "Spending": 25.4269,
+    "Income": 142.1836,
+    "Savings": 11.0398,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-03",
+    "Spending": 54.5903,
+    "Income": 491.3018,
+    "Savings": 21.1575,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-11",
+    "Spending": 28.8144,
+    "Income": 272.2218,
+    "Savings": 19.6296,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-12",
+    "Spending": 50.1479,
+    "Income": 340.8138,
+    "Savings": 22.183,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-14",
+    "Spending": 9.9159,
+    "Income": 299.6423,
+    "Savings": 20.162,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-15",
+    "Spending": 29.5344,
+    "Income": 353.6163,
+    "Savings": 23.4674,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-22",
+    "Spending": 39.4629,
+    "Income": 276.7778,
+    "Savings": 15.8008,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-24",
+    "Spending": 30.6949,
+    "Income": 400.7986,
+    "Savings": 17.3214,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-30",
+    "Spending": 24.2513,
+    "Income": 234.487,
+    "Savings": 18.0558,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-04-03",
+    "Spending": 47.7393,
+    "Income": 395.7907,
+    "Savings": 25.8942,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-05",
+    "Spending": 15.4209,
+    "Income": 437.0453,
+    "Savings": 13.1066,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-10",
+    "Spending": 0.1308,
+    "Income": 213.3537,
+    "Savings": 18.9047,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-19",
+    "Spending": 5.0087,
+    "Income": 207.6954,
+    "Savings": 14.2552,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-24",
+    "Spending": 55.7922,
+    "Income": 308.7862,
+    "Savings": 24.3644,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-05-11",
+    "Spending": 51.6157,
+    "Income": 322.9602,
+    "Savings": 21.1091,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-13",
+    "Spending": 11.8111,
+    "Income": 408.1155,
+    "Savings": 17.2342,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-16",
+    "Spending": 16.3998,
+    "Income": 313.568,
+    "Savings": 18.5271,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-18",
+    "Spending": 26.8112,
+    "Income": 354.7702,
+    "Savings": 15.6976,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-25",
+    "Spending": 1.9518,
+    "Income": 396.0157,
+    "Savings": 22.0771,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-27",
+    "Spending": 47.3502,
+    "Income": 287.3639,
+    "Savings": 23.9261,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-06-02",
+    "Spending": 24.9651,
+    "Income": 169.2534,
+    "Savings": 14.2728,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-03",
+    "Spending": 40.0819,
+    "Income": 237.2843,
+    "Savings": 16.3923,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-08",
+    "Spending": 24.0424,
+    "Income": 225.0431,
+    "Savings": 14.8056,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-10",
+    "Spending": 63.5686,
+    "Income": 416.7681,
+    "Savings": 20.2711,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-22",
+    "Spending": 2.1638,
+    "Income": 422.1767,
+    "Savings": 21.916,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-28",
+    "Spending": 39.1792,
+    "Income": 193.3751,
+    "Savings": 20.522,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-07-06",
+    "Spending": 22.877,
+    "Income": 489.2938,
+    "Savings": 24.5056,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-07",
+    "Spending": 46.5004,
+    "Income": 361.6164,
+    "Savings": 18.7461,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-09",
+    "Spending": 28.8392,
+    "Income": 215.2331,
+    "Savings": 27.8689,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-12",
+    "Spending": 49.8627,
+    "Income": 365.1408,
+    "Savings": 32.8613,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-16",
+    "Spending": 100.8228,
+    "Income": 392.3388,
+    "Savings": 20.6623,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-22",
+    "Spending": 37.3438,
+    "Income": 259.0591,
+    "Savings": 24.2293,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-28",
+    "Spending": 4.0907,
+    "Income": 147.9474,
+    "Savings": 20.6534,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-30",
+    "Spending": 49.8657,
+    "Income": 265.1817,
+    "Savings": 20.5903,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-08-12",
+    "Spending": 27.8884,
+    "Income": 352.9399,
+    "Savings": 21.955,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-16",
+    "Spending": 34.7267,
+    "Income": 227.0232,
+    "Savings": 23.2266,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-22",
+    "Spending": 47.6938,
+    "Income": 84.39,
+    "Savings": 17.0091,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-23",
+    "Spending": 11.9606,
+    "Income": 207.6413,
+    "Savings": 23.8447,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-24",
+    "Spending": 28.905,
+    "Income": 144.4683,
+    "Savings": 18.3358,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-26",
+    "Spending": 36.3446,
+    "Income": 228.9592,
+    "Savings": 18.487,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-27",
+    "Spending": 57.9144,
+    "Income": 317.0407,
+    "Savings": 22.2666,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-30",
+    "Spending": 1.049,
+    "Income": 378.3977,
+    "Savings": 17.0589,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-31",
+    "Spending": 40.361,
+    "Income": 272.6578,
+    "Savings": 9.8932,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-09-01",
+    "Spending": 21.6232,
+    "Income": 213.444,
+    "Savings": 20.6639,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-03",
+    "Spending": 79.6633,
+    "Income": 360.9466,
+    "Savings": 16.3636,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-04",
+    "Spending": 39.9607,
+    "Income": 231.8433,
+    "Savings": 18.0883,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-10",
+    "Spending": 44.5068,
+    "Income": 339.1541,
+    "Savings": 17.7812,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-12",
+    "Spending": 27.6556,
+    "Income": 443.4466,
+    "Savings": 26.746,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-17",
+    "Spending": 77.9831,
+    "Income": 234.7229,
+    "Savings": 22.0107,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-20",
+    "Spending": 24.2608,
+    "Income": 194.6418,
+    "Savings": 18.3752,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-24",
+    "Spending": 36.4538,
+    "Income": 95.69,
+    "Savings": 14.1537,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-28",
+    "Spending": 19.7987,
+    "Income": 208.8522,
+    "Savings": 26.1307,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-10-03",
+    "Spending": 32.7086,
+    "Income": 427.1051,
+    "Savings": 14.2322,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-05",
+    "Spending": 13.8633,
+    "Income": 277.9605,
+    "Savings": 29.0625,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-07",
+    "Spending": 23.2668,
+    "Income": 372.208,
+    "Savings": 14.2392,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-09",
+    "Spending": 35.2384,
+    "Income": 296.1932,
+    "Savings": 15.7243,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-10",
+    "Spending": 11.666,
+    "Income": 444.9164,
+    "Savings": 14.3772,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-11",
+    "Spending": 18.6287,
+    "Income": 327.585,
+    "Savings": 20.2187,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-14",
+    "Spending": 13.9974,
+    "Income": 402.8585,
+    "Savings": 23.1718,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-15",
+    "Spending": 49.5166,
+    "Income": 292.8811,
+    "Savings": 14.3324,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-22",
+    "Spending": 25.1713,
+    "Income": 231.5181,
+    "Savings": 18.7644,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-28",
+    "Spending": 23.1054,
+    "Income": 54.8306,
+    "Savings": 19.8915,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-29",
+    "Spending": 51.2511,
+    "Income": 230.4515,
+    "Savings": 22.0997,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-30",
+    "Spending": 15.4063,
+    "Income": 178.3996,
+    "Savings": 19.5579,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-11-10",
+    "Spending": 34.2059,
+    "Income": 312.2019,
+    "Savings": 27.9645,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-14",
+    "Spending": 37.82,
+    "Income": 268.4399,
+    "Savings": 20.69,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-19",
+    "Spending": 58.1089,
+    "Income": 346.3054,
+    "Savings": 19.0645,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-28",
+    "Spending": 43.0748,
+    "Income": 158.4728,
+    "Savings": 23.7107,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-12-01",
+    "Spending": 25.4638,
+    "Income": 215.8232,
+    "Savings": 16.7099,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-02",
+    "Spending": 16.0806,
+    "Income": 197.8713,
+    "Savings": 21.2733,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-06",
+    "Spending": 23.2749,
+    "Income": 313.0395,
+    "Savings": 13.5465,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-09",
+    "Spending": 25.8615,
+    "Income": 207.6667,
+    "Savings": 15.236,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-15",
+    "Spending": 45.3483,
+    "Income": 120.898,
+    "Savings": 10.4466,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-28",
+    "Spending": 12.1502,
+    "Income": 447.5192,
+    "Savings": 17.7768,
+    "Spending_Category": "Transport",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-01-09",
+    "Spending": 36.2353,
+    "Income": 315.2629,
+    "Savings": 12.7424,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2022-01-15",
+    "Spending": 63.6831,
+    "Income": 331.2632,
+    "Savings": 33.3783,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2022-01-16",
+    "Spending": 53.4238,
+    "Income": 278.1856,
+    "Savings": 18.6914,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2022-01-21",
+    "Spending": 48.4147,
+    "Income": 330.2836,
+    "Savings": 12.7372,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2022-01-27",
+    "Spending": 61.997,
+    "Income": 335.4191,
+    "Savings": 26.2811,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2022-01-28",
+    "Spending": 31.8793,
+    "Income": 358.2297,
+    "Savings": 38.5476,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2022-01-30",
+    "Spending": 63.178,
+    "Income": 327.5799,
+    "Savings": 28.1772,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2022-01-31",
+    "Spending": 46.7678,
+    "Income": 267.7027,
+    "Savings": 37.1708,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2022-02-05",
+    "Spending": 38.2379,
+    "Income": 325.8469,
+    "Savings": 17.7625,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2022-02-13",
+    "Spending": 29.2412,
+    "Income": 384.0025,
+    "Savings": 33.5243,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2022-02-18",
+    "Spending": 56.314,
+    "Income": 199.7574,
+    "Savings": 25.3564,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2022-02-19",
+    "Spending": 25.3078,
+    "Income": 300.2691,
+    "Savings": 25.9616,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2022-02-21",
+    "Spending": 22.9428,
+    "Income": 229.7285,
+    "Savings": 28.1683,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2022-02-27",
+    "Spending": 50.3447,
+    "Income": 331.1071,
+    "Savings": 45.0997,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2022-03-06",
+    "Spending": 8.7984,
+    "Income": 332.7028,
+    "Savings": 50.8737,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2022-03-08",
+    "Spending": 6.8211,
+    "Income": 233.2922,
+    "Savings": 22.7759,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2022-03-11",
+    "Spending": 2.5014,
+    "Income": 337.6131,
+    "Savings": 49.8416,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2022-03-20",
+    "Spending": 57.7368,
+    "Income": 354.3746,
+    "Savings": 34.6526,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2022-03-21",
+    "Spending": 47.8056,
+    "Income": 226.7644,
+    "Savings": 24.454,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2022-03-23",
+    "Spending": 54.9168,
+    "Income": 357.5816,
+    "Savings": 17.6575,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2022-03-26",
+    "Spending": 51.7604,
+    "Income": 309.5157,
+    "Savings": 42.2637,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2022-03-27",
+    "Spending": 55.1298,
+    "Income": 359.3547,
+    "Savings": 57.9822,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2022-03-31",
+    "Spending": 56.1165,
+    "Income": 288.316,
+    "Savings": 28.5458,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2022-04-02",
+    "Spending": 33.8064,
+    "Income": 264.0055,
+    "Savings": 21.8049,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2022-04-05",
+    "Spending": 39.5816,
+    "Income": 273.8303,
+    "Savings": 28.7204,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2022-04-17",
+    "Spending": 42.9462,
+    "Income": 311.3139,
+    "Savings": 22.9976,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2022-04-18",
+    "Spending": 19.8315,
+    "Income": 307.7835,
+    "Savings": 35.7307,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2022-04-19",
+    "Spending": 56.7638,
+    "Income": 257.4659,
+    "Savings": 38.383,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2022-04-25",
+    "Spending": 52.9636,
+    "Income": 359.8835,
+    "Savings": 35.5669,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2022-04-26",
+    "Spending": 5.1441,
+    "Income": 292.2551,
+    "Savings": 23.3528,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2022-04-30",
+    "Spending": 27.418,
+    "Income": 266.6907,
+    "Savings": 36.7522,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2022-05-01",
+    "Spending": 38.036,
+    "Income": 315.7052,
+    "Savings": 29.6324,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "May"
+  },
+  {
+    "Date": "2022-05-02",
+    "Spending": 53.6844,
+    "Income": 187.4225,
+    "Savings": 44.9012,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "May"
+  },
+  {
+    "Date": "2022-05-04",
+    "Spending": 71.0989,
+    "Income": 320.8053,
+    "Savings": 53.465,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "May"
+  },
+  {
+    "Date": "2022-05-06",
+    "Spending": 23.1274,
+    "Income": 330.6628,
+    "Savings": 27.1318,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "May"
+  },
+  {
+    "Date": "2022-05-09",
+    "Spending": 44.8299,
+    "Income": 251.5686,
+    "Savings": 40.2837,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "May"
+  },
+  {
+    "Date": "2022-05-10",
+    "Spending": 12.1837,
+    "Income": 388.3413,
+    "Savings": 22.9173,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "May"
+  },
+  {
+    "Date": "2022-05-19",
+    "Spending": 53.9246,
+    "Income": 298.1835,
+    "Savings": 45.2214,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "May"
+  },
+  {
+    "Date": "2022-05-25",
+    "Spending": 34.3013,
+    "Income": 196.9165,
+    "Savings": 49.9528,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "May"
+  },
+  {
+    "Date": "2022-05-30",
+    "Spending": 65.1274,
+    "Income": 227.579,
+    "Savings": 24.1204,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "May"
+  },
+  {
+    "Date": "2022-06-09",
+    "Spending": 16.3176,
+    "Income": 272.3216,
+    "Savings": 28.7192,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2022-06-10",
+    "Spending": 9.1779,
+    "Income": 346.8737,
+    "Savings": 19.8686,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2022-06-14",
+    "Spending": 73.9544,
+    "Income": 288.1924,
+    "Savings": 32.3187,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2022-06-17",
+    "Spending": 31.6697,
+    "Income": 316.0182,
+    "Savings": 25.3597,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2022-06-18",
+    "Spending": 83.8717,
+    "Income": 306.5623,
+    "Savings": 24.2018,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2022-06-23",
+    "Spending": 51.3591,
+    "Income": 298.6192,
+    "Savings": 33.2865,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2022-06-24",
+    "Spending": 37.5986,
+    "Income": 257.7242,
+    "Savings": 34.9262,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2022-06-25",
+    "Spending": 30.1599,
+    "Income": 187.5406,
+    "Savings": 27.3224,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2022-06-28",
+    "Spending": 53.8732,
+    "Income": 360.1946,
+    "Savings": 15.3922,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2022-06-29",
+    "Spending": 42.6665,
+    "Income": 244.6892,
+    "Savings": 34.5414,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2022-06-30",
+    "Spending": 25.2107,
+    "Income": 350.8844,
+    "Savings": 19.4262,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2022-07-06",
+    "Spending": 35.9441,
+    "Income": 303.144,
+    "Savings": 24.7828,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-08",
+    "Spending": 7.5789,
+    "Income": 259.4359,
+    "Savings": 46.6109,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-10",
+    "Spending": 53.4256,
+    "Income": 291.6081,
+    "Savings": 12.1789,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-14",
+    "Spending": 36.926,
+    "Income": 307.9493,
+    "Savings": 39.0844,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-27",
+    "Spending": 59.7398,
+    "Income": 345.7312,
+    "Savings": 20.2235,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-07-31",
+    "Spending": 28.867,
+    "Income": 211.7246,
+    "Savings": 33.9163,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2022-08-02",
+    "Spending": 66.4948,
+    "Income": 252.706,
+    "Savings": 18.7405,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-07",
+    "Spending": 44.5097,
+    "Income": 335.3075,
+    "Savings": 47.6836,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-09",
+    "Spending": 63.525,
+    "Income": 363.7834,
+    "Savings": 37.5351,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-15",
+    "Spending": 31.6937,
+    "Income": 362.1279,
+    "Savings": 39.6787,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-21",
+    "Spending": 10.8479,
+    "Income": 233.9023,
+    "Savings": 31.5838,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-22",
+    "Spending": 54.4771,
+    "Income": 246.532,
+    "Savings": 20.7518,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-23",
+    "Spending": 15.6385,
+    "Income": 367.8991,
+    "Savings": 45.4099,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-08-29",
+    "Spending": 65.9127,
+    "Income": 305.4949,
+    "Savings": 49.3665,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2022-09-04",
+    "Spending": 25.7305,
+    "Income": 210.9305,
+    "Savings": 34.6548,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2022-09-07",
+    "Spending": 50.8322,
+    "Income": 310.1767,
+    "Savings": 11.6487,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2022-09-10",
+    "Spending": 53.434,
+    "Income": 325.8147,
+    "Savings": 33.952,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2022-09-19",
+    "Spending": 39.7853,
+    "Income": 313.9059,
+    "Savings": 26.7311,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2022-09-21",
+    "Spending": 27.132,
+    "Income": 282.2587,
+    "Savings": 48.8138,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2022-09-23",
+    "Spending": 50.565,
+    "Income": 305.9847,
+    "Savings": 7.8378,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2022-09-29",
+    "Spending": 44.8113,
+    "Income": 338.9358,
+    "Savings": 23.7158,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2022-10-04",
+    "Spending": 61.2267,
+    "Income": 329.5454,
+    "Savings": 32.7633,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2022-10-05",
+    "Spending": 15.819,
+    "Income": 377.2147,
+    "Savings": 25.463,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2022-10-15",
+    "Spending": 16.597,
+    "Income": 358.8517,
+    "Savings": 22.5275,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2022-10-22",
+    "Spending": 28.6245,
+    "Income": 284.485,
+    "Savings": 34.4992,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2022-10-25",
+    "Spending": 23.3686,
+    "Income": 311.0552,
+    "Savings": 13.9909,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2022-10-27",
+    "Spending": 74.9563,
+    "Income": 222.9457,
+    "Savings": 23.7686,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2022-10-30",
+    "Spending": 17.9111,
+    "Income": 362.9501,
+    "Savings": 23.0996,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2022-11-02",
+    "Spending": 38.6382,
+    "Income": 306.0163,
+    "Savings": 35.0867,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2022-11-05",
+    "Spending": 54.6285,
+    "Income": 267.7164,
+    "Savings": 31.8385,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2022-11-11",
+    "Spending": 38.4353,
+    "Income": 311.8356,
+    "Savings": 32.9826,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2022-11-12",
+    "Spending": 27.6259,
+    "Income": 255.2635,
+    "Savings": 25.8949,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2022-11-20",
+    "Spending": 20.0061,
+    "Income": 368.0787,
+    "Savings": 33.8809,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2022-11-27",
+    "Spending": 80.1889,
+    "Income": 352.4593,
+    "Savings": 27.4358,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2022-11-30",
+    "Spending": 18.9054,
+    "Income": 337.6533,
+    "Savings": 37.6738,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2022-12-05",
+    "Spending": 30.1714,
+    "Income": 211.9461,
+    "Savings": 24.1204,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-12-06",
+    "Spending": 19.2388,
+    "Income": 296.7167,
+    "Savings": 27.6936,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-12-08",
+    "Spending": 7.8716,
+    "Income": 394.1118,
+    "Savings": 25.8405,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-12-26",
+    "Spending": 48.8623,
+    "Income": 308.1725,
+    "Savings": 36.5773,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-12-30",
+    "Spending": 15.4434,
+    "Income": 314.3046,
+    "Savings": 30.7947,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2023-01-03",
+    "Spending": 58.1674,
+    "Income": 181.2108,
+    "Savings": 23.06,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-04",
+    "Spending": 43.4413,
+    "Income": 435.0897,
+    "Savings": 45.8242,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-14",
+    "Spending": 55.128,
+    "Income": 339.7209,
+    "Savings": 31.3517,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-17",
+    "Spending": 53.475,
+    "Income": 478.6948,
+    "Savings": 44.3619,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-24",
+    "Spending": 36.7493,
+    "Income": 321.9017,
+    "Savings": 50.4711,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-30",
+    "Spending": 37.9715,
+    "Income": 282.4883,
+    "Savings": 42.6149,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-02-08",
+    "Spending": 26.0246,
+    "Income": 195.9252,
+    "Savings": 35.3321,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-11",
+    "Spending": 43.4721,
+    "Income": 381.3688,
+    "Savings": 36.0564,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-21",
+    "Spending": 61.2068,
+    "Income": 380.4784,
+    "Savings": 56.9361,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-27",
+    "Spending": 55.862,
+    "Income": 384.1412,
+    "Savings": 48.4558,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-03-02",
+    "Spending": 52.7036,
+    "Income": 441.4855,
+    "Savings": 60.9938,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2023-03-03",
+    "Spending": 44.5806,
+    "Income": 398.5974,
+    "Savings": 48.7598,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2023-03-07",
+    "Spending": 56.7147,
+    "Income": 379.2149,
+    "Savings": 36.9949,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2023-03-12",
+    "Spending": 48.3057,
+    "Income": 435.7678,
+    "Savings": 53.3991,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2023-03-13",
+    "Spending": 49.6702,
+    "Income": 363.9103,
+    "Savings": 33.743,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2023-03-14",
+    "Spending": 73.8852,
+    "Income": 382.8934,
+    "Savings": 35.3027,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2023-03-19",
+    "Spending": 57.1389,
+    "Income": 424.8432,
+    "Savings": 46.3772,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2023-03-26",
+    "Spending": 31.953,
+    "Income": 421.079,
+    "Savings": 48.9225,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2023-03-27",
+    "Spending": 57.406,
+    "Income": 425.3321,
+    "Savings": 36.9577,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2023-03-30",
+    "Spending": 47.3536,
+    "Income": 463.9388,
+    "Savings": 45.5275,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2023-04-02",
+    "Spending": 54.3517,
+    "Income": 472.2345,
+    "Savings": 36.4941,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2023-04-06",
+    "Spending": 55.2088,
+    "Income": 375.3815,
+    "Savings": 32.6973,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2023-04-08",
+    "Spending": 49.2888,
+    "Income": 352.3889,
+    "Savings": 36.6541,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2023-04-10",
+    "Spending": 25.6993,
+    "Income": 417.3324,
+    "Savings": 51.5653,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2023-04-14",
+    "Spending": 49.506,
+    "Income": 438.9137,
+    "Savings": 52.3703,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2023-04-17",
+    "Spending": 50.6103,
+    "Income": 369.5825,
+    "Savings": 23.5293,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2023-04-18",
+    "Spending": 53.2775,
+    "Income": 408.2038,
+    "Savings": 32.2726,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2023-04-21",
+    "Spending": 54.3217,
+    "Income": 393.1828,
+    "Savings": 40.2379,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2023-04-22",
+    "Spending": 64.1264,
+    "Income": 258.3146,
+    "Savings": 8.1776,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2023-04-25",
+    "Spending": 56.5318,
+    "Income": 421.7072,
+    "Savings": 41.9834,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2023-05-01",
+    "Spending": 37.8356,
+    "Income": 433.0022,
+    "Savings": 36.8831,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "May"
+  },
+  {
+    "Date": "2023-05-08",
+    "Spending": 51.8087,
+    "Income": 380.9512,
+    "Savings": 52.0161,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "May"
+  },
+  {
+    "Date": "2023-05-14",
+    "Spending": 63.6401,
+    "Income": 507.1272,
+    "Savings": 32.4622,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "May"
+  },
+  {
+    "Date": "2023-05-15",
+    "Spending": 31.5778,
+    "Income": 444.7354,
+    "Savings": 25.4348,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "May"
+  },
+  {
+    "Date": "2023-05-20",
+    "Spending": 60.5366,
+    "Income": 380.7591,
+    "Savings": 40.4178,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "May"
+  },
+  {
+    "Date": "2023-05-22",
+    "Spending": 32.1895,
+    "Income": 249.1512,
+    "Savings": 42.0021,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "May"
+  },
+  {
+    "Date": "2023-06-01",
+    "Spending": 45.1272,
+    "Income": 358.2019,
+    "Savings": 22.7342,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2023-06-03",
+    "Spending": 45.4576,
+    "Income": 400.8909,
+    "Savings": 31.9755,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2023-06-09",
+    "Spending": 63.8223,
+    "Income": 203.3241,
+    "Savings": 12.6744,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2023-06-11",
+    "Spending": 50.7485,
+    "Income": 264.1065,
+    "Savings": 44.2349,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2023-06-15",
+    "Spending": 50.0701,
+    "Income": 102.9405,
+    "Savings": 45.7709,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2023-06-21",
+    "Spending": 59.3314,
+    "Income": 549.2647,
+    "Savings": 48.9475,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2023-06-22",
+    "Spending": 61.5065,
+    "Income": 377.5959,
+    "Savings": 28.7876,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2023-06-24",
+    "Spending": 58.7963,
+    "Income": 469.2324,
+    "Savings": 72.1242,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2023-06-27",
+    "Spending": 37.4626,
+    "Income": 345.5034,
+    "Savings": 42.1752,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2023-07-02",
+    "Spending": 69.0794,
+    "Income": 375.5648,
+    "Savings": 56.5037,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2023-07-12",
+    "Spending": 51.5728,
+    "Income": 414.5899,
+    "Savings": 45.292,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2023-07-14",
+    "Spending": 54.4579,
+    "Income": 450.6533,
+    "Savings": 44.7693,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2023-07-19",
+    "Spending": 62.8909,
+    "Income": 525.6949,
+    "Savings": 28.6074,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2023-07-20",
+    "Spending": 50.7278,
+    "Income": 371.4959,
+    "Savings": 19.2747,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2023-07-24",
+    "Spending": 30.609,
+    "Income": 288.3638,
+    "Savings": 59.9254,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2023-07-25",
+    "Spending": 58.7885,
+    "Income": 438.2291,
+    "Savings": 39.7238,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2023-07-29",
+    "Spending": 61.3087,
+    "Income": 361.4713,
+    "Savings": 18.7961,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2023-08-04",
+    "Spending": 61.9299,
+    "Income": 499.5742,
+    "Savings": 55.8236,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2023-08-10",
+    "Spending": 51.0817,
+    "Income": 253.37,
+    "Savings": 39.6798,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2023-08-12",
+    "Spending": 64.7153,
+    "Income": 246.6826,
+    "Savings": 16.4147,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2023-08-21",
+    "Spending": 50.2851,
+    "Income": 373.1142,
+    "Savings": 58.2874,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2023-08-27",
+    "Spending": 52.4266,
+    "Income": 279.0315,
+    "Savings": 45.9847,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2023-09-03",
+    "Spending": 47.2202,
+    "Income": 296.7823,
+    "Savings": 66.9491,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2023-09-09",
+    "Spending": 57.3077,
+    "Income": 342.1576,
+    "Savings": 49.4709,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2023-09-11",
+    "Spending": 54.8124,
+    "Income": 295.8143,
+    "Savings": 48.7616,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2023-09-22",
+    "Spending": 55.2738,
+    "Income": 236.4903,
+    "Savings": 19.7847,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2023-09-26",
+    "Spending": 49.8873,
+    "Income": 417.7177,
+    "Savings": 53.6223,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2023-10-02",
+    "Spending": 43.1025,
+    "Income": 474.4558,
+    "Savings": 20.3431,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2023-10-03",
+    "Spending": 66.7183,
+    "Income": 421.4606,
+    "Savings": 23.8671,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2023-10-06",
+    "Spending": 47.7526,
+    "Income": 232.4647,
+    "Savings": 33.9292,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2023-10-14",
+    "Spending": 53.5892,
+    "Income": 580.7632,
+    "Savings": 29.7297,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2023-10-25",
+    "Spending": 65.2728,
+    "Income": 164.9406,
+    "Savings": 50.5694,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2023-10-28",
+    "Spending": 25.1385,
+    "Income": 520.2993,
+    "Savings": 52.4477,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2023-10-30",
+    "Spending": 59.7382,
+    "Income": 382.7672,
+    "Savings": 36.8268,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2023-11-14",
+    "Spending": 51.7764,
+    "Income": 351.8652,
+    "Savings": 36.8723,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2023-11-17",
+    "Spending": 42.7269,
+    "Income": 547.0564,
+    "Savings": 40.0914,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2023-11-24",
+    "Spending": 29.4194,
+    "Income": 368.9948,
+    "Savings": 67.0439,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2023-11-25",
+    "Spending": 60.1236,
+    "Income": 535.7537,
+    "Savings": 82.299,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2023-11-28",
+    "Spending": 63.6326,
+    "Income": 534.7612,
+    "Savings": 35.7427,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2023-12-05",
+    "Spending": 54.9212,
+    "Income": 297.5781,
+    "Savings": 58.547,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2023-12-11",
+    "Spending": 53.2267,
+    "Income": 289.126,
+    "Savings": 47.9905,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2023-12-15",
+    "Spending": 34.679,
+    "Income": 311.4684,
+    "Savings": 18.5923,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2023-12-17",
+    "Spending": 58.1922,
+    "Income": 630.146,
+    "Savings": 48.0316,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2023-12-25",
+    "Spending": 50.3308,
+    "Income": 444.2278,
+    "Savings": 2.9451,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2023-12-26",
+    "Spending": 55.5233,
+    "Income": 516.4883,
+    "Savings": 34.6705,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2023-12-28",
+    "Spending": 61.8749,
+    "Income": 333.2774,
+    "Savings": 37.0737,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2023-12-31",
+    "Spending": 36.612,
+    "Income": 209.807,
+    "Savings": 31.8271,
+    "Spending_Category": "Transport",
+    "Year": 2023,
+    "Month": "Dec"
+  }
+]

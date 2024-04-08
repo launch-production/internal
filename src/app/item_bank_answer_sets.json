@@ -1,0 +1,376 @@
+{
+    "item1": {
+        "chart_type": "point",
+        "encodings": {
+            "x": {
+                "data": "weather", 
+                "transformation": ""
+            },
+            "y": {
+                "data": "precipitation",
+                "transformation": ""
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "temp_min",
+                "transformation": ""
+            },
+            "qual_color": {
+                "data": "",
+                "transformation": ""
+            }
+        },
+        "question_answer": "snow",
+        "issue": "ineffective color scheme"
+    },
+    "item2": {
+        "chart_type": "point",
+        "encodings": {
+            "x": {
+                "data": "Horsepower", 
+                "transformation": ""
+            },
+            "y": {
+                "data": "Miles_per_Gallon",
+                "transformation": ""
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "qual_color": {
+                "data": "Origin",
+                "transformation": ""
+            }
+        },
+        "question_answer": "USA",
+        "issue": "nominal encoding for quantative var or quantative encoding for nominal var"
+    },
+    "item3": {
+        "chart_type": "bar",
+        "encodings": {
+            "x": {
+                "data": "Origin", 
+                "transformation": ""
+            },
+            "y": {
+                "data": "",
+                "transformation": "count"
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "qual_color": {
+                "data": "",
+                "transformation": ""
+            }
+        },
+        "question_answer": "260",
+        "issue": "have same variable on both positional axes"
+    },
+    "item4": {
+        "chart_type": "point",
+        "encodings": {
+            "x": {
+                "data": "Miles_per_Gallon", 
+                "transformation": ""
+            },
+            "y": {
+                "data": "Acceleration",
+                "transformation": ""
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "qual_color": {
+                "data": "",
+                "transformation": ""
+            }
+        },
+        "question_answer": "increasing",
+        "issue": "base of the bar/tick shouldn't be a real number scale"
+    },
+    "item5": {
+        "chart_type": "point",
+        "encodings": {
+            "x": {
+                "data": "weather", 
+                "transformation": ""
+            },
+            "y": {
+                "data": "wind",
+                "transformation": ""
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "temp_min",
+                "transformation": ""
+            },
+            "qual_color": {
+                "data": "",
+                "transformation": ""
+            }
+        },
+        "question_answer": "-5",
+        "issue": "Manipulation of Scales - Inappropriate Use of Scale Functions: neg value mapped to size"
+    },
+    "item6": {
+        "chart_type": "line",
+        "encodings": {
+            "x": {
+                "data": "date", 
+                "transformation": ""
+            },
+            "y": {
+                "data": "temp_max",
+                "transformation": ""
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "qual_color": {
+                "data": "",
+                "transformation": ""
+            }
+        },
+        "question_answer": "increasing then decreasing",
+        "issue": "Manipulation of Scales - Unconventional Scale Directions"
+    },
+    "item7": {
+        "chart_type": "point",
+        "encodings": {
+            "x": {
+                "data": "Horsepower", 
+                "transformation": "des_sort"
+            },
+            "y": {
+                "data": "Name",
+                "transformation": ""
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "qual_color": {
+                "data": "",
+                "transformation": ""
+            }
+        },
+        "question_answer": "pontiac grand prix",
+        "issue": "Manipulation of Scales - (In)appropriate Order: add ordering"
+    },
+    "item8": {
+        "chart_type": "bar",
+        "encodings": {
+            "x": {
+                "data": "wind", 
+                "transformation": "sum"
+            },
+            "y": {
+                "data": "",
+                "transformation": ""
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "qual_color": {
+                "data": "",
+                "transformation": ""
+            }
+        },
+        "question_answer": "rains",
+        "issue": "Inappropriate Aggregation"
+    },
+    "item9": {
+        "chart_type": "bar",
+        "encodings": {
+            "x": {
+                "data": "wind", 
+                "transformation": "bin"
+            },
+            "y": {
+                "data": "",
+                "transformation": "count"
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "qual_color": {
+                "data": "",
+                "transformation": ""
+            }
+        },
+        "question_answer": "0 to 10",
+        "issue": "Concealed Uncertainty"
+    },
+    "item10": {
+        "chart_type": "point",
+        "encodings": {
+            "x": {
+                "data": "Weight_in_lbs", 
+                "transformation": ""
+            },
+            "y": {
+                "data": "Acceleration",
+                "transformation": ""
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "qual_color": {
+                "data": "Origin",
+                "transformation": ""
+            }
+        },
+        "question_answer": "1500 to 3000",
+        "issue": "Overplotting"
+    },
+    "item11": {
+        "chart_type": "line",
+        "encodings": {
+            "x": {
+                "data": "date", 
+                "transformation": ""
+            },
+            "y": {
+                "data": "temp_max",
+                "transformation": ""
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "qual_color": {
+                "data": "",
+                "transformation": ""
+            }
+        },
+        "question_answer": "increasing then decreasing",
+        "issue": "Manipulation of Scales - Inappropriate Scale Range"
+    },
+    "item12": {
+        "chart_type": "bar",
+        "encodings": {
+            "x": {
+                "data": "cases_per_100_people", 
+                "transformation": "des_sort"
+            },
+            "y": {
+                "data": "region",
+                "transformation": ""
+            },
+            "size": {
+                "data": "",
+                "transformation": ""
+            },
+            "seq_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "div_color": {
+                "data": "",
+                "transformation": ""
+            },
+            "qual_color": {
+                "data": "",
+                "transformation": ""
+            }
+        },
+        "question_answer": "Region16",
+        "issue": "Missing Normalization"
+    }
+    
+
+}

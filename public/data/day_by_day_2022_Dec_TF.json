@@ -1,0 +1,128 @@
+[
+  {
+    "Date": "2022-12-04",
+    "Spending": 63.4828,
+    "Income": 279.7491,
+    "Savings": 40.2503,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-12-05",
+    "Spending": 30.1714,
+    "Income": 211.9461,
+    "Savings": 24.1204,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-12-06",
+    "Spending": 19.2388,
+    "Income": 296.7167,
+    "Savings": 27.6936,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-12-07",
+    "Spending": 60.3854,
+    "Income": 243.07,
+    "Savings": 38.1355,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-12-08",
+    "Spending": 7.8716,
+    "Income": 394.1118,
+    "Savings": 25.8405,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-12-09",
+    "Spending": 33.9932,
+    "Income": 303.0998,
+    "Savings": 33.4952,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-12-14",
+    "Spending": 42.2636,
+    "Income": 251.9906,
+    "Savings": 16.5434,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-12-23",
+    "Spending": 0.7305,
+    "Income": 368.1266,
+    "Savings": 36.3379,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-12-24",
+    "Spending": 8.3226,
+    "Income": 299.7766,
+    "Savings": 33.8483,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-12-26",
+    "Spending": 48.8623,
+    "Income": 308.1725,
+    "Savings": 36.5773,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-12-28",
+    "Spending": 34.7738,
+    "Income": 333.7141,
+    "Savings": 18.8726,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-12-29",
+    "Spending": 45.7552,
+    "Income": 353.9654,
+    "Savings": 16.1886,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-12-30",
+    "Spending": 15.4434,
+    "Income": 314.3046,
+    "Savings": 30.7947,
+    "Spending_Category": "Transport",
+    "Year": 2022,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2022-12-31",
+    "Spending": 12.9399,
+    "Income": 259.8876,
+    "Savings": 4.2516,
+    "Spending_Category": "Food",
+    "Year": 2022,
+    "Month": "Dec"
+  }
+]

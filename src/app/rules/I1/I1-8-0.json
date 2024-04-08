@@ -1,0 +1,16 @@
+{
+    "data": {
+      "url": "data/cars.json"
+    },
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "bin": true,
+        "aggregate": "mean",
+        "field": "Miles_per_Gallon"
+      },
+      "y": {
+        "aggregate": "count"
+      }
+    }
+  }

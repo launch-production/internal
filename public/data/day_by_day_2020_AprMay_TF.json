@@ -1,0 +1,236 @@
+[
+  {
+    "Date": "2020-04-04",
+    "Spending": 25.9496,
+    "Income": 352.9848,
+    "Savings": 14.9986,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-11",
+    "Spending": 24.1938,
+    "Income": 85.3067,
+    "Savings": 18.4678,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-13",
+    "Spending": 27.1157,
+    "Income": 55.6873,
+    "Savings": 9.4599,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-14",
+    "Spending": 13.6679,
+    "Income": 332.6994,
+    "Savings": 7.2133,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-16",
+    "Spending": 26.6099,
+    "Income": 184.1248,
+    "Savings": 17.2919,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-17",
+    "Spending": 3.4195,
+    "Income": 246.5972,
+    "Savings": 8.0388,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-18",
+    "Spending": 30.2817,
+    "Income": 101.6303,
+    "Savings": 10.9221,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-21",
+    "Spending": 31.2887,
+    "Income": 226.6139,
+    "Savings": 12.7939,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-22",
+    "Spending": 15.3587,
+    "Income": 153.3854,
+    "Savings": 6.9915,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-23",
+    "Spending": 16.8424,
+    "Income": 72.9012,
+    "Savings": 7.1377,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-25",
+    "Spending": 20.7714,
+    "Income": 371.1763,
+    "Savings": 14.9588,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-04-29",
+    "Spending": 29.5092,
+    "Income": 0.4672,
+    "Savings": 3.1415,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2020-05-01",
+    "Spending": 22.0288,
+    "Income": 172.9024,
+    "Savings": 21.8692,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-04",
+    "Spending": 26.2368,
+    "Income": 216.9995,
+    "Savings": 16.3289,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-09",
+    "Spending": 7.9301,
+    "Income": 353.0254,
+    "Savings": 15.2544,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-10",
+    "Spending": 34.2921,
+    "Income": 311.8216,
+    "Savings": 15.5784,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-11",
+    "Spending": 26.3344,
+    "Income": 67.4618,
+    "Savings": 6.7776,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-13",
+    "Spending": 13.1817,
+    "Income": 53.9396,
+    "Savings": 10.1967,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-19",
+    "Spending": 29.5479,
+    "Income": 362.6521,
+    "Savings": 16.2672,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-20",
+    "Spending": 3.2467,
+    "Income": 243.7757,
+    "Savings": 10.3771,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-21",
+    "Spending": 7.9481,
+    "Income": 116.0564,
+    "Savings": 10.3915,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-22",
+    "Spending": 0.3675,
+    "Income": 285.3925,
+    "Savings": 7.4974,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-24",
+    "Spending": 23.7247,
+    "Income": 244.9591,
+    "Savings": 4.9351,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-25",
+    "Spending": 30.6588,
+    "Income": 257.5096,
+    "Savings": 2.9121,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-28",
+    "Spending": 33.3778,
+    "Income": 170.4142,
+    "Savings": 5.1053,
+    "Spending_Category": "Food",
+    "Year": 2020,
+    "Month": "May"
+  },
+  {
+    "Date": "2020-05-30",
+    "Spending": 16.089,
+    "Income": 317.6547,
+    "Savings": 7.8469,
+    "Spending_Category": "Transport",
+    "Year": 2020,
+    "Month": "May"
+  }
+]

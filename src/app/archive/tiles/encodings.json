@@ -1,0 +1,44 @@
+{
+    "scatter": {
+        "x_axis": "images/encodings/x_axis_icon.svg",
+        "y_axis": "images/encodings/y_axis_icon.svg",
+        "size": "images/encodings/size_icon.svg",
+        "seq_color": "images/encodings/seq_colors_icon.svg",
+        "div_color": "images/encodings/div_colors_icon.svg"
+    },
+    "bar": {
+        "x_axis": "images/encodings/x_axis_icon.svg",
+        "y_axis": "images/encodings/y_axis_icon.svg",
+        "size": "images/encodings/size_icon.svg",
+        "seq_color": "images/encodings/seq_colors_icon.svg",
+        "div_color": "images/encodings/div_colors_icon.svg"
+    },
+    "line": {
+        "x_axis": "images/encodings/x_axis_icon.svg",
+        "y_axis": "images/encodings/y_axis_icon.svg",
+        "size": "images/encodings/size_icon.svg",
+        "seq_color": "images/encodings/seq_colors_icon.svg",
+        "div_color": "images/encodings/div_colors_icon.svg"
+    },
+    "area": {
+        "x_axis": "images/encodings/x_axis_icon.svg",
+        "y_axis": "images/encodings/y_axis_icon.svg",
+        "size": "images/encodings/size_icon.svg",
+        "seq_color": "images/encodings/seq_colors_icon.svg",
+        "div_color": "images/encodings/div_colors_icon.svg"
+    },
+    "pie": {
+        "x_axis": "images/encodings/x_axis_icon.svg",
+        "y_axis": "images/encodings/y_axis_icon.svg",
+        "size": "images/encodings/size_icon.svg",
+        "seq_color": "images/encodings/seq_colors_icon.svg",
+        "div_color": "images/encodings/div_colors_icon.svg"
+    },
+    "map": {
+        "x_axis": "images/encodings/x_axis_icon.svg",
+        "y_axis": "images/encodings/y_axis_icon.svg",
+        "size": "images/encodings/size_icon.svg",
+        "seq_color": "images/encodings/seq_colors_icon.svg",
+        "div_color": "images/encodings/div_colors_icon.svg"
+    }
+}

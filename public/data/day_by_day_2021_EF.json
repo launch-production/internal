@@ -1,0 +1,1595 @@
+[
+  {
+    "Date": "2021-01-03",
+    "Spending": 73.1015,
+    "Income": 278.4854,
+    "Savings": 20.9618,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-08",
+    "Spending": 21.4171,
+    "Income": 167.1708,
+    "Savings": 21.5748,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-10",
+    "Spending": 74.3955,
+    "Income": 320.6399,
+    "Savings": 17.5999,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-11",
+    "Spending": 36.2854,
+    "Income": 281.6356,
+    "Savings": 16.5884,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-17",
+    "Spending": 44.6124,
+    "Income": 88.0913,
+    "Savings": 18.8116,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-18",
+    "Spending": 18.8675,
+    "Income": 383.0443,
+    "Savings": 24.5026,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-19",
+    "Spending": 1.0048,
+    "Income": 365.6738,
+    "Savings": 18.427,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-22",
+    "Spending": 17.7412,
+    "Income": 358.2525,
+    "Savings": 16.4011,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-23",
+    "Spending": 67.8156,
+    "Income": 297.378,
+    "Savings": 15.759,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-24",
+    "Spending": 27.0918,
+    "Income": 242.8672,
+    "Savings": 26.4949,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-25",
+    "Spending": 17.2115,
+    "Income": 115.4923,
+    "Savings": 24.6703,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-28",
+    "Spending": 7.3351,
+    "Income": 252.9551,
+    "Savings": 18.8884,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-29",
+    "Spending": 31.3214,
+    "Income": 180.2503,
+    "Savings": 23.4477,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-30",
+    "Spending": 30.76,
+    "Income": 274.0814,
+    "Savings": 17.4304,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-01-31",
+    "Spending": 48.4213,
+    "Income": 256.1753,
+    "Savings": 17.733,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2021-02-02",
+    "Spending": 18.0035,
+    "Income": 316.8192,
+    "Savings": 17.1867,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-03",
+    "Spending": 54.8889,
+    "Income": 112.488,
+    "Savings": 21.582,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-06",
+    "Spending": 73.7229,
+    "Income": 231.5301,
+    "Savings": 17.1146,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-07",
+    "Spending": 38.1235,
+    "Income": 225.3935,
+    "Savings": 21.1157,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-08",
+    "Spending": 15.2328,
+    "Income": 378.8942,
+    "Savings": 18.8384,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-11",
+    "Spending": 11.18,
+    "Income": 327.6492,
+    "Savings": 22.1927,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-12",
+    "Spending": 53.9557,
+    "Income": 392.7274,
+    "Savings": 22.5978,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-17",
+    "Spending": 59.4587,
+    "Income": 278.2286,
+    "Savings": 12.0594,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-19",
+    "Spending": 30.0286,
+    "Income": 226.7178,
+    "Savings": 17.1221,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-22",
+    "Spending": 37.4907,
+    "Income": 460.0674,
+    "Savings": 18.4553,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-02-27",
+    "Spending": 45.0452,
+    "Income": 147.9237,
+    "Savings": 13.744,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2021-03-02",
+    "Spending": 15.9032,
+    "Income": 169.4132,
+    "Savings": 16.0418,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-05",
+    "Spending": 56.9019,
+    "Income": 247.9931,
+    "Savings": 22.9636,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-06",
+    "Spending": 27.5262,
+    "Income": 179.9011,
+    "Savings": 25.4461,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-07",
+    "Spending": 48.678,
+    "Income": 333.7456,
+    "Savings": 24.2132,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-08",
+    "Spending": 30.3899,
+    "Income": 191.3867,
+    "Savings": 20.0804,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-09",
+    "Spending": 46.617,
+    "Income": 133.5789,
+    "Savings": 17.8447,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-16",
+    "Spending": 60.9349,
+    "Income": 145.8929,
+    "Savings": 14.1171,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-17",
+    "Spending": 14.8127,
+    "Income": 495.3898,
+    "Savings": 13.7206,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-21",
+    "Spending": 11.929,
+    "Income": 285.7871,
+    "Savings": 18.7557,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-23",
+    "Spending": 57.7698,
+    "Income": 193.9889,
+    "Savings": 25.3925,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-26",
+    "Spending": 53.2794,
+    "Income": 405.8702,
+    "Savings": 28.6608,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-03-28",
+    "Spending": 20.3667,
+    "Income": 262.0394,
+    "Savings": 14.9452,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Mar"
+  },
+  {
+    "Date": "2021-04-01",
+    "Spending": 23.1384,
+    "Income": 391.282,
+    "Savings": 16.6357,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-04",
+    "Spending": 22.801,
+    "Income": 283.1442,
+    "Savings": 10.5586,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-07",
+    "Spending": 28.2792,
+    "Income": 451.2306,
+    "Savings": 19.5596,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-08",
+    "Spending": 52.1273,
+    "Income": 328.056,
+    "Savings": 16.9781,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-11",
+    "Spending": 84.0127,
+    "Income": 237.247,
+    "Savings": 20.2478,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-12",
+    "Spending": 15.1261,
+    "Income": 300.6117,
+    "Savings": 21.187,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-13",
+    "Spending": 51.3039,
+    "Income": 240.2399,
+    "Savings": 20.591,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-14",
+    "Spending": 29.3584,
+    "Income": 453.8428,
+    "Savings": 15.9004,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-17",
+    "Spending": 50.1566,
+    "Income": 216.2882,
+    "Savings": 24.6308,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-18",
+    "Spending": 24.4153,
+    "Income": 330.3181,
+    "Savings": 27.3649,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-21",
+    "Spending": 26.1557,
+    "Income": 318.2933,
+    "Savings": 22.6705,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-25",
+    "Spending": 21.4378,
+    "Income": 443.3419,
+    "Savings": 25.3388,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-26",
+    "Spending": 24.8999,
+    "Income": 264.9033,
+    "Savings": 14.1107,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-27",
+    "Spending": 56.5432,
+    "Income": 374.8564,
+    "Savings": 23.2187,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-29",
+    "Spending": 0.7,
+    "Income": 538.7248,
+    "Savings": 23.4568,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-04-30",
+    "Spending": 17.6749,
+    "Income": 274.9618,
+    "Savings": 18.4617,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Apr"
+  },
+  {
+    "Date": "2021-05-01",
+    "Spending": 32.1221,
+    "Income": 242.0209,
+    "Savings": 19.7368,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-02",
+    "Spending": 6.8803,
+    "Income": 494.4437,
+    "Savings": 26.1378,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-03",
+    "Spending": 2.3285,
+    "Income": 214.7948,
+    "Savings": 18.5452,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-05",
+    "Spending": 48.4243,
+    "Income": 227.7528,
+    "Savings": 22.5581,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-06",
+    "Spending": 23.3759,
+    "Income": 149.837,
+    "Savings": 17.5248,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-12",
+    "Spending": 25.1372,
+    "Income": 309.2972,
+    "Savings": 16.735,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-14",
+    "Spending": 12.634,
+    "Income": 451.9295,
+    "Savings": 31.2492,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-15",
+    "Spending": 47.3895,
+    "Income": 378.9402,
+    "Savings": 12.0805,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-19",
+    "Spending": 45.87,
+    "Income": 310.6408,
+    "Savings": 21.9363,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-20",
+    "Spending": 63.887,
+    "Income": 140.4854,
+    "Savings": 20.1797,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-22",
+    "Spending": 30.5887,
+    "Income": 266.0928,
+    "Savings": 27.417,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-26",
+    "Spending": 33.1354,
+    "Income": 191.9966,
+    "Savings": 18.1778,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-29",
+    "Spending": 49.0813,
+    "Income": 233.6549,
+    "Savings": 18.9103,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-05-31",
+    "Spending": 37.8739,
+    "Income": 390.7635,
+    "Savings": 18.5492,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "May"
+  },
+  {
+    "Date": "2021-06-01",
+    "Spending": 37.5362,
+    "Income": 321.0298,
+    "Savings": 21.9553,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-04",
+    "Spending": 3.4039,
+    "Income": 263.6418,
+    "Savings": 22.4127,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-05",
+    "Spending": 27.634,
+    "Income": 226.9267,
+    "Savings": 22.8217,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-06",
+    "Spending": 17.335,
+    "Income": 315.6748,
+    "Savings": 25.2224,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-09",
+    "Spending": 42.5584,
+    "Income": 170.9586,
+    "Savings": 26.341,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-12",
+    "Spending": 3.0031,
+    "Income": 275.2925,
+    "Savings": 20.0148,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-13",
+    "Spending": 54.0402,
+    "Income": 403.3166,
+    "Savings": 27.9238,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-14",
+    "Spending": 55.8769,
+    "Income": 225.8477,
+    "Savings": 17.4403,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-16",
+    "Spending": 16.2988,
+    "Income": 158.0453,
+    "Savings": 23.8105,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-17",
+    "Spending": 0.9312,
+    "Income": 229.9307,
+    "Savings": 8.1234,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-18",
+    "Spending": 55.8825,
+    "Income": 266.0451,
+    "Savings": 24.3048,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-19",
+    "Spending": 53.5234,
+    "Income": 313.8427,
+    "Savings": 28.7036,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-20",
+    "Spending": 47.2809,
+    "Income": 404.2875,
+    "Savings": 23.5821,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-21",
+    "Spending": 15.9347,
+    "Income": 53.1297,
+    "Savings": 24.1783,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-23",
+    "Spending": 2.2825,
+    "Income": 269.2135,
+    "Savings": 23.0217,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-24",
+    "Spending": 8.5391,
+    "Income": 375.8086,
+    "Savings": 18.9336,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-06-26",
+    "Spending": 18.2713,
+    "Income": 206.1256,
+    "Savings": 13.6504,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jun"
+  },
+  {
+    "Date": "2021-07-01",
+    "Spending": 5.4461,
+    "Income": 209.7727,
+    "Savings": 17.2926,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-03",
+    "Spending": 4.3526,
+    "Income": 412.1185,
+    "Savings": 14.5663,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-14",
+    "Spending": 8.9457,
+    "Income": 155.5591,
+    "Savings": 18.4571,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-15",
+    "Spending": 47.808,
+    "Income": 203.0345,
+    "Savings": 22.2876,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-17",
+    "Spending": 44.8302,
+    "Income": 213.5299,
+    "Savings": 30.2853,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-18",
+    "Spending": 25.8506,
+    "Income": 222.6276,
+    "Savings": 12.829,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-19",
+    "Spending": 33.5988,
+    "Income": 241.133,
+    "Savings": 16.6172,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-21",
+    "Spending": 21.1367,
+    "Income": 330.1933,
+    "Savings": 10.9973,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-23",
+    "Spending": 43.9164,
+    "Income": 452.7204,
+    "Savings": 26.9876,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-25",
+    "Spending": 59.8378,
+    "Income": 369.1232,
+    "Savings": 20.5027,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-27",
+    "Spending": 34.5359,
+    "Income": 420.3862,
+    "Savings": 18.9732,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-07-29",
+    "Spending": 28.7444,
+    "Income": 334.1316,
+    "Savings": 24.4504,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Jul"
+  },
+  {
+    "Date": "2021-08-01",
+    "Spending": 14.9803,
+    "Income": 331.8377,
+    "Savings": 21.2735,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-02",
+    "Spending": 64.8803,
+    "Income": 286.3414,
+    "Savings": 14.2633,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-03",
+    "Spending": 6.248,
+    "Income": 387.0715,
+    "Savings": 13.0178,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-04",
+    "Spending": 21.6606,
+    "Income": 379.5943,
+    "Savings": 20.6705,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-07",
+    "Spending": 18.2935,
+    "Income": 385.2312,
+    "Savings": 25.1432,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-08",
+    "Spending": 43.2064,
+    "Income": 376.6753,
+    "Savings": 17.1605,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-11",
+    "Spending": 49.0304,
+    "Income": 300.8296,
+    "Savings": 24.009,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-14",
+    "Spending": 26.4753,
+    "Income": 446.2655,
+    "Savings": 26.0676,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-18",
+    "Spending": 4.1988,
+    "Income": 435.5834,
+    "Savings": 27.5222,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-19",
+    "Spending": 41.4238,
+    "Income": 351.0816,
+    "Savings": 21.8772,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-20",
+    "Spending": 65.7078,
+    "Income": 356.3031,
+    "Savings": 18.2672,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-25",
+    "Spending": 2.8649,
+    "Income": 340.5041,
+    "Savings": 15.7212,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-08-28",
+    "Spending": 5.7755,
+    "Income": 352.4281,
+    "Savings": 29.5322,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Aug"
+  },
+  {
+    "Date": "2021-09-02",
+    "Spending": 4.1891,
+    "Income": 344.6065,
+    "Savings": 24.0083,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-07",
+    "Spending": 4.6275,
+    "Income": 266.896,
+    "Savings": 17.8487,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-08",
+    "Spending": 42.091,
+    "Income": 298.9484,
+    "Savings": 17.1122,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-11",
+    "Spending": 29.3854,
+    "Income": 371.943,
+    "Savings": 16.5829,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-13",
+    "Spending": 31.9645,
+    "Income": 174.453,
+    "Savings": 8.7155,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-15",
+    "Spending": 29.0151,
+    "Income": 283.1598,
+    "Savings": 17.7677,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-16",
+    "Spending": 18.7856,
+    "Income": 287.6889,
+    "Savings": 20.0816,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-19",
+    "Spending": 13.567,
+    "Income": 157.924,
+    "Savings": 23.6232,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-21",
+    "Spending": 32.6256,
+    "Income": 465.473,
+    "Savings": 22.6025,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-22",
+    "Spending": 8.7583,
+    "Income": 314.5208,
+    "Savings": 21.7555,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-25",
+    "Spending": 23.0204,
+    "Income": 183.1421,
+    "Savings": 22.8566,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-26",
+    "Spending": 55.6705,
+    "Income": 212.8777,
+    "Savings": 16.5713,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-09-30",
+    "Spending": 23.9466,
+    "Income": 360.0987,
+    "Savings": 17.1913,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Sept"
+  },
+  {
+    "Date": "2021-10-01",
+    "Spending": 70.5294,
+    "Income": 135.1675,
+    "Savings": 23.2995,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-04",
+    "Spending": 25.9742,
+    "Income": 314.0283,
+    "Savings": 20.7832,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-08",
+    "Spending": 4.6341,
+    "Income": 443.0644,
+    "Savings": 20.4503,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-12",
+    "Spending": 12.6836,
+    "Income": 379.8394,
+    "Savings": 12.6424,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-16",
+    "Spending": 84.0015,
+    "Income": 179.8149,
+    "Savings": 21.8802,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-17",
+    "Spending": 27.2922,
+    "Income": 297.4252,
+    "Savings": 13.5183,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-18",
+    "Spending": 27.8794,
+    "Income": 608.6203,
+    "Savings": 16.9884,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-19",
+    "Spending": 3.1187,
+    "Income": 108.6828,
+    "Savings": 27.8308,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-23",
+    "Spending": 31.6591,
+    "Income": 247.3369,
+    "Savings": 21.518,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-24",
+    "Spending": 22.7655,
+    "Income": 139.09,
+    "Savings": 24.058,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-25",
+    "Spending": 36.6772,
+    "Income": 422.4371,
+    "Savings": 18.3829,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-26",
+    "Spending": 35.3122,
+    "Income": 341.6603,
+    "Savings": 20.096,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-10-31",
+    "Spending": 31.131,
+    "Income": 467.9829,
+    "Savings": 17.8762,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Oct"
+  },
+  {
+    "Date": "2021-11-01",
+    "Spending": 39.3566,
+    "Income": 273.8549,
+    "Savings": 14.1411,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-02",
+    "Spending": 22.5471,
+    "Income": 174.4957,
+    "Savings": 16.8568,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-04",
+    "Spending": 55.7922,
+    "Income": 366.7613,
+    "Savings": 22.7329,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-05",
+    "Spending": 2.5368,
+    "Income": 380.7991,
+    "Savings": 17.8345,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-06",
+    "Spending": 14.3293,
+    "Income": 179.0819,
+    "Savings": 18.7595,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-07",
+    "Spending": 40.2183,
+    "Income": 209.4866,
+    "Savings": 25.571,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-08",
+    "Spending": 54.3525,
+    "Income": 141.6748,
+    "Savings": 14.5475,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-09",
+    "Spending": 36.1022,
+    "Income": 276.5487,
+    "Savings": 23.2072,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-11",
+    "Spending": 39.3773,
+    "Income": 382.0443,
+    "Savings": 19.7582,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-13",
+    "Spending": 54.768,
+    "Income": 227.4292,
+    "Savings": 14.3326,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-15",
+    "Spending": 29.376,
+    "Income": 262.4799,
+    "Savings": 20.8025,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-16",
+    "Spending": 2.376,
+    "Income": 309.9098,
+    "Savings": 14.9386,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-18",
+    "Spending": 16.1831,
+    "Income": 421.6053,
+    "Savings": 18.0315,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-21",
+    "Spending": 33.8449,
+    "Income": 103.0816,
+    "Savings": 21.4251,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-22",
+    "Spending": 15.9409,
+    "Income": 338.8187,
+    "Savings": 5.414,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-24",
+    "Spending": 17.236,
+    "Income": 300.7182,
+    "Savings": 25.1761,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-26",
+    "Spending": 15.2096,
+    "Income": 208.9978,
+    "Savings": 24.8612,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-27",
+    "Spending": 2.2494,
+    "Income": 410.243,
+    "Savings": 17.0867,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-29",
+    "Spending": 48.0576,
+    "Income": 72.5706,
+    "Savings": 18.1298,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-11-30",
+    "Spending": 45.0922,
+    "Income": 321.0157,
+    "Savings": 19.1668,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Nov"
+  },
+  {
+    "Date": "2021-12-03",
+    "Spending": 40.1329,
+    "Income": 378.6817,
+    "Savings": 23.6242,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-04",
+    "Spending": 42.3247,
+    "Income": 223.6013,
+    "Savings": 12.7201,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-05",
+    "Spending": 3.3376,
+    "Income": 541.9834,
+    "Savings": 16.8962,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-10",
+    "Spending": 22.0281,
+    "Income": 458.7903,
+    "Savings": 23.4699,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-11",
+    "Spending": 6.2276,
+    "Income": 237.9174,
+    "Savings": 20.3749,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-12",
+    "Spending": 39.0513,
+    "Income": 231.7231,
+    "Savings": 8.8812,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-13",
+    "Spending": 34.1518,
+    "Income": 384.4194,
+    "Savings": 14.0319,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-14",
+    "Spending": 5.7976,
+    "Income": 311.4029,
+    "Savings": 18.0224,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-16",
+    "Spending": 18.0194,
+    "Income": 380.4825,
+    "Savings": 19.4324,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-18",
+    "Spending": 10.0867,
+    "Income": 261.7126,
+    "Savings": 27.6466,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-19",
+    "Spending": 51.865,
+    "Income": 220.7278,
+    "Savings": 32.7431,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-20",
+    "Spending": 48.3429,
+    "Income": 360.7512,
+    "Savings": 12.914,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-21",
+    "Spending": 14.539,
+    "Income": 121.0428,
+    "Savings": 20.8169,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-23",
+    "Spending": 7.3859,
+    "Income": 383.2345,
+    "Savings": 13.6216,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-24",
+    "Spending": 21.4233,
+    "Income": 274.5518,
+    "Savings": 12.0002,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-25",
+    "Spending": 13.2083,
+    "Income": 408.671,
+    "Savings": 16.9214,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-26",
+    "Spending": 17.9803,
+    "Income": 377.5517,
+    "Savings": 27.3744,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-27",
+    "Spending": 14.5222,
+    "Income": 240.1615,
+    "Savings": 22.512,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-29",
+    "Spending": 29.2854,
+    "Income": 386.6268,
+    "Savings": 22.1537,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-30",
+    "Spending": 23.9164,
+    "Income": 232.8492,
+    "Savings": 22.0858,
+    "Spending_Category": "Food",
+    "Year": 2021,
+    "Month": "Dec"
+  },
+  {
+    "Date": "2021-12-31",
+    "Spending": 30.2433,
+    "Income": 312.903,
+    "Savings": 9.5155,
+    "Spending_Category": "Entertainment",
+    "Year": 2021,
+    "Month": "Dec"
+  }
+]

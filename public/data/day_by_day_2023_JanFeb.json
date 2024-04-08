@@ -1,0 +1,533 @@
+[
+  {
+    "Date": "2023-01-01",
+    "Spending": 19.7582,
+    "Income": 304.064,
+    "Savings": 38.3063,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-02",
+    "Spending": 62.7743,
+    "Income": 422.1709,
+    "Savings": 45.5557,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-03",
+    "Spending": 66.3348,
+    "Income": 181.2108,
+    "Savings": 23.06,
+    "Category": "Transport",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-04",
+    "Spending": 36.8827,
+    "Income": 435.0897,
+    "Savings": 45.8242,
+    "Category": "Transport",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-05",
+    "Spending": 16.7053,
+    "Income": 362.6078,
+    "Savings": 27.2608,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-06",
+    "Spending": 44.9833,
+    "Income": 512.9762,
+    "Savings": 34.0265,
+    "Category": "Utilities",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-07",
+    "Spending": 55.8611,
+    "Income": 489.4534,
+    "Savings": 36.8846,
+    "Category": "Entertainment",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-08",
+    "Spending": 30.0302,
+    "Income": 656.9588,
+    "Savings": 35.0215,
+    "Category": "Utilities",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-09",
+    "Spending": 76.3817,
+    "Income": 534.1552,
+    "Savings": 47.5856,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-10",
+    "Spending": 52.1535,
+    "Income": 356.9598,
+    "Savings": 38.0446,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-11",
+    "Spending": 84.5957,
+    "Income": 516.3237,
+    "Savings": 58.1562,
+    "Category": "Utilities",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-12",
+    "Spending": 64.7213,
+    "Income": 280.8693,
+    "Savings": 14.651,
+    "Category": "Utilities",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-13",
+    "Spending": 99.9134,
+    "Income": 249.2337,
+    "Savings": 29.0331,
+    "Category": "Entertainment",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-14",
+    "Spending": 60.256,
+    "Income": 339.7209,
+    "Savings": 31.3517,
+    "Category": "Transport",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-15",
+    "Spending": 12.8458,
+    "Income": 344.3444,
+    "Savings": 14.3774,
+    "Category": "Entertainment",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-16",
+    "Spending": 64.5476,
+    "Income": 548.9623,
+    "Savings": 50.0838,
+    "Category": "Entertainment",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-17",
+    "Spending": 56.9499,
+    "Income": 478.6948,
+    "Savings": 44.3619,
+    "Category": "Transport",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-18",
+    "Spending": 66.8493,
+    "Income": 323.5386,
+    "Savings": 21.9202,
+    "Category": "Entertainment",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-19",
+    "Spending": 49.3489,
+    "Income": 286.7675,
+    "Savings": 30.7029,
+    "Category": "Entertainment",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-20",
+    "Spending": 27.6695,
+    "Income": 455.3546,
+    "Savings": 56.098,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-21",
+    "Spending": 29.9548,
+    "Income": 458.8307,
+    "Savings": 35.9504,
+    "Category": "Utilities",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-22",
+    "Spending": 28.4015,
+    "Income": 469.344,
+    "Savings": 12.6883,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-23",
+    "Spending": 48.2585,
+    "Income": 386.2066,
+    "Savings": 29.3391,
+    "Category": "Utilities",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-24",
+    "Spending": 23.4987,
+    "Income": 321.9017,
+    "Savings": 50.4711,
+    "Category": "Transport",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-25",
+    "Spending": 44.3808,
+    "Income": 353.9769,
+    "Savings": 31.9134,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-26",
+    "Spending": 28.858,
+    "Income": 586.4101,
+    "Savings": 61.0427,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-27",
+    "Spending": 87.9849,
+    "Income": 551.8924,
+    "Savings": 39.5888,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-28",
+    "Spending": 80.4206,
+    "Income": 652.6375,
+    "Savings": 34.5053,
+    "Category": "Utilities",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-29",
+    "Spending": 55.5268,
+    "Income": 426.8813,
+    "Savings": 19.6898,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-30",
+    "Spending": 25.943,
+    "Income": 282.4883,
+    "Savings": 42.6149,
+    "Category": "Transport",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-01-31",
+    "Spending": 33.8802,
+    "Income": 391.1167,
+    "Savings": 47.0141,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Jan"
+  },
+  {
+    "Date": "2023-02-01",
+    "Spending": 39.3854,
+    "Income": 433.0753,
+    "Savings": 47.2818,
+    "Category": "Entertainment",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-02",
+    "Spending": 64.7754,
+    "Income": 326.1164,
+    "Savings": 51.9063,
+    "Category": "Utilities",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-03",
+    "Spending": 103.2481,
+    "Income": 382.8059,
+    "Savings": 22.3328,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-04",
+    "Spending": 38.0173,
+    "Income": 371.9968,
+    "Savings": 30.0402,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-05",
+    "Spending": 40.8226,
+    "Income": 324.5809,
+    "Savings": 59.6025,
+    "Category": "Entertainment",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-06",
+    "Spending": 19.0772,
+    "Income": 279.2811,
+    "Savings": 37.0163,
+    "Category": "Entertainment",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-07",
+    "Spending": 69.3407,
+    "Income": 548.438,
+    "Savings": 36.474,
+    "Category": "Utilities",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-08",
+    "Spending": 2.0493,
+    "Income": 195.9252,
+    "Savings": 35.3321,
+    "Category": "Transport",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-09",
+    "Spending": 77.2516,
+    "Income": 548.9957,
+    "Savings": 64.7293,
+    "Category": "Entertainment",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-10",
+    "Spending": 54.3917,
+    "Income": 585.0758,
+    "Savings": 53.934,
+    "Category": "Utilities",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-11",
+    "Spending": 36.9443,
+    "Income": 381.3688,
+    "Savings": 36.0564,
+    "Category": "Transport",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-12",
+    "Spending": 55.6977,
+    "Income": 331.8162,
+    "Savings": 63.4887,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-13",
+    "Spending": 53.9159,
+    "Income": 424.9697,
+    "Savings": 22.7712,
+    "Category": "Utilities",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-14",
+    "Spending": 30.6106,
+    "Income": 406.0016,
+    "Savings": 24.045,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-15",
+    "Spending": 26.9166,
+    "Income": 354.0802,
+    "Savings": 24.1052,
+    "Category": "Entertainment",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-16",
+    "Spending": 49.2169,
+    "Income": 471.0151,
+    "Savings": 57.5248,
+    "Category": "Utilities",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-17",
+    "Spending": 43.1853,
+    "Income": 296.0274,
+    "Savings": 46.4412,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-18",
+    "Spending": 71.3548,
+    "Income": 546.7648,
+    "Savings": 7.5234,
+    "Category": "Entertainment",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-19",
+    "Spending": 47.2326,
+    "Income": 688.6416,
+    "Savings": 37.7381,
+    "Category": "Entertainment",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-20",
+    "Spending": 67.1662,
+    "Income": 257.9118,
+    "Savings": 35.9681,
+    "Category": "Utilities",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-21",
+    "Spending": 72.4135,
+    "Income": 380.4784,
+    "Savings": 56.9361,
+    "Category": "Transport",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-22",
+    "Spending": 32.4582,
+    "Income": 293.7954,
+    "Savings": 35.0134,
+    "Category": "Utilities",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-23",
+    "Spending": 35.5647,
+    "Income": 255.5453,
+    "Savings": 25.6519,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-24",
+    "Spending": 60.0582,
+    "Income": 489.6387,
+    "Savings": 39.5266,
+    "Category": "Entertainment",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-25",
+    "Spending": 22.5167,
+    "Income": 315.8169,
+    "Savings": 14.1523,
+    "Category": "Entertainment",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-26",
+    "Spending": 50.736,
+    "Income": 395.6673,
+    "Savings": 37.8632,
+    "Category": "Utilities",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-27",
+    "Spending": 61.724,
+    "Income": 384.1412,
+    "Savings": 48.4558,
+    "Category": "Transport",
+    "Year": 2023,
+    "Month": "Feb"
+  },
+  {
+    "Date": "2023-02-28",
+    "Spending": 63.6789,
+    "Income": 360.3316,
+    "Savings": 38.8206,
+    "Category": "Food",
+    "Year": 2023,
+    "Month": "Feb"
+  }
+]

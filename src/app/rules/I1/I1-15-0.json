@@ -1,0 +1,22 @@
+{
+    "data": {
+      "url": "data/seattle-weather.csv"
+    },
+    "mark": "point",
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "aggregate": "min"
+      },
+      "y": {
+        "field": "temp_max",
+        "type": "quantitative",
+        "scale": {}
+      },
+      "size": {
+        "field": "temp_min",
+        "type": "quantitative"
+      }
+    }
+  }
