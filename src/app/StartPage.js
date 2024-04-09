@@ -602,7 +602,7 @@ const StartPage = (props) => {
     }
 
     let random_4_DD = []
-    for (let i = 1; i <= 4; i += 1) {
+    for (let i = 1; i <= 12; i += 1) {
       console.log(item_IDs_DD)
       let random_index = Math.floor(Math.random() * item_IDs_DD.length);
       console.log(random_index)
@@ -615,7 +615,7 @@ const StartPage = (props) => {
     }
 
     let random_4_FCT = []
-    for (let i = 1; i <= 4; i += 1) {
+    for (let i = 1; i <= 12; i += 1) {
       console.log(item_IDs_FCT)
       let random_index = Math.floor(Math.random() * item_IDs_FCT.length);
       console.log(random_index)
@@ -628,7 +628,7 @@ const StartPage = (props) => {
     }
 
     let random_4_MPC = []
-    for (let i = 1; i <= 4; i += 1) {
+    for (let i = 1; i <= 14; i += 1) {
       console.log(item_IDs_MPC)
       let random_index = Math.floor(Math.random() * item_IDs_MPC.length);
       console.log(random_index)
@@ -642,7 +642,7 @@ const StartPage = (props) => {
 
     var random_12_IDs = random_4_DD.concat(random_4_FCT, random_4_MPC)
     let randomized_IDS = []
-    for (let i = 1; i <= 12; i += 1) {
+    for (let i = 1; i <= 38; i += 1) {
       console.log(random_12_IDs)
       let random_index = Math.floor(Math.random() * random_12_IDs.length);
       console.log(random_index)
@@ -659,21 +659,21 @@ const StartPage = (props) => {
 
 
     // starting index: 0 or 5 or 9
-    let attention_checkIDs = ["39", "40", "41"]
-    let segment_start = [0, 5, 9]
-    for (let i = 1; i <= 3; i += 1) {
-      let random_A_index = Math.floor(Math.random() * attention_checkIDs.length);
-      console.log(random_A_index)
-      let insert_index = Math.floor(Math.random() * 3) + 1;
-      randomized_IDS.splice(segment_start[i-1]+insert_index, 0, attention_checkIDs[random_A_index])
-      let temp_A = attention_checkIDs.slice(0, random_A_index)
-      let temp_A2 = attention_checkIDs.slice(random_A_index+1)
-      let combine_A_new = temp_A.concat(temp_A2)
-      console.log(combine_A_new)
-      attention_checkIDs = combine_A_new
-    }
+    // let attention_checkIDs = ["39", "40", "41"]
+    // let segment_start = [0, 5, 9]
+    // for (let i = 1; i <= 3; i += 1) {
+    //   let random_A_index = Math.floor(Math.random() * attention_checkIDs.length);
+    //   console.log(random_A_index)
+    //   let insert_index = Math.floor(Math.random() * 3) + 1;
+    //   randomized_IDS.splice(segment_start[i-1]+insert_index, 0, attention_checkIDs[random_A_index])
+    //   let temp_A = attention_checkIDs.slice(0, random_A_index)
+    //   let temp_A2 = attention_checkIDs.slice(random_A_index+1)
+    //   let combine_A_new = temp_A.concat(temp_A2)
+    //   console.log(combine_A_new)
+    //   attention_checkIDs = combine_A_new
+    // }
 
-    console.log(randomized_IDS)
+    // console.log(randomized_IDS)
     return randomized_IDS
     // if (randomized_IDS.length == 0) {
     //   setRandomizedItems(randomized_IDS);
@@ -1505,80 +1505,13 @@ const StartPage = (props) => {
             (redirectTo != "") ? 
             (redirecting()) :
         <div id='questionContainer'>
-          <h2>Consent to Participate in Research</h2>
-          <p><b>Title of Research Study:</b> Assessing Literacy in Visualizations</p>
-          <p><b>Principal Investigator:</b> Dr. Matthew Kay</p>
-          <p><b>Student Investigator:</b> Lily Ge</p>
-          <p><b>Supported By:</b> This research is supported by Northwestern University.</p>
-          <br></br>
-          <p><b>Key Information about this research study:</b></p>
-          <p>The following is a short summary of this study to help you decide whether to be a part of this study. Information that is more detailed is explained later on in this form.</p>
-          <ul>
-            <li>The purpose of this study is to help us develop an assessment for visualization literacy that focuses on the creation ability.</li>
-            <li>There will be 2 sections in this study: the training section and the main section. The training section is to help you get familiar with the interface layout.</li>
-            <li>In the main section, you will be asked to create visualizations that support or negate given statements.</li>
-            <li>The training section is expected to take approximately 5 minutes. The main section is expected to take approximately 25 minutes. In total, we expect that you will be in this research study for 30 minutes.</li>
-            <li>Upon successful completion of this study, you will receive 6 USD.</li>
-            <li>There are no expected risks beyond those that might be associated with computer usage.</li>
-            <li>There are no direct benefits for participants in this research study.</li>
-          </ul>
-          <p><b>Why am I being asked to take part in this research study?</b></p>
-          <p>We are asking you to take part in this research study because you are 18 - 65 years old, have basic ability to understand English, have normal or corrected-to-normal vision, and currently reside in the U.S.</p>
-          <p><b>How many people will be in this study?</b></p>
-          <p>We expect about 500 people will be in this research study.</p>
-          <p><b>What should I know about participating in a research study?</b></p>
-          <ul>
-            <li>Whether or not you take part is up to you.</li>
-            <li>You can choose not to take part.</li>
-            <li>You can agree to take part and later change your mind.</li>
-            <li>Your decision will not be held against you.</li>
-            <li>You can quit anytime during the study. If you do, you will not get compensated.</li>
-            <li>We will be using attention checks during the study. If you fail beyond a threshold number of these questions, we reserve the right to reject your submission, in which case there will be no compensation.</li>
-          </ul>
-          <p><b>What happens if I say, “Yes, I want to be in this research”?</b></p>
-          <ul>
-            <li>Please click “I Agree” on the bottom of this page and proceed to the questions.</li>
-            <li>Provide your best answer for each required question.</li>
-            <li>The study will take approximately 30 minutes in total. Note you will not be able to go back once you have advanced to the next question.</li>
-          </ul>
-          <p><b>Will being in this study help me in any way?</b></p>
-          <p>There are no direct benefits for participants in this study. We expect this study may help us better understand visualization literacy.</p>
-          <p><b>Is there any way being in this study could be bad for me?</b></p>
-          <p>There are no expected risks beyond those that might be associated with computer usage.</p>
-          <p><b>What happens if I do not want to be in this research, or I change my mind later?</b></p>
-          <p>Participation in research is voluntary. You can decide to participate or not to participate. If you do not want to be in this study or withdraw from the study at any point, your decision will not affect your current or future relationship with the MU Collective Lab at Northwestern University. You can leave the research at any time and it will not be held against you. If you decide to withdraw from this study, any data already collected from you will be destroyed.</p>
-          <p><b>How will the researchers protect my information?</b></p>
-          <p>Your data will be stored with a participant ID that is anonymized and in a coded form. Your data will be stored at secure locations on the Northwestern CS department filesystem. Data will be de-identified before any public release.</p>
-          <p><b>Who will have access to the information collected during this research study?</b></p>
-          <p>Efforts will be made to limit the use and disclosure of your personal information, including research study records, to people who have a need to review this information. We cannot promise complete secrecy.</p>
-          <p>There are reasons why information about you may be used or seen by other people beyond the research team during or after this study. Examples include:</p>
-          <ul>
-            <li>University officials, government officials, study funders, auditors, and the Institutional Review Board may need access to the study information to make sure the study is done in a safe and appropriate manner. </li>
-          </ul>
-          <p><b>How might the information collected in this study be shared in the future?</b></p>
-          <p>We will keep the information we collect about you during this research study for study recordkeeping and for potential use in future research projects.</p>
-          <p>De-identified data from this study may be shared with the research community, with journals in which study results are published, and with databases and data repositories used for research. We will remove or code any personal information that could directly identify you before the data from this study are shared.</p>
-          <p><b>Will I be paid or given anything for taking part in this study?</b></p>
-          <p>You will receive 6 USD for your participation in this study.</p>
-          <p><b>Who can I talk to?</b></p>
-          <p>If you have questions, concerns, or complaints, you can contact the Principal Investigator Dr. Matthew Kay (mjskay@northwestern.edu) and student investigator Lily Ge (wanqian.ge@northwestern.edu).</p>
-          <p>This research has been reviewed and approved by an Institutional Review Board (“IRB”) – an IRB is a committee that protects the rights of people who participate in research studies. You may contact the IRB by phone at (312) 503-9338 or by email at irb@northwestern.edu if:</p>
-          <ul>
-            <li>Your questions, concerns, or complaints are not being answered by the research team.</li>
-            <li>You cannot reach the research team.</li>
-            <li>You want to talk to someone besides the research team.</li>
-            <li>You have questions about your rights as a research participant.</li>
-            <li>You want to get information or provide input about this research.</li>
-          </ul>
-          <p>If you want a copy of this consent for your records, you can print it from the screen.</p>
-          <p>If you cannot print the consent and would like a copy for your records, contact the Principal Investigator with the contact information above.</p>
-          <p>If you wish to participate, please click the “I Agree” button and you will be taken to the survey.</p>
-          <p>If you do not wish to participate in this study, please select X in the corner of your browser and close the browser.</p>
+          <h2>Expert Panel</h2>
+          <p>We are asking experts to summarize a set of answers for each question</p>
                 {/* <p><b>- Training -</b></p>
                 <p><b>{itemBank[currentItem]["question_meta_data"]["question_topic"]}</b></p>
                 <p>{itemBank[currentItem]["question_meta_data"]["question_text"]}</p> */}
-               <div id="nextButton" style={{marginBottom:"6rem"}} onClick={(e) => nextItem(e)}>
-                <p>I Agree</p>
+               <div id="nextButton" onClick={(e) => nextItem(e)}>
+                <p>Start</p>
               </div>
               <p id='proceeding' className='hideDescription'>Proceeding...</p>
             </div> }

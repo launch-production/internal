@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import embed from 'vega-embed';
 import * as vl from 'vega-lite-api';
 import { db } from './firebaseConfig';
-import { doc, collection, addDoc, updateDoc, setDoc, serverTimestamp, getDocs} from "firebase/firestore";
+import { doc, collection, addDoc, updateDoc, setDoc, serverTimestamp, getDocs, arrayUnion} from "firebase/firestore";
 import QuestionText from './question-text.js';
 // import QuestionVis from './question-vis.js';
 // import TilesChartTypes from './tiles-chart-types.js';
@@ -52,6 +52,19 @@ async function initializeTime(prolificID, questionID, time_start) {
   try {
     const docRef = await setDoc(doc(db, prolificID, questionID), {
       timestamp_start: time_start
+    }, { merge: true });
+    console.log("Doc written with ID: ", prolificID);
+    return true;
+  } catch (error) {
+    console.error("Error ", error)
+    return false;
+  }
+}
+
+async function addExpertAnswer(prolificID, questionID, expert_answer, answer_count) {
+  try {
+    const docRef = await setDoc(doc(db, prolificID, questionID), {
+      expert_answers: arrayUnion(expert_answer)
     }, { merge: true });
     console.log("Doc written with ID: ", prolificID);
     return true;
@@ -255,6 +268,7 @@ const ConstructionItemComponent = (props) => {
   const [redirectTo, setRedirectTo] = useState("")
   const [loading, setLoading] = useState(true);
   const [answerSet, setAnswerSet] = useState([]);
+  const [addedAnswer, setAddedAnswer] = useState(0);
   
   console.log("in CREATE item component!")
   console.log(props)
@@ -303,6 +317,32 @@ const ConstructionItemComponent = (props) => {
         }
         
       }
+    }
+    
+  };
+
+  const saveExpertAnswers = async (e, questionID, expert_answer, answer_count) => {
+    e.preventDefault();
+    console.log("saving expert answers!!")
+    console.log(pID)
+    console.log(itemBank[currentItem]["question_meta_data"]["question_text"])
+    console.log(loadVis)
+    // const queryString = window.location.search;
+    // console.log(queryString);
+
+    // const urlParams = new URLSearchParams(queryString);
+    // console.log(urlParams)
+
+    // const prolific_ID = urlParams.get('PROLIFIC_PID')
+    // console.log(prolific_ID)
+
+    if (pID) {
+      const added = await addExpertAnswer(pID, questionID, expert_answer, answer_count);
+      if (!added) {
+        // setPID("");
+        setScore("");
+        alert("An error occurred. Please contact the survey administrator.");
+      } 
     }
     
   };
@@ -915,24 +955,32 @@ const ConstructionItemComponent = (props) => {
 
   }
 
-  const addVis = (e) => {
-    console.log(answerSet)
-    const answer_spec = loadVis
-    // let update_answers = answerSet
-    // update_answers.push(loadVis)
+  useEffect(() => {
     setAnswerSet([ // with a new array
     ...answerSet, // that contains all the old items
-    answer_spec // and one new item at the end
+    loadVis // and one new item at the end
     ])
+  }, [addedAnswer])
+
+  const addVis = (e) => {
     console.log(answerSet)
+    // const answer_spec = loadVis
+    // let update_answers = answerSet
+    // update_answers.push(loadVis)
+    setAddedAnswer(addedAnswer + 1)
+
+    console.log(addedAnswer)
+    console.log(answerSet)
+
 
     let answers_container = document.getElementById("displayAnswers")
 
     let show_answer = document.createElement("div")
-    show_answer.id = "answer" + answerSet.length
+    show_answer.id = "answer" + addedAnswer
     answers_container.appendChild(show_answer)
     embed('#'+ show_answer.id, loadVis, {"actions": false});
     document.getElementById("done").classList.remove("hideDescription")
+    saveExpertAnswers(e, "item_"+props.item, loadVis, addedAnswer)
   }
 
   const nextItem = (e) => {
