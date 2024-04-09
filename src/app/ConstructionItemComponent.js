@@ -214,11 +214,11 @@ function updateMark(vis_spec, mark) {
 
 
 
-function clearVis(vis_spec) {
-    vis_spec["encoding"] = {}
-    embed('#questionVis', vis_spec, {"actions": false});
-    return vis_spec
-}
+// function clearVis(vis_spec) {
+//     vis_spec["encoding"] = {}
+//     embed('#questionVis', vis_spec, {"actions": false});
+//     return vis_spec
+// }
 
 const ConstructionItemComponent = (props) => {
   const router = useRouter()
@@ -883,35 +883,39 @@ const ConstructionItemComponent = (props) => {
     
   }
 
-  const nextItem = (e) => {
-    
-    console.log("clicking next")
-    console.log(itemAnswer)
-    
-    let prev_index = props.item-1
-    let prev_item = "item_"+prev_index
-    // if (prev_index <= 0) {
-    //     prev_item = "instructions"
-    // }
-    // if (showTextBox && itemAnswer == "no answer") {
-    //     document.getElementById("requiredLabel").classList.add("showDescription")
-    //     document.getElementById("requiredLabel").classList.remove("hideDescription")
-    //     console.log(selectedChart)
-    //     console.log(selectedVar)
-    //     updateProgress(pID, prev_item, showTextBox, selectedChart, selectedVar)
-    //     return;
-    // }
+  const clearVis = (e) => {
+    let vis_spec_update = loadVis
+    vis_spec_update["encoding"] = {
+      "x": {
+        "field": "",
+        "type": ""
+      },
+      "y": {
+        "field": "",
+        "type": ""
+        
+      }
+    }
+    setLoadVis(vis_spec_update)
+    embed('#questionVis', vis_spec_update, {"actions": false});
+    console.log(vis_spec_update)
+    setSelectedChart(false)
+    setSelectedVar(false)
+    let chart_tiles = document.getElementsByClassName("chartTilesContainer")
+    for (let index = 0; index < chart_tiles.length; index += 1) {
+      if (chart_tiles[index].classList.contains("selectedChart")) {
+        chart_tiles[index].classList.remove("selectedChart");
+      }
+    }
+    setCurrentItemState(props.item_bank[currentItem]["manage_state"]);
+    document.getElementById("data-y").value = ""
+    document.getElementById("data-x").value = ""
+    document.getElementById("data-color").value = ""
+    document.getElementById("data-size").value = ""
 
-    // console.log(showTextBox)
-    // if (props.assessment && !showTextBox) {
-    //     setShowTextBox(true);
-    //     updateProgress(pID, prev_item, true, selectedChart, selectedVar)
-    //     return;
-    // }
-    let current_item = props.item;
-    let next_item = current_item + 1
-    console.log(next_item)
+  }
 
+  const addVis = (e) => {
     console.log(answerSet)
     const answer_spec = loadVis
     // let update_answers = answerSet
@@ -919,7 +923,7 @@ const ConstructionItemComponent = (props) => {
     setAnswerSet([ // with a new array
     ...answerSet, // that contains all the old items
     answer_spec // and one new item at the end
-  ])
+    ])
     console.log(answerSet)
 
     let answers_container = document.getElementById("displayAnswers")
@@ -928,6 +932,38 @@ const ConstructionItemComponent = (props) => {
     show_answer.id = "answer" + answerSet.length
     answers_container.appendChild(show_answer)
     embed('#'+ show_answer.id, loadVis, {"actions": false});
+    document.getElementById("done").classList.remove("hideDescription")
+  }
+
+  const nextItem = (e) => {
+    
+    console.log("clicking next")
+    console.log(itemAnswer)
+    
+    let prev_index = props.item-1
+    let prev_item = "item_"+prev_index
+    if (prev_index <= 0) {
+        prev_item = "instructions"
+    }
+    if (showTextBox && itemAnswer == "no answer") {
+        document.getElementById("requiredLabel").classList.add("showDescription")
+        document.getElementById("requiredLabel").classList.remove("hideDescription")
+        console.log(selectedChart)
+        console.log(selectedVar)
+        updateProgress(pID, prev_item, showTextBox, selectedChart, selectedVar)
+        return;
+    }
+
+    console.log(showTextBox)
+    if (props.assessment && !showTextBox) {
+        setShowTextBox(true);
+        updateProgress(pID, prev_item, true, selectedChart, selectedVar)
+        return;
+    }
+    let current_item = props.item;
+    let next_item = current_item + 1
+    console.log(next_item)
+
 
     // for (let index = 0; index < answerSet.length; index += 1) {
     //   answers_container.innerHTML = ""
@@ -937,49 +973,49 @@ const ConstructionItemComponent = (props) => {
     //   embed('#'+ show_answer.id, answerSet[index], {"actions": false});
     // }
     
-    // if (props.assessment) {
-    //     if (next_item <= 16) {
+    if (props.assessment) {
+        if (next_item <= 16) {
 
-    //         // let text_answer = ""
-    //         // if (props.assessment) {
-    //         let text_answer = document.getElementById("questionAnswer").value
-    //         // } else {
-    //         // text_answer = "placeholder"
-    //         // }
-    //         // console.log(text_answer)
+            // let text_answer = ""
+            // if (props.assessment) {
+            let text_answer = document.getElementById("questionAnswer").value
+            // } else {
+            // text_answer = "placeholder"
+            // }
+            // console.log(text_answer)
             
-    //         // let text_answer = "placeholder"
-    //         document.getElementById("proceeding").classList.remove("hideDescription")
-    //         updateProgress(pID, "item_"+props.item, false, selectedChart, selectedVar)
-    //         // console.log(document.getElementById("nextButtonValue").value)
-    //         handleSubmit(e, "item_"+current_item, startTime, text_answer, itemAnswer, startTime)
-    //         // let url_pid = "?PROLIFIC_PID=" + pID;
-    //         // router.push('/Q'+next_item+url_pid)
+            // let text_answer = "placeholder"
+            document.getElementById("proceeding").classList.remove("hideDescription")
+            updateProgress(pID, "item_"+props.item, false, selectedChart, selectedVar)
+            // console.log(document.getElementById("nextButtonValue").value)
+            handleSubmit(e, "item_"+current_item, startTime, text_answer, itemAnswer, startTime)
+            // let url_pid = "?PROLIFIC_PID=" + pID;
+            // router.push('/Q'+next_item+url_pid)
         
         
-    //     }
-    // } else {
-    //     if (next_item <= 6) {
-    //         let chart_tiles = document.getElementsByClassName("chartTilesContainer")
-    //         console.log(chart_tiles)
-    //         // let answered = false
-    //         // for (let index = 0; index < chart_tiles.length; index += 1) {
-    //         //   if (chart_tiles[index].classList.contains("selectedChart")) {
-    //         //     answered = true
-    //         //   }
-    //         // }
-    //         if (!selectedChart || !selectedVar) {
-    //           document.getElementById("questionContainer").classList.add("highlightRequired")
-    //           document.getElementById("questionContainer").focus()
-    //           return;
-    //         }
-    //         let text_answer = ""
-    //         document.getElementById("proceeding").classList.remove("hideDescription")
-    //         updateProgress(pID, "training_"+props.item, false, selectedChart, selectedVar)
-    //         // console.log(document.getElementById("nextButtonValue").value)
-    //         handleSubmit(e, "training_"+current_item, startTime, text_answer, itemAnswer, startTime)
-    //     }
-    // }
+        }
+    } else {
+        if (next_item <= 6) {
+            let chart_tiles = document.getElementsByClassName("chartTilesContainer")
+            console.log(chart_tiles)
+            // let answered = false
+            // for (let index = 0; index < chart_tiles.length; index += 1) {
+            //   if (chart_tiles[index].classList.contains("selectedChart")) {
+            //     answered = true
+            //   }
+            // }
+            if (!selectedChart || !selectedVar) {
+              document.getElementById("questionContainer").classList.add("highlightRequired")
+              document.getElementById("questionContainer").focus()
+              return;
+            }
+            let text_answer = ""
+            document.getElementById("proceeding").classList.remove("hideDescription")
+            updateProgress(pID, "training_"+props.item, false, selectedChart, selectedVar)
+            // console.log(document.getElementById("nextButtonValue").value)
+            handleSubmit(e, "training_"+current_item, startTime, text_answer, itemAnswer, startTime)
+        }
+    }
     
     
 
@@ -1028,6 +1064,15 @@ const ConstructionItemComponent = (props) => {
                             <img className="chartTiles" src={tileSets[chart_tiles]["chart"]} onClick={() => changeChartType(chart_tiles)}></img>
                         </div>
                     ))}
+                    <div className='buttonsContainer'>
+                    
+                      <div id="startNew" onClick={(e) => clearVis(e)}>
+                          <p>Clear all selections</p>
+                      </div>
+                      <div id="done" className="hideDescription" onClick={(e) => nextItem(e)}>
+                          <p>Done</p>
+                      </div>
+                    </div>
                     </div>
                 </div> : null}
             </div>
@@ -1137,9 +1182,13 @@ const ConstructionItemComponent = (props) => {
                     <textarea id="questionAnswer" name="questionAnswer" rows="2" cols="35" placeholder='Optional'></textarea>
                     {/* <p className="hideDescription" id="requiredLabel" style={{color:"red"}}>* This is required</p> */}
                 </div> : null}
-                <div id="nextButton" style={{marginBottom:"4rem"}} onClick={(e) => nextItem(e)}>
+                {showTextBox ? 
+                <div id="nextButton" onClick={(e) => nextItem(e)}>
                     <p>Next</p>
-                </div>
+                </div> :
+                <div id="nextButton" style={{marginBottom:"4rem"}} onClick={(e) => addVis(e)}>
+                    <p>Add</p>
+                </div>}
                 <p id='proceeding' className='hideDescription'>Proceeding...</p>
 
               </div>

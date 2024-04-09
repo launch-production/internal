@@ -140,17 +140,16 @@ img {
   width: 350px;
 }
 
-#nextButton {
+/* #nextButton {
   margin: auto;
   width: 6rem;
   margin-top: 2rem;
-  /* margin-bottom: 4rem; */
   border-width: 1px;
   border-style: solid;
   background-color: gray;
   text-align: center;
   color: white;
-}
+} */
 
 #proceeding, #missingRequired {
   margin: auto;
@@ -475,4 +474,37 @@ img {
   max-height: 400px;
   overflow-y: scroll;
   width: 800px;
+}
+
+#startNew, #done, #nextButton {
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* margin-top: 2rem; */
+  /* margin-bottom: 4rem; */
+  border-width: 1px;
+  border-style: solid;
+  background-color: #007ac1;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#startNew {
+  margin-left: 4rem;
+}
+
+#done {
+  margin-left: 10rem;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  /* margin: auto; */
+  /* justify-content: flex-end; */
+  width: 500px;
 }
