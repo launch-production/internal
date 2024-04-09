@@ -471,7 +471,7 @@ const StartPage = (props) => {
               } else {
                   setRedirectTo(redirect_url)
               }
-          } else if (current_progress["completed_item"] == "training6") {
+          } else if (current_progress["completed_item"] == "training5") {
               let url_pid = "?PROLIFIC_PID=" + prolific_ID;
               let redirect_url = "/instructions" + url_pid
               if (window.location.href.includes("instructions")) {
@@ -494,7 +494,7 @@ const StartPage = (props) => {
                   }
 
               } else if (type == "item") {
-                  if (display_item == 42) {
+                  if (display_item == 39) {
                   location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
                   } else {
                       let url_pid = "?PROLIFIC_PID=" + prolific_ID;
@@ -1506,7 +1506,15 @@ const StartPage = (props) => {
             (redirecting()) :
         <div id='questionContainer'>
           <h2>Expert Panel</h2>
-          <p>We are asking experts to summarize a set of answers for each question</p>
+          <p><b>Purpose</b></p>
+          <p>We invite you to provide your expertise on creating data visualizations. Your responses will inform the development of a set of question items that assess one's ability to construct visualizations.</p>
+          <p><b>Description</b></p>
+          <p>You will respond to a total of 43 trials (including 5 training trials). First you will complete 5 training trials to get familiar with the interface. After training, each of the 38 main trials will ask you to create visualizations that can <b>best</b> support or negate a given statement.</p>
+          {/* <p>There will be two sections: training and main section. The main section contains the 38 questions.</p> */}
+          <p><b>Task</b></p>
+          <p>For each trial, your task is to create <b>as many visualizations as possible</b> given a statement that can be either true or false. We ask you to create all variants of visualizations that you think you could use as best evidence to support or negate (i.e., prove or disprove) the statement.</p>
+          <p>Note that you will work on one trial at a time, and you cannot go back to the previous trial after completing it and proceeding to the next.</p>
+          <p>You may either complete this in one or multiple sittings. Make sure to use the same link provided to you if you complete this in multiple sittings.</p>     
                 {/* <p><b>- Training -</b></p>
                 <p><b>{itemBank[currentItem]["question_meta_data"]["question_topic"]}</b></p>
                 <p>{itemBank[currentItem]["question_meta_data"]["question_text"]}</p> */}

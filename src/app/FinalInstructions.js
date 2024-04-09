@@ -420,7 +420,7 @@ const checkProgress = async (prolific_ID) => {
                   }
 
               } else if (type == "item") {
-                  if (display_item == 42) {
+                  if (display_item == 39) {
                   location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
                   } else {
                       let url_pid = "?PROLIFIC_PID=" + prolific_ID;
@@ -1345,10 +1345,10 @@ const updateProgress = async (prolificID, completed_item) => {
                 <p><b>Spending_Category:</b> What the spending was categorized as.</p>
                 <hr></hr>
                 <br></br>
-                <p>There are <b>15 questions</b> in this section.</p>
-                <p>This section is expected to take approximately 25 minutes.</p>
+                <p>There are <b>38 questions</b> in this section.</p>
+                {/* <p>This section is expected to take approximately 25 minutes.</p> */}
                 {/* <p>{itemBank[currentItem]["question_meta_data"]["question_text"]}</p> */}
-                <p>For successful completion, you must answer all of the questions in this section.</p>
+                {/* <p>For successful completion, you must answer all of the questions in this section.</p> */}
                 <br></br>
                 <p><i>Note you will not be able to go back once you advance to the next question.</i></p>
                 <p>Click 'Start' to proceed.</p>

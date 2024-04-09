@@ -305,7 +305,7 @@ const ConstructionItemComponent = (props) => {
         setScore("");
         alert("An error occurred. Please contact the survey administrator.");
       } else {
-        if (props.item == 15) {
+        if (props.item == 38) {
             location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
         }
         let url_pid = "?PROLIFIC_PID=" + pID;
@@ -457,7 +457,7 @@ const ConstructionItemComponent = (props) => {
                     }
 
                 } else if (type == "item") {
-                    if (display_item == 42) {
+                    if (display_item == 39) {
                     location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
                     } else {
                         let url_pid = "?PROLIFIC_PID=" + prolific_ID;
@@ -479,7 +479,7 @@ const ConstructionItemComponent = (props) => {
                 }
             }
         
-            if (props.assessment && props.item <= 15) {
+            if (props.assessment && props.item <= 38) {
                 let index = props.item
                 let item_order = current_progress["randomized_order"]
                 setCurrentItem(props.mode+item_order[index-1])
@@ -1043,7 +1043,8 @@ const ConstructionItemComponent = (props) => {
         
         }
     } else {
-        if (next_item <= 6) {
+        if (next_item <= 6) { // including usability
+        // if (next_item <= 5) {
             let chart_tiles = document.getElementsByClassName("chartTilesContainer")
             console.log(chart_tiles)
             // let answered = false
@@ -1230,7 +1231,7 @@ const ConstructionItemComponent = (props) => {
                     <textarea id="questionAnswer" name="questionAnswer" rows="2" cols="35" placeholder='Optional'></textarea>
                     {/* <p className="hideDescription" id="requiredLabel" style={{color:"red"}}>* This is required</p> */}
                 </div> : null}
-                {showTextBox ? 
+                {showTextBox || !props.assessment ? 
                 <div id="nextButton" onClick={(e) => nextItem(e)}>
                     <p>Next</p>
                 </div> :
