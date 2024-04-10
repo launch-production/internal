@@ -108,7 +108,7 @@ const TrainingInstructions = () => {
                     } else {
                         setRedirectTo(redirect_url)
                     }
-                } else if (current_progress["completed_item"] == "training6") {
+                } else if (current_progress["completed_item"] == "training_6") {
                     let url_pid = "?PROLIFIC_PID=" + prolific_ID;
                     let redirect_url = "/instructions" + url_pid
                     if (window.location.href.includes("instructions")) {

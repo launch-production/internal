@@ -471,7 +471,7 @@ const StartPage = (props) => {
               } else {
                   setRedirectTo(redirect_url)
               }
-          } else if (current_progress["completed_item"] == "training5") {
+          } else if (current_progress["completed_item"] == "training_6") {
               let url_pid = "?PROLIFIC_PID=" + prolific_ID;
               let redirect_url = "/instructions" + url_pid
               if (window.location.href.includes("instructions")) {
@@ -656,7 +656,9 @@ const StartPage = (props) => {
 
     console.log(randomized_IDS)
 
-
+    // TODO
+    // // if prolific id == 
+    // randomized_IDS = [#, #, #, #, #]// import from R
 
     // starting index: 0 or 5 or 9
     // let attention_checkIDs = ["39", "40", "41"]

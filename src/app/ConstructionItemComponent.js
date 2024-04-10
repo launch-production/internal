@@ -61,11 +61,24 @@ async function initializeTime(prolificID, questionID, time_start) {
   }
 }
 
-async function addExpertAnswer(prolificID, questionID, expert_answer, answer_count) {
+async function addExpertAnswer(prolificID, questionID, expert_answer) {
   try {
     const docRef = await setDoc(doc(db, prolificID, questionID), {
       expert_answers: arrayUnion(expert_answer)
     }, { merge: true });
+    console.log("Doc written with ID: ", prolificID);
+    return true;
+  } catch (error) {
+    console.error("Error ", error)
+    return false;
+  }
+}
+
+async function removeAnswerIndex(prolificID, questionID, remove_index) {
+  try {
+    const docRef = await updateDoc(doc(db, prolificID, questionID), {
+      remove_answers: arrayUnion(remove_index)
+    });
     console.log("Doc written with ID: ", prolificID);
     return true;
   } catch (error) {
@@ -321,7 +334,7 @@ const ConstructionItemComponent = (props) => {
     
   };
 
-  const saveExpertAnswers = async (e, questionID, expert_answer, answer_count) => {
+  const saveExpertAnswers = async (e, questionID, expert_answer) => {
     e.preventDefault();
     console.log("saving expert answers!!")
     console.log(pID)
@@ -337,7 +350,33 @@ const ConstructionItemComponent = (props) => {
     // console.log(prolific_ID)
 
     if (pID) {
-      const added = await addExpertAnswer(pID, questionID, expert_answer, answer_count);
+      const added = await addExpertAnswer(pID, questionID, expert_answer);
+      if (!added) {
+        // setPID("");
+        setScore("");
+        alert("An error occurred. Please contact the survey administrator.");
+      } 
+    }
+    
+  };
+
+  const saveRemoveAnswer = async (e, questionID, remove_index) => {
+    e.preventDefault();
+    console.log("saving expert answers!!")
+    console.log(pID)
+    console.log(itemBank[currentItem]["question_meta_data"]["question_text"])
+    console.log(loadVis)
+    // const queryString = window.location.search;
+    // console.log(queryString);
+
+    // const urlParams = new URLSearchParams(queryString);
+    // console.log(urlParams)
+
+    // const prolific_ID = urlParams.get('PROLIFIC_PID')
+    // console.log(prolific_ID)
+
+    if (pID) {
+      const added = await removeAnswerIndex(pID, questionID, remove_index);
       if (!added) {
         // setPID("");
         setScore("");
@@ -433,7 +472,7 @@ const ConstructionItemComponent = (props) => {
                 } else {
                     setRedirectTo(redirect_url)
                 }
-            } else if (current_progress["completed_item"] == "training6") {
+            } else if (current_progress["completed_item"] == "training_6") {
                 let url_pid = "?PROLIFIC_PID=" + prolific_ID;
                 let redirect_url = "/instructions" + url_pid
                 if (window.location.href.includes("instructions")) {
@@ -955,12 +994,16 @@ const ConstructionItemComponent = (props) => {
 
   }
 
-  useEffect(() => {
-    setAnswerSet([ // with a new array
-    ...answerSet, // that contains all the old items
-    loadVis // and one new item at the end
-    ])
-  }, [addedAnswer])
+  // useEffect(() => {
+  //   setAnswerSet([ // with a new array
+  //   ...answerSet, // that contains all the old items
+  //   {addedAnswer: loadVis} // and one new item at the end
+  //   ])
+  //   // const newAnswerSet = [...answerSet]
+  //   // const saveLoadVis = addedAnswer
+  //   // newAnswerSet.push(saveLoadVis)
+  //   // setAnswerSet(newAnswerSet)
+  // }, [addedAnswer])
 
   const addVis = (e) => {
     console.log(answerSet)
@@ -969,18 +1012,40 @@ const ConstructionItemComponent = (props) => {
     // update_answers.push(loadVis)
     setAddedAnswer(addedAnswer + 1)
 
+    // const newAnswerSet = [...answerSet]
+    // newAnswerSet.push(loadVis)
+    // setAnswerSet(newAnswerSet)
+
     console.log(addedAnswer)
     console.log(answerSet)
-
+    let index_answer = {}
+    index_answer[addedAnswer] = loadVis
+    saveExpertAnswers(e, "item_"+props.item, index_answer)
 
     let answers_container = document.getElementById("displayAnswers")
 
+    let answer_added =  document.createElement("div")
     let show_answer = document.createElement("div")
     show_answer.id = "answer" + addedAnswer
-    answers_container.appendChild(show_answer)
+    let remove_button = document.createElement("div")
+    remove_button.classList.add("remove_button")
+    remove_button.id = 'remove_' + addedAnswer
+    remove_button.innerHTML = "Remove"
+    remove_button.addEventListener("click", function() {
+      // alert("clicked"+remove_button.id)
+      saveRemoveAnswer(e, "item_"+props.item, addedAnswer)
+      remove_button.parentNode.classList.remove("answerAddedContainer")
+      remove_button.parentNode.classList.add("hideDescription")
+    });
+    
+    answer_added.appendChild(show_answer)
+    answer_added.appendChild(remove_button)
+    answer_added.classList.add("answerAddedContainer")
+    answers_container.appendChild(answer_added)
+    answers_container.classList.add("answersContainer")
     embed('#'+ show_answer.id, loadVis, {"actions": false});
     document.getElementById("done").classList.remove("hideDescription")
-    saveExpertAnswers(e, "item_"+props.item, loadVis, addedAnswer)
+    
   }
 
   const nextItem = (e) => {
@@ -1102,10 +1167,7 @@ const ConstructionItemComponent = (props) => {
             <div id='chartTypes'>
             {!props.assessment ? <div id="toReconstruct"></div> : null}
                 {props.assessment ? <div>
-                    <div id="displayAnswers">
-                     
-                    </div>
-                    <hr></hr>
+                    
                     <p>Select a mark type for your chart</p>
                     <div id="chartTypesTiles">
                     {chart_types.map(chart_tiles => (
@@ -1118,9 +1180,9 @@ const ConstructionItemComponent = (props) => {
                       <div id="startNew" onClick={(e) => clearVis(e)}>
                           <p>Clear all selections</p>
                       </div>
-                      <div id="done" className="hideDescription" onClick={(e) => nextItem(e)}>
+                      {/* <div id="done" className="hideDescription" onClick={(e) => nextItem(e)}>
                           <p>Done</p>
-                      </div>
+                      </div> */}
                     </div>
                     </div>
                 </div> : null}
@@ -1243,6 +1305,19 @@ const ConstructionItemComponent = (props) => {
               </div>
         
         </div>
+        {props.assessment && !showTextBox ? 
+        <div>
+          <hr></hr>
+          <div id="displayAnswers">
+                      
+          </div>
+          <div id="done" className="hideDescription" onClick={(e) => nextItem(e)}>
+              <p>Done</p>
+          </div>
+        </div>
+        :
+        null
+        }
      
       </div>}
     

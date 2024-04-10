@@ -476,7 +476,7 @@ img {
   width: 800px;
 }
 
-#startNew, #done, #nextButton {
+#startNew, #done, #nextButton, .remove_button {
   margin: auto;
   width: fit-content;
   height: fit-content;
@@ -498,7 +498,15 @@ img {
 }
 
 #done {
-  margin-left: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.remove_button {
+  padding: 1rem;
+  margin-right: 15rem !important
+  
 }
 
 .buttonsContainer {
@@ -507,4 +515,14 @@ img {
   /* margin: auto; */
   /* justify-content: flex-end; */
   width: 500px;
+}
+
+.answersContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.answerAddedContainer {
+  display: flex;
+  flex-direction: row;
 }

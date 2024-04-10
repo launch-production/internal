@@ -377,7 +377,7 @@ const UsabilityCheck = (props) => {
                 } else {
                     setRedirectTo(redirect_url)
                 }
-            } else if (current_progress["completed_item"] == "training6") {
+            } else if (current_progress["completed_item"] == "training_6") {
                 let url_pid = "?PROLIFIC_PID=" + prolific_ID;
                 let redirect_url = "/instructions" + url_pid
                 if (window.location.href.includes("instructions")) {
@@ -814,7 +814,7 @@ const UsabilityCheck = (props) => {
         document.getElementById("scrollUp").classList.add("hideDescription")
         document.getElementById("proceeding").classList.remove("hideDescription")
         let text_answer = document.getElementById("usabilityQuestionAnswer").value
-        updateProgress(pID, "training"+props.item)
+        updateProgress(pID, "training_"+props.item)
         // console.log(document.getElementById("nextButtonValue").value)
         handleSubmit(e, "usability_checks", startTime, text_answer)
     }
