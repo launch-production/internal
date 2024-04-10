@@ -76,8 +76,21 @@ async function addExpertAnswer(prolificID, questionID, expert_answer) {
 
 async function removeAnswerIndex(prolificID, questionID, remove_index) {
   try {
-    const docRef = await updateDoc(doc(db, prolificID, questionID), {
+    const docRef = await setDoc(doc(db, prolificID, questionID), {
       remove_answers: arrayUnion(remove_index)
+    }, { merge: true });
+    console.log("Doc written with ID: ", prolificID);
+    return true;
+  } catch (error) {
+    console.error("Error ", error)
+    return false;
+  }
+}
+
+async function saveResponses(prolificID, questionID, answer_index) {
+  try {
+    const docRef = await updateDoc(doc(db, prolificID, questionID), {
+      saved_responses: answer_index
     });
     console.log("Doc written with ID: ", prolificID);
     return true;
@@ -386,6 +399,32 @@ const ConstructionItemComponent = (props) => {
     
   };
 
+  const saveAnswerResponse = async (e, questionID) => {
+    e.preventDefault();
+    console.log("saving expert answers!!")
+    console.log(pID)
+    console.log(itemBank[currentItem]["question_meta_data"]["question_text"])
+    console.log(loadVis)
+    // const queryString = window.location.search;
+    // console.log(queryString);
+
+    // const urlParams = new URLSearchParams(queryString);
+    // console.log(urlParams)
+
+    // const prolific_ID = urlParams.get('PROLIFIC_PID')
+    // console.log(prolific_ID)
+
+    if (pID) {
+      const added = await saveResponses(pID, questionID, answerSet);
+      if (!added) {
+        // setPID("");
+        setScore("");
+        alert("An error occurred. Please contact the survey administrator.");
+      } 
+    }
+    
+  };
+
   const getProgress = async (prolificID) => {
     try {
       const querySnapshot = await getDocs(collection(db, prolificID));
@@ -600,6 +639,7 @@ const ConstructionItemComponent = (props) => {
       checkProgress(prolific_ID)
 
       setShowTextBox(false)
+      
           
       
       
@@ -1010,7 +1050,18 @@ const ConstructionItemComponent = (props) => {
     // const answer_spec = loadVis
     // let update_answers = answerSet
     // update_answers.push(loadVis)
-    setAddedAnswer(addedAnswer + 1)
+
+    
+    // if (addedAnswer == 0) {
+    //   let restart = new Date().getTime()
+    //   saveRemoveAnswer(e, "item_"+props.item, restart)
+    // }
+    
+    setAnswerSet([ // with a new array
+      ...answerSet, // that contains all the old items
+      {"time": startTime,
+       "answer_index": addedAnswer} // and one new item at the end
+    ])
 
     // const newAnswerSet = [...answerSet]
     // newAnswerSet.push(loadVis)
@@ -1019,6 +1070,7 @@ const ConstructionItemComponent = (props) => {
     console.log(addedAnswer)
     console.log(answerSet)
     let index_answer = {}
+    index_answer["time"] = startTime
     index_answer[addedAnswer] = loadVis
     saveExpertAnswers(e, "item_"+props.item, index_answer)
 
@@ -1033,7 +1085,10 @@ const ConstructionItemComponent = (props) => {
     remove_button.innerHTML = "Remove"
     remove_button.addEventListener("click", function() {
       // alert("clicked"+remove_button.id)
-      saveRemoveAnswer(e, "item_"+props.item, addedAnswer)
+      let remove_index = {}
+      remove_index["time"] = startTime
+      remove_index["index"] = addedAnswer
+      saveRemoveAnswer(e, "item_"+props.item, remove_index)
       remove_button.parentNode.classList.remove("answerAddedContainer")
       remove_button.parentNode.classList.add("hideDescription")
     });
@@ -1045,7 +1100,7 @@ const ConstructionItemComponent = (props) => {
     answers_container.classList.add("answersContainer")
     embed('#'+ show_answer.id, loadVis, {"actions": false});
     document.getElementById("done").classList.remove("hideDescription")
-    
+    setAddedAnswer(addedAnswer + 1)
   }
 
   const nextItem = (e) => {
@@ -1070,7 +1125,9 @@ const ConstructionItemComponent = (props) => {
     console.log(showTextBox)
     if (props.assessment && !showTextBox) {
         setShowTextBox(true);
+        
         updateProgress(pID, prev_item, true, selectedChart, selectedVar)
+        saveAnswerResponse(e, "item_"+props.item)
         return;
     }
     let current_item = props.item;
