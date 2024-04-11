@@ -17,7 +17,7 @@ async function addProgress(prolificID, current_item) {
     }
   }
 
-const TrainingInstructions = () => {
+const EndPage = () => {
     const router = useRouter()
     const pathname = usePathname()
     const searchParams = useSearchParams()
@@ -134,9 +134,9 @@ const TrainingInstructions = () => {
                         let url_pid = "?PROLIFIC_PID=" + prolific_ID;
                         if (display_item > 15) {
                         // location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
-                          router.push('/end'+url_pid)
+                        router.push('/end'+url_pid)
                         } else {
-                            // let url_pid = "?PROLIFIC_PID=" + prolific_ID;
+                            let url_pid = "?PROLIFIC_PID=" + prolific_ID;
                             let check_existing = "Q" + display_item;
                             let redirect_url = "/Q" + display_item + url_pid
                             if (window.location.href.includes(check_existing)) {
@@ -259,20 +259,16 @@ const TrainingInstructions = () => {
             (redirectTo != "") ? 
             (redirecting()) : <div id='questionContainer'>
             <div>
-                <h3>Instructions for Training Section</h3>
+                <h3>Complete</h3>
                 <br></br>
-                <p><b>You are about to begin the training section.</b></p>
-                <p>There are <b>5 trials</b> in this section followed by a short usability survey.</p>
-                <p>This section is expected to take approximately 5 minutes.</p>
-                {/* <p>For successsful completion, you must answer all of the questions in this section.</p> */}
-                <br></br>
-                <p><i>Note you will not be able to go back once you advance to the next trial.</i></p>
-                <p>Click 'Start Training' to proceed.</p>
+                <p><b>Thank you for your responses.</b></p>
+                <p>You can close the browser.</p>
+                
             </div>
-            <div id="nextButton" onClick={(e) => nextItem(e)}>
+            {/* <div id="nextButton" onClick={(e) => nextItem(e)}>
                 <p>Start Training</p>
             </div>
-            <p id='proceeding' className='hideDescription'>Proceeding...</p>
+            <p id='proceeding' className='hideDescription'>Proceeding...</p> */}
             </div> }
 
         </div>
@@ -281,4 +277,4 @@ const TrainingInstructions = () => {
     );
   };
   
-  export default TrainingInstructions;
+  export default EndPage;

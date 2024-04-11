@@ -503,6 +503,10 @@ img {
   width: 100%;
 }
 
+#nextButton {
+  margin-top: 2rem;
+}
+
 .remove_button {
   padding: 1rem;
   margin-right: 15rem !important
@@ -526,3 +530,10 @@ img {
   display: flex;
   flex-direction: row;
 }
+
+select {
+  width: 150px;
+  /* overflow: hidden; */
+}
+
+

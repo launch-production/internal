@@ -494,10 +494,12 @@ const StartPage = (props) => {
                   }
 
               } else if (type == "item") {
-                  if (display_item == 39) {
-                  location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
+                  let url_pid = "?PROLIFIC_PID=" + prolific_ID;
+                  if (display_item > 15) {
+                  // location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
+                    router.push('/end'+url_pid)
                   } else {
-                      let url_pid = "?PROLIFIC_PID=" + prolific_ID;
+                      // let url_pid = "?PROLIFIC_PID=" + prolific_ID;
                       let check_existing = "Q" + display_item;
                       let redirect_url = "/Q" + display_item + url_pid
                       if (window.location.href.includes(check_existing)) {
@@ -583,82 +585,84 @@ const StartPage = (props) => {
     //   item_IDs = combine_new
     // }
 
-    // task: describe distribution
-    let item_IDs_DD = []
-    for (let i = 1; i <= 12; i += 1) {
-      item_IDs_DD.push(i.toString())
-    }
+    // // task: describe distribution
+    // let item_IDs_DD = []
+    // for (let i = 1; i <= 12; i += 1) {
+    //   item_IDs_DD.push(i.toString())
+    // }
 
-    // task: find correlation/trend
-    let item_IDs_FCT = []
-    for (let i = 13; i <= 24; i += 1) {
-      item_IDs_FCT.push(i.toString())
-    }
+    // // task: find correlation/trend
+    // let item_IDs_FCT = []
+    // for (let i = 13; i <= 24; i += 1) {
+    //   item_IDs_FCT.push(i.toString())
+    // }
 
-    // task: make pattern comparisons
-    let item_IDs_MPC = []
-    for (let i = 25; i <= 38; i += 1) {
-      item_IDs_MPC.push(i.toString())
-    }
+    // // task: make pattern comparisons
+    // let item_IDs_MPC = []
+    // for (let i = 25; i <= 38; i += 1) {
+    //   item_IDs_MPC.push(i.toString())
+    // }
 
-    let random_4_DD = []
-    for (let i = 1; i <= 12; i += 1) {
-      console.log(item_IDs_DD)
-      let random_index = Math.floor(Math.random() * item_IDs_DD.length);
-      console.log(random_index)
-      random_4_DD.push(item_IDs_DD[random_index])
-      let temp = item_IDs_DD.slice(0, random_index)
-      let temp_2 = item_IDs_DD.slice(random_index+1)
-      let combine_new = temp.concat(temp_2)
-      console.log(combine_new)
-      item_IDs_DD = combine_new
-    }
+    // let random_4_DD = []
+    // for (let i = 1; i <= 5; i += 1) {
+    //   console.log(item_IDs_DD)
+    //   let random_index = Math.floor(Math.random() * item_IDs_DD.length);
+    //   console.log(random_index)
+    //   random_4_DD.push(item_IDs_DD[random_index])
+    //   let temp = item_IDs_DD.slice(0, random_index)
+    //   let temp_2 = item_IDs_DD.slice(random_index+1)
+    //   let combine_new = temp.concat(temp_2)
+    //   console.log(combine_new)
+    //   item_IDs_DD = combine_new
+    // }
 
-    let random_4_FCT = []
-    for (let i = 1; i <= 12; i += 1) {
-      console.log(item_IDs_FCT)
-      let random_index = Math.floor(Math.random() * item_IDs_FCT.length);
-      console.log(random_index)
-      random_4_FCT.push(item_IDs_FCT[random_index])
-      let temp = item_IDs_FCT.slice(0, random_index)
-      let temp_2 = item_IDs_FCT.slice(random_index+1)
-      let combine_new = temp.concat(temp_2)
-      console.log(combine_new)
-      item_IDs_FCT = combine_new
-    }
+    // let random_4_FCT = []
+    // for (let i = 1; i <= 5; i += 1) {
+    //   console.log(item_IDs_FCT)
+    //   let random_index = Math.floor(Math.random() * item_IDs_FCT.length);
+    //   console.log(random_index)
+    //   random_4_FCT.push(item_IDs_FCT[random_index])
+    //   let temp = item_IDs_FCT.slice(0, random_index)
+    //   let temp_2 = item_IDs_FCT.slice(random_index+1)
+    //   let combine_new = temp.concat(temp_2)
+    //   console.log(combine_new)
+    //   item_IDs_FCT = combine_new
+    // }
 
-    let random_4_MPC = []
-    for (let i = 1; i <= 14; i += 1) {
-      console.log(item_IDs_MPC)
-      let random_index = Math.floor(Math.random() * item_IDs_MPC.length);
-      console.log(random_index)
-      random_4_MPC.push(item_IDs_MPC[random_index])
-      let temp = item_IDs_MPC.slice(0, random_index)
-      let temp_2 = item_IDs_MPC.slice(random_index+1)
-      let combine_new = temp.concat(temp_2)
-      console.log(combine_new)
-      item_IDs_MPC = combine_new
-    }
+    // let random_4_MPC = []
+    // for (let i = 1; i <= 5; i += 1) {
+    //   console.log(item_IDs_MPC)
+    //   let random_index = Math.floor(Math.random() * item_IDs_MPC.length);
+    //   console.log(random_index)
+    //   random_4_MPC.push(item_IDs_MPC[random_index])
+    //   let temp = item_IDs_MPC.slice(0, random_index)
+    //   let temp_2 = item_IDs_MPC.slice(random_index+1)
+    //   let combine_new = temp.concat(temp_2)
+    //   console.log(combine_new)
+    //   item_IDs_MPC = combine_new
+    // }
 
-    var random_12_IDs = random_4_DD.concat(random_4_FCT, random_4_MPC)
-    let randomized_IDS = []
-    for (let i = 1; i <= 38; i += 1) {
-      console.log(random_12_IDs)
-      let random_index = Math.floor(Math.random() * random_12_IDs.length);
-      console.log(random_index)
-      randomized_IDS.push(random_12_IDs[random_index])
-      let temp = random_12_IDs.slice(0, random_index)
-      let temp_2 = random_12_IDs.slice(random_index+1)
-      let combine_new = temp.concat(temp_2)
-      console.log(combine_new)
-      random_12_IDs = combine_new
-    }
+    // var random_12_IDs = random_4_DD.concat(random_4_FCT, random_4_MPC)
+    // let randomized_IDS = []
+    // for (let i = 1; i <= 15; i += 1) {
+    //   console.log(random_12_IDs)
+    //   let random_index = Math.floor(Math.random() * random_12_IDs.length);
+    //   console.log(random_index)
+    //   randomized_IDS.push(random_12_IDs[random_index])
+    //   let temp = random_12_IDs.slice(0, random_index)
+    //   let temp_2 = random_12_IDs.slice(random_index+1)
+    //   let combine_new = temp.concat(temp_2)
+    //   console.log(combine_new)
+    //   random_12_IDs = combine_new
+    // }
 
-    console.log(randomized_IDS)
+    // console.log(randomized_IDS)
 
     // TODO
     // // if prolific id == 
     // randomized_IDS = [#, #, #, #, #]// import from R
+    let randomized_IDS = []
+    randomized_IDS = ["9", "36", "38", "17", "34", "16", "1", "15", "24", "4", "33", "13", "8", "7", "27"]
 
     // starting index: 0 or 5 or 9
     // let attention_checkIDs = ["39", "40", "41"]
@@ -1511,12 +1515,19 @@ const StartPage = (props) => {
           <p><b>Purpose</b></p>
           <p>We invite you to provide your expertise on creating data visualizations. Your responses will inform the development of a set of question items that assess one's ability to construct visualizations.</p>
           <p><b>Description</b></p>
-          <p>You will respond to a total of 43 trials (including 5 training trials). First you will complete 5 training trials to get familiar with the interface. After training, each of the 38 main trials will ask you to create visualizations that can <b>best</b> support or negate a given statement.</p>
+          <p>There are a total of 20 trials (including 5 training trials). First you will complete 5 training trials to get familiar with the interface. After training, each of the 15 main trials contains one statement that can either be true or false.</p>
+          {/* <p>You will respond to a total of 43 trials (including 5 training trials). First you will complete 5 training trials to get familiar with the interface. After training, each of the 38 main trials will ask you to create visualizations that can <b>best</b> support or negate a given statement.</p> */}
           {/* <p>There will be two sections: training and main section. The main section contains the 38 questions.</p> */}
           <p><b>Task</b></p>
-          <p>For each trial, your task is to create <b>as many visualizations as possible</b> given a statement that can be either true or false. We ask you to create all variants of visualizations that you think you could use as best evidence to support or negate (i.e., prove or disprove) the statement.</p>
-          <p>Note that you will work on one trial at a time, and you cannot go back to the previous trial after completing it and proceeding to the next.</p>
-          <p>You may either complete this in one or multiple sittings. Make sure to use the same link provided to you if you complete this in multiple sittings.</p>     
+          <p>For each trial, your overall task is to <b>determine whether the given statement is true or false.</b> More specifically, </p>
+          <ul>
+            <li>use the given data to create visualizations to help you determine the truth of the statement</li>
+            <li><b>create all variants and as many charts as possible</b> as the best supporting evidence for your judgement.</li>
+          </ul>
+          {/* <p>You are given the relevant data variables to create data visualizations that help you determine the truth of the statement. We ask you to please <b>create all variants of visualizations you could use as the best supporting evidence for your judgement.</b></p> */}
+          {/* <p>For each trial, your task is to create <b>as many visualizations as possible</b> given a statement that can be either true or false. We ask you to create all variants of visualizations that you think you could use as best evidence to support or negate (i.e., prove or disprove) the statement.</p> */}
+          <p>Note that you will work on one trial at a time, and you cannot go back to the previous trial after proceeding to the next.</p>
+          <p>You may either complete this in one or multiple sittings. Make sure to use the same link provided to you if you plan to complete this in multiple sittings.</p>     
                 {/* <p><b>- Training -</b></p>
                 <p><b>{itemBank[currentItem]["question_meta_data"]["question_topic"]}</b></p>
                 <p>{itemBank[currentItem]["question_meta_data"]["question_text"]}</p> */}

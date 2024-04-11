@@ -400,10 +400,12 @@ const UsabilityCheck = (props) => {
                     }
 
                 } else if (type == "item") {
-                    if (display_item == 42) {
-                    location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
+                    let url_pid = "?PROLIFIC_PID=" + prolific_ID;
+                    if (display_item > 15) {
+                    // location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
+                      router.push('/end'+url_pid)
                     } else {
-                        let url_pid = "?PROLIFIC_PID=" + prolific_ID;
+                        // let url_pid = "?PROLIFIC_PID=" + prolific_ID;
                         let check_existing = "Q" + display_item;
                         let redirect_url = "/Q" + display_item + url_pid
                         if (window.location.href.includes(check_existing)) {
@@ -909,11 +911,11 @@ const UsabilityCheck = (props) => {
             <p><label htmlFor="usabilityQuestionAnswer"><b>If you have any additional reasoning or comments, please enter them below:</b></label></p>
             <textarea id="usabilityQuestionAnswer" name="usabilityQuestionAnswer" rows="2" cols="35" placeholder='Optional'></textarea>
         </div>
-        <p id='proceeding' className='hideDescription'>Proceeding...</p>
         <p id='scrollUp' className='hideDescription'><span style={{color:"red"}}>Please answer all questions marked with *</span></p>
-        <div id="nextButton" style={{marginBottom:"6rem"}} onClick={(e) => nextItem(e)}>
+        <div id="nextButton" onClick={(e) => nextItem(e)}>
             <p>Next</p>
         </div>
+        <p id='proceeding' className='hideDescription' style={{marginBottom:"6rem"}}>Proceeding...</p>
         
         {/* {isClient && !showTextBox ? <QuestionText question={itemBank[currentItem]["question_meta_data"]}></QuestionText> : null}
         {!showTextBox ? <hr></hr> : null}

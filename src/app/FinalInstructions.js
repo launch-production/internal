@@ -420,10 +420,12 @@ const checkProgress = async (prolific_ID) => {
                   }
 
               } else if (type == "item") {
-                  if (display_item == 39) {
-                  location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
+                  let url_pid = "?PROLIFIC_PID=" + prolific_ID;
+                  if (display_item > 15) {
+                  // location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
+                    router.push('/end'+url_pid)
                   } else {
-                      let url_pid = "?PROLIFIC_PID=" + prolific_ID;
+                      // let url_pid = "?PROLIFIC_PID=" + prolific_ID;
                       let check_existing = "Q" + display_item;
                       let redirect_url = "/Q" + display_item + url_pid
                       if (window.location.href.includes(check_existing)) {
@@ -1330,9 +1332,16 @@ const updateProgress = async (prolificID, completed_item) => {
                 <h3>Instructions for Main Section</h3>
                 <br></br>
                 <p><b>You are now about to begin the main section.</b></p>
-                <p>The layout of each question in this section will be the same as the training you just completed.</p>
-                <p>In each question, you will be asked to create a chart that supports or negates a given statement.</p>
-                <p>The given data for each question may be different, but they will all involve the following variables.</p>
+                <p>The layout of each trial in this section will be the same as the training you just completed.</p>
+                {/* <p>In each trial, you will be asked to create a chart that supports or negates a given statement.</p> */}
+                <p>For each trial, your overall task is to <b>determine whether the given statement is true or false.</b></p>
+                <p><b>Create all variants and as many charts as possible</b> as the best supporting evidence for your judgement.</p>
+                <br></br>
+                {/* <ul>
+                  <li>use the given data to create visualizations to help you determine the truth of the statement</li>
+                  <li><b>create all variants and as many charts as possible</b> as your best supporting evidence for your judgement.</li>
+                </ul> */}
+                <p>The given data for each trial may be different, but they will all involve the following variables.</p>
                 
                 <h4><b>Please familiarize yourself with these variables before clicking start.</b></h4>
                 <hr></hr>
@@ -1345,14 +1354,14 @@ const updateProgress = async (prolificID, completed_item) => {
                 <p><b>Spending_Category:</b> What the spending was categorized as.</p>
                 <hr></hr>
                 <br></br>
-                <p>There are <b>38 questions</b> in this section.</p>
+                <p>There are <b>15 trials</b> in this section.</p>
                 {/* <p>This section is expected to take approximately 25 minutes.</p> */}
                 {/* <p>{itemBank[currentItem]["question_meta_data"]["question_text"]}</p> */}
                 {/* <p>For successful completion, you must answer all of the questions in this section.</p> */}
                 <br></br>
-                <p><i>Note you will not be able to go back once you advance to the next question.</i></p>
+                <p><i>Note you will not be able to go back once you advance to the next trial.</i></p>
                 <p>Click 'Start' to proceed.</p>
-                <div id="nextButton" style={{marginBottom:"6rem"}} onClick={(e) => nextItem(e)}>
+                <div id="nextButton" onClick={(e) => nextItem(e)}>
                   <p>Start</p>
                 </div>
                 <p id='proceeding' className='hideDescription'>Proceeding...</p>

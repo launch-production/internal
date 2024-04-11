@@ -331,10 +331,12 @@ const ConstructionItemComponent = (props) => {
         setScore("");
         alert("An error occurred. Please contact the survey administrator.");
       } else {
-        if (props.item == 38) {
-            location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
-        }
         let url_pid = "?PROLIFIC_PID=" + pID;
+        if (props.item == 15) {
+            // location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
+            router.push('/end'+url_pid)
+        }
+        // let url_pid = "?PROLIFIC_PID=" + pID;
         let next_item = props.item + 1
         if (props.assessment) {
             router.push('/Q'+next_item+url_pid)
@@ -535,10 +537,12 @@ const ConstructionItemComponent = (props) => {
                     }
 
                 } else if (type == "item") {
-                    if (display_item == 39) {
-                    location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
+                    let url_pid = "?PROLIFIC_PID=" + prolific_ID;
+                    if (display_item > 15) {
+                    // location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
+                      router.push('/end'+url_pid)
                     } else {
-                        let url_pid = "?PROLIFIC_PID=" + prolific_ID;
+                        
                         let check_existing = "Q" + display_item;
                         let redirect_url = "/Q" + display_item + url_pid
                         if (window.location.href.includes(check_existing)) {
@@ -557,7 +561,7 @@ const ConstructionItemComponent = (props) => {
                 }
             }
         
-            if (props.assessment && props.item <= 38) {
+            if (props.assessment && props.item <= 15) {
                 let index = props.item
                 let item_order = current_progress["randomized_order"]
                 setCurrentItem(props.mode+item_order[index-1])
@@ -1245,7 +1249,7 @@ const ConstructionItemComponent = (props) => {
                 </div> : null}
             </div>
             <div id='data'>
-                {!props.assessment ? <div id='chartTypes'>
+                {!props.assessment ? <div id='chartTypes' className='chartSelection'>
                     <p>Select a mark type for your chart</p>
                     <p><i>This determines the chart type.</i></p>
                     <div id="chartTypesTiles">
