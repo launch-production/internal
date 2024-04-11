@@ -662,7 +662,14 @@ const StartPage = (props) => {
     // // if prolific id == 
     // randomized_IDS = [#, #, #, #, #]// import from R
     let randomized_IDS = []
-    randomized_IDS = ["9", "36", "38", "17", "34", "16", "1", "15", "24", "4", "33", "13", "8", "7", "27"]
+    if (pID == "pilot") {
+      randomized_IDS = ["1", "15", "24", "4", "33", "13", "8", "7", "27", "9", "36", "38", "17", "34", "16"]
+    } else if (pID == "MK") {
+      randomized_IDS = ["9", "36", "38", "17", "34", "16", "1", "15", "24", "4", "33", "13", "8", "7", "27"]
+    } else {
+      randomized_IDS = ["4", "33", "13", "8", "7", "27", "9", "36", "38", "17", "34", "16", "1", "15", "24"]
+    }
+    
 
     // starting index: 0 or 5 or 9
     // let attention_checkIDs = ["39", "40", "41"]
