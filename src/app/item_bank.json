@@ -3439,7 +3439,7 @@
     },
     "item31": {
       "question_meta_data": {
-        "question_text": "The range of daily utilities spending was wider than the range of daily entertainment spending in Jul.",
+        "question_text": "The range of daily utilities spending was wider than the range of daily entertainment spending.",
         "question_topic": "Use the given data and create charts to help you determine whether the following statement is true or false. Add all variants and as many charts as possible as your best supporting evidence."
       },
       "dataset": "day_by_day",
