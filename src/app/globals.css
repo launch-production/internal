@@ -536,4 +536,27 @@ select {
   /* overflow: hidden; */
 }
 
+#globalContainerAnswer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
 
+.centerContainerContent {
+  margin: auto;
+  text-align: center;
+}
+
+.textAnswersContainer {
+  width: 300px;
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.stickyTop {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 2;
+}

@@ -1,9 +1,12 @@
-import InternalTest from '../InternalTest';
+import AnswerLabeling from '../AnswerLabeling';
 
 export default function Page() {
     // const router = useRouter()
     var item_bank = require("../item_bank.json");
     console.log(item_bank)
+
+    var pilot_answers = require("../pilot_data.json");
+    console.log(pilot_answers)
 
     var tile_sets = require("../tile_sets.json");
     console.log(tile_sets)
@@ -12,9 +15,10 @@ export default function Page() {
     console.log(constraints)
     return (
         <div>
-        <InternalTest 
-            item={21} 
+        <AnswerLabeling 
+            item={14} 
             item_bank={item_bank}
+            pilot_answers={pilot_answers}
             tile_sets={tile_sets}
             constraints={constraints}
             assessment={true}
