@@ -2,7 +2,7 @@ import AnswerLabeling from '../AnswerLabeling';
 
 export default function Page() {
     // const router = useRouter()
-    var item_bank = require("../item_bank.json");
+    var item_bank = require("../item_bank_pilot.json");
     console.log(item_bank)
 
     var pilot_answers = require("../pilot_data.json");
