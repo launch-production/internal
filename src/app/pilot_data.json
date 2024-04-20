@@ -233,17 +233,6 @@
   },
   {
     "PID": "p4",
-    "item_order": "item_4_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'y': {'type': 'temporal', 'field': 'Date'}, 'x': {'type': '', 'field': ''}}, 'mark': {'type': 'line'}}",
-    "TF_answer": false,
-    "item_startTime": 1709942746518,
-    "item_endTime": 1709942760137
-  },
-  {
-    "PID": "p4",
     "item_order": "item_5_Q",
     "itemID": "Q33",
     "mark": "line",
@@ -294,18 +283,6 @@
   },
   {
     "PID": "p4",
-    "item_order": "item_9_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'mark': {'type': 'point'}, 'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'y': {'field': '', 'type': ''}, 'x': {'field': '', 'type': ''}, 'color': {'type': 'nominal', 'field': 'Spending_Category'}, 'size': {'type': 'quantitative', 'field': 'Spending'}}}",
-    "TF_answer": false,
-    "item_startTime": 1709942912324,
-    "item_endTime": 1709942927301
-  },
-  {
-    "PID": "p4",
     "item_order": "item_10_Q",
     "itemID": "Q11",
     "mark": "point",
@@ -316,18 +293,6 @@
     "TF_answer": false,
     "item_startTime": 1709942927930,
     "item_endTime": 1709942967296
-  },
-  {
-    "PID": "p4",
-    "item_order": "item_11_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'mark': {'type': 'area'}, 'encoding': {'y': {'aggregate': 'sum', 'field': 'Savings', 'type': 'quantitative'}, 'x': {'field': 'Date', 'type': 'temporal'}}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1709942968336,
-    "item_endTime": 1709942979320
   },
   {
     "PID": "p4",
@@ -396,17 +361,6 @@
   },
   {
     "PID": "p7",
-    "item_order": "item_2_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'encoding': {'y': {'field': 'Date', 'type': 'temporal'}, 'x': {'field': '', 'type': ''}}, 'mark': {'type': 'line'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1709943007518,
-    "item_endTime": 1709943028382
-  },
-  {
-    "PID": "p7",
     "item_order": "item_3_Q",
     "itemID": "Q27",
     "mark": "line",
@@ -471,18 +425,6 @@
   },
   {
     "PID": "p7",
-    "item_order": "item_8_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'point'}, 'encoding': {'y': {'type': '', 'field': ''}, 'size': {'field': 'Spending', 'type': 'quantitative'}, 'x': {'field': '', 'type': ''}, 'color': {'type': 'nominal', 'field': 'Spending_Category'}}}",
-    "TF_answer": false,
-    "item_startTime": 1709943520287,
-    "item_endTime": 1709943545542
-  },
-  {
-    "PID": "p7",
     "item_order": "item_9_Q",
     "itemID": "Q21",
     "mark": "line",
@@ -518,18 +460,6 @@
     "TF_answer": true,
     "item_startTime": 1709943745453,
     "item_endTime": 1709943781406
-  },
-  {
-    "PID": "p7",
-    "item_order": "item_12_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'mark': {'type': 'area'}, 'encoding': {'x': {'type': 'temporal', 'field': 'Date'}, 'y': {'aggregate': 'sum', 'type': 'quantitative', 'field': 'Savings'}}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1709943781958,
-    "item_endTime": 1709943805669
   },
   {
     "PID": "p7",
@@ -608,29 +538,6 @@
   },
   {
     "PID": "p1",
-    "item_order": "item_4_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'line'}, 'encoding': {'x': {'field': '', 'type': ''}, 'y': {'field': 'Date', 'type': 'temporal'}}}",
-    "TF_answer": false,
-    "item_startTime": 1709942002243,
-    "item_endTime": 1709942043550
-  },
-  {
-    "PID": "p1",
-    "item_order": "item_5_Q",
-    "itemID": "Q9",
-    "mark": "bar",
-    "x": "count",
-    "y": "Income",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'bar'}, 'encoding': {'y': {'type': 'quantitative', 'aggregate': '', 'field': 'Income', 'bin': True}, 'x': {'field': '', 'aggregate': 'count', 'type': ''}}}",
-    "TF_answer": true,
-    "item_startTime": 1709942044098,
-    "item_endTime": 1709942079619
-  },
-  {
-    "PID": "p1",
     "item_order": "item_6_Q",
     "itemID": "Q24",
     "mark": "line",
@@ -653,18 +560,6 @@
     "TF_answer": true,
     "item_startTime": 1709942121766,
     "item_endTime": 1709942170282
-  },
-  {
-    "PID": "p1",
-    "item_order": "item_8_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'mark': {'type': 'area'}, 'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'y': {'field': 'Savings', 'type': 'quantitative', 'aggregate': 'sum'}, 'x': {'field': 'Date', 'type': 'temporal'}}}",
-    "TF_answer": true,
-    "item_startTime": 1709942170684,
-    "item_endTime": 1709942207301
   },
   {
     "PID": "p1",
@@ -703,18 +598,6 @@
     "TF_answer": false,
     "item_startTime": 1709942507121,
     "item_endTime": 1709942645299
-  },
-  {
-    "PID": "p1",
-    "item_order": "item_12_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'encoding': {'y': {'field': '', 'type': ''}, 'x': {'field': '', 'type': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'size': {'type': 'quantitative', 'field': 'Spending'}}, 'mark': {'type': 'point'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1709942645704,
-    "item_endTime": 1709942686972
   },
   {
     "PID": "p1",
@@ -785,18 +668,6 @@
   },
   {
     "PID": "p2",
-    "item_order": "item_3_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'encoding': {'y': {'field': 'Savings', 'aggregate': 'sum', 'type': 'quantitative'}, 'x': {'field': 'Date', 'type': 'temporal'}}, 'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'area'}}",
-    "TF_answer": true,
-    "item_startTime": 1709941767505,
-    "item_endTime": 1709941799358
-  },
-  {
-    "PID": "p2",
     "item_order": "item_4_Q",
     "itemID": "Q20",
     "mark": "point",
@@ -851,18 +722,6 @@
   },
   {
     "PID": "p2",
-    "item_order": "item_8_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'point'}, 'encoding': {'x': {'type': '', 'field': ''}, 'size': {'type': 'quantitative', 'field': 'Spending'}, 'y': {'type': '', 'field': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}}}",
-    "TF_answer": false,
-    "item_startTime": 1709942104257,
-    "item_endTime": 1709942135279
-  },
-  {
-    "PID": "p2",
     "item_order": "item_9_Q",
     "itemID": "Q15",
     "mark": "line",
@@ -899,17 +758,6 @@
     "TF_answer": true,
     "item_startTime": 1709942315925,
     "item_endTime": 1709942395613
-  },
-  {
-    "PID": "p2",
-    "item_order": "item_12_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'x': {'type': '', 'field': ''}, 'y': {'type': 'temporal', 'field': 'Date'}}, 'mark': {'type': 'line'}}",
-    "TF_answer": false,
-    "item_startTime": 1709942396102,
-    "item_endTime": 1709942409553
   },
   {
     "PID": "p2",
@@ -967,18 +815,6 @@
   },
   {
     "PID": "p23",
-    "item_order": "item_2_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'point'}, 'encoding': {'y': {'type': '', 'field': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'x': {'field': '', 'type': ''}, 'size': {'field': 'Spending', 'type': 'quantitative'}}}",
-    "TF_answer": false,
-    "item_startTime": 1709944145834,
-    "item_endTime": 1709944209113
-  },
-  {
-    "PID": "p23",
     "item_order": "item_3_Q",
     "itemID": "Q27",
     "mark": "bar",
@@ -1028,17 +864,6 @@
     "TF_answer": false,
     "item_startTime": 1709944701746,
     "item_endTime": 1709945030079
-  },
-  {
-    "PID": "p23",
-    "item_order": "item_7_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'mark': {'type': 'line'}, 'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'y': {'type': 'temporal', 'field': 'Date'}, 'x': {'type': '', 'field': ''}}}",
-    "TF_answer": false,
-    "item_startTime": 1709945030627,
-    "item_endTime": 1709945048634
   },
   {
     "PID": "p23",
@@ -1106,18 +931,6 @@
   },
   {
     "PID": "p23",
-    "item_order": "item_13_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'mark': {'type': 'area'}, 'encoding': {'x': {'type': 'temporal', 'field': 'Date'}, 'y': {'field': 'Savings', 'aggregate': 'sum', 'type': 'quantitative'}}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1709945749723,
-    "item_endTime": 1709945772443
-  },
-  {
-    "PID": "p23",
     "item_order": "item_14_Q",
     "itemID": "Q7",
     "mark": "point",
@@ -1155,30 +968,6 @@
   },
   {
     "PID": "p11",
-    "item_order": "item_2_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'x': {'type': 'temporal', 'field': 'Date'}, 'y': {'type': 'quantitative', 'field': 'Savings', 'aggregate': 'sum'}}, 'mark': {'type': 'area'}}",
-    "TF_answer": true,
-    "item_startTime": 1710039769174,
-    "item_endTime": 1710039786501
-  },
-  {
-    "PID": "p11",
-    "item_order": "item_3_Q",
-    "itemID": "Q29",
-    "mark": "line",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2023_Jan.json'}, 'mark': {'type': 'line'}, 'encoding': {'x': {'type': 'temporal', 'field': 'Date'}, 'y': {'type': 'quantitative', 'field': 'Savings'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710039786746,
-    "item_endTime": 1710039840009
-  },
-  {
-    "PID": "p11",
     "item_order": "item_4_Q",
     "itemID": "Q32",
     "mark": "bar",
@@ -1189,19 +978,6 @@
     "TF_answer": false,
     "item_startTime": 1710039840352,
     "item_endTime": 1710040013166
-  },
-  {
-    "PID": "p11",
-    "item_order": "item_5_Q",
-    "itemID": "Q37",
-    "mark": "bar",
-    "x": "Year",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_20_23.json'}, 'encoding': {'x': {'field': 'Year', 'type': 'ordinal'}, 'y': {'aggregate': 'sum', 'field': 'Spending', 'type': 'quantitative'}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}}, 'mark': {'type': 'bar'}}",
-    "TF_answer": true,
-    "item_startTime": 1710040013468,
-    "item_endTime": 1710040168972
   },
   {
     "PID": "p11",
@@ -1219,19 +995,6 @@
   },
   {
     "PID": "p11",
-    "item_order": "item_7_Q",
-    "itemID": "Q4",
-    "mark": "bar",
-    "x": "Year",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'mark': {'type': 'bar'}, 'encoding': {'x': {'type': 'ordinal', 'field': 'Year'}, 'color': {'type': 'nominal', 'field': 'Spending_Category'}, 'y': {'aggregate': 'sum', 'type': 'quantitative', 'field': 'Spending'}, 'size': {'field': '', 'type': ''}}, 'data': {'url': 'data/day_by_day_all.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710040312409,
-    "item_endTime": 1710040401307
-  },
-  {
-    "PID": "p11",
     "item_order": "item_8_Q",
     "itemID": "Q6",
     "mark": "bar",
@@ -1242,18 +1005,6 @@
     "TF_answer": false,
     "item_startTime": 1710040401610,
     "item_endTime": 1710040462535
-  },
-  {
-    "PID": "p11",
-    "item_order": "item_9_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'point'}, 'encoding': {'y': {'type': '', 'field': ''}, 'x': {'type': '', 'field': ''}, 'size': {'type': 'quantitative', 'field': 'Spending'}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710040462850,
-    "item_endTime": 1710040483795
   },
   {
     "PID": "p11",
@@ -1278,30 +1029,6 @@
     "TF_answer": false,
     "item_startTime": 1710040590206,
     "item_endTime": 1710040622658
-  },
-  {
-    "PID": "p11",
-    "item_order": "item_12_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'x': {'field': '', 'type': ''}, 'y': {'type': 'temporal', 'field': 'Date'}}, 'mark': {'type': 'line'}}",
-    "TF_answer": false,
-    "item_startTime": 1710040623108,
-    "item_endTime": 1710040632719
-  },
-  {
-    "PID": "p11",
-    "item_order": "item_13_Q",
-    "itemID": "Q16",
-    "mark": "bar",
-    "x": "Month",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2023.json'}, 'encoding': {'x': {'field': 'Month', 'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'], 'type': 'ordinal'}, 'color': {'type': 'nominal', 'field': 'Spending_Category'}, 'y': {'type': 'quantitative', 'field': 'Spending', 'aggregate': 'sum'}}, 'mark': {'type': 'bar'}}",
-    "TF_answer": false,
-    "item_startTime": 1710040632967,
-    "item_endTime": 1710040662049
   },
   {
     "PID": "p11",
@@ -1345,18 +1072,6 @@
   },
   {
     "PID": "p14",
-    "item_order": "item_2_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'area'}, 'encoding': {'y': {'field': 'Savings', 'type': 'quantitative', 'aggregate': 'sum'}, 'x': {'type': 'temporal', 'field': 'Date'}}}",
-    "TF_answer": true,
-    "item_startTime": 1710039878836,
-    "item_endTime": 1710039901090
-  },
-  {
-    "PID": "p14",
     "item_order": "item_3_Q",
     "itemID": "Q29",
     "mark": "bar",
@@ -1368,18 +1083,6 @@
     "TF_answer": false,
     "item_startTime": 1710039901494,
     "item_endTime": 1710040123047
-  },
-  {
-    "PID": "p14",
-    "item_order": "item_4_Q",
-    "itemID": "Q16",
-    "mark": "bar",
-    "x": "Month",
-    "y": "Spending",
-    "vis_answer": "{'encoding': {'x': {'aggregate': '', 'type': 'ordinal', 'field': 'Month', 'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']}, 'size': {'type': '', 'field': ''}, 'y': {'field': 'Spending', 'aggregate': 'sum', 'type': 'quantitative'}, 'color': {'field': '', 'type': ''}}, 'data': {'url': 'data/day_by_day_2023.json'}, 'mark': {'type': 'bar'}}",
-    "TF_answer": true,
-    "item_startTime": 1710040123497,
-    "item_endTime": 1710040182969
   },
   {
     "PID": "p14",
@@ -1426,18 +1129,6 @@
   },
   {
     "PID": "p14",
-    "item_order": "item_8_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'mark': {'type': 'point'}, 'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'size': {'type': 'quantitative', 'field': 'Spending'}, 'x': {'type': '', 'field': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'y': {'type': '', 'field': ''}}}",
-    "TF_answer": false,
-    "item_startTime": 1710040559161,
-    "item_endTime": 1710040579281
-  },
-  {
-    "PID": "p14",
     "item_order": "item_9_Q",
     "itemID": "Q38",
     "mark": "bar",
@@ -1474,17 +1165,6 @@
     "TF_answer": false,
     "item_startTime": 1710040791986,
     "item_endTime": 1710040918258
-  },
-  {
-    "PID": "p14",
-    "item_order": "item_12_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'encoding': {'y': {'field': 'Date', 'type': 'temporal'}, 'x': {'field': '', 'type': ''}}, 'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'line'}}",
-    "TF_answer": false,
-    "item_startTime": 1710040918681,
-    "item_endTime": 1710040930893
   },
   {
     "PID": "p14",
@@ -1539,31 +1219,6 @@
   },
   {
     "PID": "p18",
-    "item_order": "item_2_Q",
-    "itemID": "Q20",
-    "mark": "bar",
-    "x": "Income",
-    "y": "Spending_Category",
-    "color": "Year",
-    "vis_answer": "{'mark': {'type': 'bar'}, 'data': {'url': 'data/day_by_day_20_23.json'}, 'encoding': {'x': {'field': 'Income', 'aggregate': 'sum', 'type': 'quantitative'}, 'size': {'field': '', 'type': ''}, 'y': {'aggregate': '', 'field': 'Spending_Category', 'type': 'nominal'}, 'color': {'field': 'Year', 'type': 'ordinal'}}}",
-    "TF_answer": true,
-    "item_startTime": 1710040718303,
-    "item_endTime": 1710040859675
-  },
-  {
-    "PID": "p18",
-    "item_order": "item_3_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'encoding': {'y': {'field': 'Savings', 'type': 'quantitative', 'aggregate': 'sum'}, 'x': {'field': 'Date', 'type': 'temporal'}}, 'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'area'}}",
-    "TF_answer": true,
-    "item_startTime": 1710040860126,
-    "item_endTime": 1710040902603
-  },
-  {
-    "PID": "p18",
     "item_order": "item_4_Q",
     "itemID": "Q13",
     "mark": "bar",
@@ -1601,18 +1256,6 @@
   },
   {
     "PID": "p18",
-    "item_order": "item_7_Q",
-    "itemID": "Q4",
-    "mark": "bar",
-    "x": "Year",
-    "y": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_all.json'}, 'mark': {'type': 'bar'}, 'encoding': {'x': {'field': 'Year', 'type': 'ordinal'}, 'y': {'type': 'quantitative', 'aggregate': 'sum', 'field': 'Spending'}}}",
-    "TF_answer": true,
-    "item_startTime": 1710041068121,
-    "item_endTime": 1710041099815
-  },
-  {
-    "PID": "p18",
     "item_order": "item_8_Q",
     "itemID": "Q12",
     "mark": "point",
@@ -1627,18 +1270,6 @@
   },
   {
     "PID": "p18",
-    "item_order": "item_9_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'y': {'type': '', 'field': ''}, 'x': {'type': '', 'field': ''}, 'color': {'type': 'nominal', 'field': 'Spending_Category'}, 'size': {'field': 'Spending', 'type': 'quantitative'}}, 'mark': {'type': 'point'}}",
-    "TF_answer": false,
-    "item_startTime": 1710041299728,
-    "item_endTime": 1710041343737
-  },
-  {
-    "PID": "p18",
     "item_order": "item_10_Q",
     "itemID": "Q32",
     "mark": "bar",
@@ -1650,17 +1281,6 @@
     "text_answer": "The range appears to be different in the later half of the year.",
     "item_startTime": 1710041344171,
     "item_endTime": 1710041485940
-  },
-  {
-    "PID": "p18",
-    "item_order": "item_11_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'encoding': {'y': {'field': 'Date', 'type': 'temporal'}, 'x': {'field': '', 'type': ''}}, 'mark': {'type': 'line'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710041488703,
-    "item_endTime": 1710041511201
   },
   {
     "PID": "p18",
@@ -1755,31 +1375,6 @@
   },
   {
     "PID": "p19",
-    "item_order": "item_4_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'encoding': {'x': {'type': 'temporal', 'field': 'Date'}, 'y': {'type': 'quantitative', 'field': 'Savings', 'aggregate': 'sum'}}, 'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'area'}}",
-    "TF_answer": true,
-    "item_startTime": 1710041767950,
-    "item_endTime": 1710041805485
-  },
-  {
-    "PID": "p19",
-    "item_order": "item_5_Q",
-    "itemID": "Q17",
-    "mark": "bar",
-    "x": "Date",
-    "y": "Spending",
-    "vis_answer": "{'mark': {'type': 'bar'}, 'encoding': {'color': {'type': '', 'field': ''}, 'y': {'type': 'quantitative', 'field': 'Spending', 'aggregate': 'sum'}, 'x': {'type': 'temporal', 'aggregate': '', 'sort': '', 'field': 'Date'}}, 'data': {'url': 'data/day_by_day_2020_Entertainment.json'}}",
-    "TF_answer": false,
-    "text_answer": "I am not sure if this is a glitch or intentional, but the graph shows no data and certain options clicked say \"Nan0 Nan0\"",
-    "item_startTime": 1710041805756,
-    "item_endTime": 1710041908031
-  },
-  {
-    "PID": "p19",
     "item_order": "item_6_Q",
     "itemID": "Q31",
     "mark": "line",
@@ -1820,17 +1415,6 @@
   },
   {
     "PID": "p19",
-    "item_order": "item_9_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'line'}, 'encoding': {'y': {'field': 'Date', 'type': 'temporal'}, 'x': {'field': '', 'type': ''}}}",
-    "TF_answer": false,
-    "item_startTime": 1710042248502,
-    "item_endTime": 1710042266143
-  },
-  {
-    "PID": "p19",
     "item_order": "item_10_Q",
     "itemID": "Q32",
     "mark": "area",
@@ -1856,32 +1440,6 @@
     "text_answer": "True. There is some variation, but monthly entertainment spending is generally constant.",
     "item_startTime": 1710042462238,
     "item_endTime": 1710042537810
-  },
-  {
-    "PID": "p19",
-    "item_order": "item_12_Q",
-    "itemID": "Q4",
-    "mark": "bar",
-    "x": "Year",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'encoding': {'color': {'type': 'nominal', 'field': 'Spending_Category'}, 'y': {'aggregate': 'sum', 'field': 'Spending', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'ordinal'}}, 'data': {'url': 'data/day_by_day_all.json'}, 'mark': {'type': 'bar'}}",
-    "TF_answer": true,
-    "text_answer": "True, yearly spending is under $10,000 in 2020.",
-    "item_startTime": 1710042538066,
-    "item_endTime": 1710042598209
-  },
-  {
-    "PID": "p19",
-    "item_order": "item_13_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'size': {'field': 'Spending', 'type': 'quantitative'}, 'y': {'type': '', 'field': ''}, 'x': {'type': '', 'field': ''}}, 'mark': {'type': 'point'}}",
-    "TF_answer": false,
-    "item_startTime": 1710042598477,
-    "item_endTime": 1710042626976
   },
   {
     "PID": "p19",
@@ -1926,18 +1484,6 @@
   },
   {
     "PID": "p27",
-    "item_order": "item_2_Q",
-    "itemID": "Q13",
-    "mark": "bar",
-    "x": "Year",
-    "y": "Spending",
-    "vis_answer": "{'mark': {'type': 'bar'}, 'data': {'url': 'data/day_by_day_all_T.json'}, 'encoding': {'x': {'type': 'ordinal', 'field': 'Year'}, 'y': {'aggregate': 'sum', 'type': 'quantitative', 'field': 'Spending'}}}",
-    "TF_answer": true,
-    "item_startTime": 1710041709714,
-    "item_endTime": 1710041732887
-  },
-  {
-    "PID": "p27",
     "item_order": "item_3_Q",
     "itemID": "Q6",
     "mark": "area",
@@ -1948,18 +1494,6 @@
     "TF_answer": false,
     "item_startTime": 1710041733205,
     "item_endTime": 1710041919400
-  },
-  {
-    "PID": "p27",
-    "item_order": "item_4_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'y': {'type': 'quantitative', 'field': 'Savings', 'aggregate': 'sum'}, 'x': {'field': 'Date', 'type': 'temporal'}}, 'mark': {'type': 'area'}}",
-    "TF_answer": true,
-    "item_startTime": 1710041919676,
-    "item_endTime": 1710041945853
   },
   {
     "PID": "p27",
@@ -2001,30 +1535,6 @@
   },
   {
     "PID": "p27",
-    "item_order": "item_8_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'x': {'field': '', 'type': ''}, 'y': {'type': 'temporal', 'field': 'Date'}}, 'mark': {'type': 'line'}}",
-    "TF_answer": false,
-    "item_startTime": 1710042190974,
-    "item_endTime": 1710042203966
-  },
-  {
-    "PID": "p27",
-    "item_order": "item_9_Q",
-    "itemID": "Q26",
-    "mark": "line",
-    "x": "Date",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'encoding': {'y': {'type': 'quantitative', 'aggregate': '', 'field': 'Spending'}, 'color': {'type': 'nominal', 'field': 'Spending_Category'}, 'x': {'type': 'temporal', 'field': 'Date'}, 'size': {'field': '', 'type': ''}}, 'data': {'url': 'data/day_by_day_2023_Jan.json'}, 'mark': {'type': 'line'}}",
-    "TF_answer": true,
-    "item_startTime": 1710042204211,
-    "item_endTime": 1710042267711
-  },
-  {
-    "PID": "p27",
     "item_order": "item_10_Q",
     "itemID": "Q29",
     "mark": "bar",
@@ -2036,43 +1546,6 @@
     "TF_answer": false,
     "item_startTime": 1710042267963,
     "item_endTime": 1710042405650
-  },
-  {
-    "PID": "p27",
-    "item_order": "item_11_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'color': {'type': 'nominal', 'field': 'Spending_Category'}, 'size': {'type': 'quantitative', 'field': 'Spending'}, 'y': {'type': '', 'field': ''}, 'x': {'field': '', 'type': ''}}, 'mark': {'type': 'point'}}",
-    "TF_answer": false,
-    "item_startTime": 1710042405937,
-    "item_endTime": 1710042425266
-  },
-  {
-    "PID": "p27",
-    "item_order": "item_12_Q",
-    "itemID": "Q11",
-    "mark": "point",
-    "x": "Date",
-    "y": "Savings",
-    "size": "Income",
-    "vis_answer": "{'mark': {'type': 'point'}, 'data': {'url': 'data/day_by_day_2020_AprMay_TF.json'}, 'encoding': {'size': {'type': 'quantitative', 'field': 'Income'}, 'y': {'type': 'quantitative', 'aggregate': '', 'field': 'Savings'}, 'color': {'field': '', 'type': ''}, 'x': {'field': 'Date', 'aggregate': '', 'type': 'temporal'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710042425552,
-    "item_endTime": 1710042496999
-  },
-  {
-    "PID": "p27",
-    "item_order": "item_13_Q",
-    "itemID": "Q4",
-    "mark": "bar",
-    "x": "Year",
-    "y": "Spending",
-    "vis_answer": "{'mark': {'type': 'bar'}, 'encoding': {'x': {'type': 'ordinal', 'field': 'Year'}, 'y': {'aggregate': 'sum', 'type': 'quantitative', 'field': 'Spending'}}, 'data': {'url': 'data/day_by_day_all.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710042497259,
-    "item_endTime": 1710042525641
   },
   {
     "PID": "p27",
@@ -2102,18 +1575,6 @@
   },
   {
     "PID": "p10",
-    "item_order": "item_1_Q",
-    "itemID": "Q4",
-    "mark": "bar",
-    "x": "Year",
-    "y": "Spending",
-    "vis_answer": "{'mark': {'type': 'bar'}, 'data': {'url': 'data/day_by_day_all.json'}, 'encoding': {'color': {'type': '', 'field': ''}, 'y': {'field': 'Spending', 'type': 'quantitative', 'aggregate': 'sum'}, 'x': {'type': 'ordinal', 'field': 'Year'}}}",
-    "TF_answer": true,
-    "item_startTime": 1710042293658,
-    "item_endTime": 1710042440930
-  },
-  {
-    "PID": "p10",
     "item_order": "item_2_Q",
     "itemID": "Q14",
     "mark": "bar",
@@ -2135,18 +1596,6 @@
     "TF_answer": false,
     "item_startTime": 1710042482761,
     "item_endTime": 1710042530052
-  },
-  {
-    "PID": "p10",
-    "item_order": "item_4_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'encoding': {'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'x': {'type': '', 'field': ''}, 'size': {'type': 'quantitative', 'field': 'Spending'}, 'y': {'type': '', 'field': ''}}, 'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'point'}}",
-    "TF_answer": false,
-    "item_startTime": 1710042530426,
-    "item_endTime": 1710042581240
   },
   {
     "PID": "p10",
@@ -2187,18 +1636,6 @@
   },
   {
     "PID": "p10",
-    "item_order": "item_8_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'encoding': {'y': {'aggregate': 'sum', 'field': 'Savings', 'type': 'quantitative'}, 'x': {'field': 'Date', 'type': 'temporal'}}, 'mark': {'type': 'area'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710042712235,
-    "item_endTime": 1710042736782
-  },
-  {
-    "PID": "p10",
     "item_order": "item_9_Q",
     "itemID": "Q35",
     "mark": "bar",
@@ -2208,54 +1645,6 @@
     "TF_answer": false,
     "item_startTime": 1710042737118,
     "item_endTime": 1710042785478
-  },
-  {
-    "PID": "p10",
-    "item_order": "item_10_Q",
-    "itemID": "Q38",
-    "mark": "area",
-    "x": "Month",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'encoding': {'y': {'aggregate': 'sum', 'type': 'quantitative', 'field': 'Spending'}, 'x': {'field': 'Month', 'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'], 'type': 'ordinal'}, 'color': {'type': 'nominal', 'field': 'Spending_Category'}}, 'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'area'}}",
-    "TF_answer": true,
-    "item_startTime": 1710042785790,
-    "item_endTime": 1710042847408
-  },
-  {
-    "PID": "p10",
-    "item_order": "item_11_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'line'}, 'encoding': {'y': {'field': 'Date', 'type': 'temporal'}, 'x': {'field': '', 'type': ''}}}",
-    "TF_answer": false,
-    "item_startTime": 1710042847770,
-    "item_endTime": 1710042880851
-  },
-  {
-    "PID": "p10",
-    "item_order": "item_12_Q",
-    "itemID": "Q5",
-    "mark": "bar",
-    "x": "Date",
-    "y": "Spending",
-    "vis_answer": "{'encoding': {'y': {'aggregate': 'sum', 'field': 'Spending', 'type': 'quantitative'}, 'x': {'type': 'temporal', 'field': 'Date'}}, 'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'bar'}}",
-    "TF_answer": true,
-    "item_startTime": 1710042881211,
-    "item_endTime": 1710042900165
-  },
-  {
-    "PID": "p10",
-    "item_order": "item_13_Q",
-    "itemID": "Q15",
-    "mark": "bar",
-    "x": "Month",
-    "y": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2023.json'}, 'mark': {'type': 'bar'}, 'encoding': {'x': {'field': 'Month', 'type': 'ordinal', 'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']}, 'y': {'aggregate': 'sum', 'type': 'quantitative', 'field': 'Spending'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710042900503,
-    "item_endTime": 1710042932382
   },
   {
     "PID": "p10",
@@ -2325,18 +1714,6 @@
   },
   {
     "PID": "p30",
-    "item_order": "item_4_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'encoding': {'y': {'field': 'Savings', 'aggregate': 'sum', 'type': 'quantitative'}, 'x': {'field': 'Date', 'type': 'temporal'}}, 'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'area'}}",
-    "TF_answer": true,
-    "item_startTime": 1710042519496,
-    "item_endTime": 1710042548605
-  },
-  {
-    "PID": "p30",
     "item_order": "item_5_Q",
     "itemID": "Q38",
     "mark": "bar",
@@ -2364,30 +1741,6 @@
   },
   {
     "PID": "p30",
-    "item_order": "item_7_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'point'}, 'encoding': {'size': {'type': 'quantitative', 'field': 'Spending'}, 'x': {'type': '', 'field': ''}, 'y': {'field': '', 'type': ''}, 'color': {'type': 'nominal', 'field': 'Spending_Category'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710042828458,
-    "item_endTime": 1710042859066
-  },
-  {
-    "PID": "p30",
-    "item_order": "item_8_Q",
-    "itemID": "Q33",
-    "mark": "bar",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'encoding': {'x': {'sort': '', 'field': 'Date', 'type': 'temporal'}, 'y': {'aggregate': 'sum', 'field': 'Savings', 'type': 'quantitative'}}, 'mark': {'type': 'bar'}, 'data': {'url': 'data/day_by_day_2022_JulAug.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710042859990,
-    "item_endTime": 1710042946992
-  },
-  {
-    "PID": "p30",
     "item_order": "item_9_Q",
     "itemID": "Q7",
     "mark": "point",
@@ -2398,18 +1751,6 @@
     "TF_answer": true,
     "item_startTime": 1710042948393,
     "item_endTime": 1710043013872
-  },
-  {
-    "PID": "p30",
-    "item_order": "item_10_Q",
-    "itemID": "Q13",
-    "mark": "bar",
-    "x": "Spending",
-    "y": "Year",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_all_T.json'}, 'encoding': {'y': {'type': 'ordinal', 'field': 'Year'}, 'x': {'aggregate': 'sum', 'field': 'Spending', 'type': 'quantitative'}}, 'mark': {'type': 'bar'}}",
-    "TF_answer": true,
-    "item_startTime": 1710043014850,
-    "item_endTime": 1710043165798
   },
   {
     "PID": "p30",
@@ -2438,17 +1779,6 @@
   },
   {
     "PID": "p30",
-    "item_order": "item_13_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'x': {'type': '', 'field': ''}, 'y': {'type': 'temporal', 'field': 'Date'}}, 'mark': {'type': 'line'}}",
-    "TF_answer": false,
-    "item_startTime": 1710043542925,
-    "item_endTime": 1710043586398
-  },
-  {
-    "PID": "p30",
     "item_order": "item_14_Q",
     "itemID": "Q15",
     "mark": "bar",
@@ -2471,43 +1801,6 @@
     "TF_answer": true,
     "item_startTime": 1710043617472,
     "item_endTime": 1710043653213
-  },
-  {
-    "PID": "p21",
-    "item_order": "item_1_Q",
-    "itemID": "Q5",
-    "mark": "point",
-    "x": "Date",
-    "y": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'x': {'field': 'Date', 'type': 'temporal'}, 'y': {'type': 'quantitative', 'field': 'Spending'}}, 'mark': {'type': 'point'}}",
-    "TF_answer": true,
-    "item_startTime": 1710042232372,
-    "item_endTime": 1710042268050
-  },
-  {
-    "PID": "p21",
-    "item_order": "item_2_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'mark': {'type': 'area'}, 'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'y': {'field': 'Savings', 'type': 'quantitative', 'aggregate': 'sum'}, 'x': {'field': 'Date', 'type': 'temporal'}}}",
-    "TF_answer": true,
-    "item_startTime": 1710042268247,
-    "item_endTime": 1710042284587
-  },
-  {
-    "PID": "p21",
-    "item_order": "item_3_Q",
-    "itemID": "Q30",
-    "mark": "line",
-    "x": "Date",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2022_Dec_TF.json'}, 'mark': {'type': 'line'}, 'encoding': {'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'y': {'field': 'Spending', 'type': 'quantitative'}, 'x': {'type': 'temporal', 'field': 'Date'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710042284817,
-    "item_endTime": 1710042326519
   },
   {
     "PID": "p21",
@@ -2548,29 +1841,6 @@
   },
   {
     "PID": "p21",
-    "item_order": "item_7_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'mark': {'type': 'line'}, 'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'y': {'field': 'Date', 'type': 'temporal'}, 'x': {'field': '', 'type': ''}}}",
-    "TF_answer": false,
-    "item_startTime": 1710042474473,
-    "item_endTime": 1710042498368
-  },
-  {
-    "PID": "p21",
-    "item_order": "item_8_Q",
-    "itemID": "Q11",
-    "mark": "line",
-    "x": "Income",
-    "y": "Savings",
-    "vis_answer": "{'mark': {'type': 'line'}, 'data': {'url': 'data/day_by_day_2020_AprMay_TF.json'}, 'encoding': {'x': {'type': 'quantitative', 'field': 'Income'}, 'size': {'type': '', 'field': ''}, 'y': {'field': 'Savings', 'type': 'quantitative'}, 'color': {'field': '', 'type': ''}}}",
-    "TF_answer": true,
-    "item_startTime": 1710042498635,
-    "item_endTime": 1710042532685
-  },
-  {
-    "PID": "p21",
     "item_order": "item_9_Q",
     "itemID": "Q23",
     "mark": "line",
@@ -2595,30 +1865,6 @@
   },
   {
     "PID": "p21",
-    "item_order": "item_11_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'encoding': {'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'y': {'type': '', 'field': ''}, 'x': {'field': '', 'type': ''}, 'size': {'type': 'quantitative', 'field': 'Spending'}}, 'mark': {'type': 'point'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710042577052,
-    "item_endTime": 1710042592018
-  },
-  {
-    "PID": "p21",
-    "item_order": "item_12_Q",
-    "itemID": "Q21",
-    "mark": "point",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'y': {'type': 'quantitative', 'field': 'Savings'}, 'x': {'field': 'Date', 'type': 'temporal'}}, 'mark': {'type': 'point'}}",
-    "TF_answer": false,
-    "item_startTime": 1710042592436,
-    "item_endTime": 1710042611984
-  },
-  {
-    "PID": "p21",
     "item_order": "item_13_Q",
     "itemID": "Q35",
     "mark": "point",
@@ -2630,19 +1876,6 @@
     "TF_answer": true,
     "item_startTime": 1710042612214,
     "item_endTime": 1710042644534
-  },
-  {
-    "PID": "p21",
-    "item_order": "item_14_Q",
-    "itemID": "Q6",
-    "mark": "point",
-    "x": "Date",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021_EF.json'}, 'mark': {'type': 'point'}, 'encoding': {'x': {'field': 'Date', 'type': 'temporal'}, 'y': {'field': 'Spending', 'type': 'quantitative'}, 'color': {'type': 'nominal', 'field': 'Spending_Category'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710042644944,
-    "item_endTime": 1710042670771
   },
   {
     "PID": "p21",
@@ -2671,18 +1904,6 @@
   },
   {
     "PID": "p28",
-    "item_order": "item_2_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'point'}, 'encoding': {'x': {'type': '', 'field': ''}, 'y': {'type': '', 'field': ''}, 'color': {'type': 'nominal', 'field': 'Spending_Category'}, 'size': {'field': 'Spending', 'type': 'quantitative'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710042654162,
-    "item_endTime": 1710042687370
-  },
-  {
-    "PID": "p28",
     "item_order": "item_3_Q",
     "itemID": "Q12",
     "mark": "point",
@@ -2694,18 +1915,6 @@
     "TF_answer": true,
     "item_startTime": 1710042687696,
     "item_endTime": 1710042962086
-  },
-  {
-    "PID": "p28",
-    "item_order": "item_4_Q",
-    "itemID": "Q19",
-    "mark": "line",
-    "x": "Income",
-    "y": "Savings",
-    "vis_answer": "{'mark': {'type': 'line'}, 'encoding': {'y': {'field': 'Savings', 'aggregate': '', 'type': 'quantitative'}, 'x': {'aggregate': '', 'type': 'quantitative', 'field': 'Income'}}, 'data': {'url': 'data/day_by_day_2023_Jan.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710042962375,
-    "item_endTime": 1710042995619
   },
   {
     "PID": "p28",
@@ -2722,19 +1931,6 @@
   },
   {
     "PID": "p28",
-    "item_order": "item_6_Q",
-    "itemID": "Q18",
-    "mark": "line",
-    "x": "Date",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2022_Jun_UEF.json'}, 'mark': {'type': 'line'}, 'encoding': {'y': {'field': 'Spending', 'type': 'quantitative', 'aggregate': ''}, 'size': {'type': '', 'field': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'x': {'field': 'Date', 'sort': '', 'type': 'temporal'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710043063833,
-    "item_endTime": 1710043150888
-  },
-  {
-    "PID": "p28",
     "item_order": "item_7_Q",
     "itemID": "Q31",
     "mark": "bar",
@@ -2745,91 +1941,6 @@
     "TF_answer": true,
     "item_startTime": 1710043151192,
     "item_endTime": 1710043376153
-  },
-  {
-    "PID": "p28",
-    "item_order": "item_8_Q",
-    "itemID": "Q1",
-    "mark": "line",
-    "x": "Date",
-    "y": "Income",
-    "vis_answer": "{'encoding': {'y': {'type': 'quantitative', 'aggregate': '', 'field': 'Income'}, 'x': {'type': 'temporal', 'field': 'Date'}}, 'mark': {'type': 'line'}, 'data': {'url': 'data/day_by_day_2023_Jan.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710043376676,
-    "item_endTime": 1710043418320
-  },
-  {
-    "PID": "p28",
-    "item_order": "item_9_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'mark': {'type': 'line'}, 'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'y': {'type': 'temporal', 'field': 'Date'}, 'x': {'type': '', 'field': ''}}}",
-    "TF_answer": false,
-    "item_startTime": 1710043418663,
-    "item_endTime": 1710043433541
-  },
-  {
-    "PID": "p28",
-    "item_order": "item_10_Q",
-    "itemID": "Q38",
-    "mark": "bar",
-    "x": "Month",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'encoding': {'x': {'type': 'ordinal', 'field': 'Month', 'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']}, 'color': {'type': 'nominal', 'field': 'Spending_Category'}, 'size': {'type': '', 'field': '', 'sort': ''}, 'y': {'type': 'quantitative', 'field': 'Spending', 'aggregate': 'sum'}}, 'mark': {'type': 'bar'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710043433982,
-    "item_endTime": 1710043519031
-  },
-  {
-    "PID": "p28",
-    "item_order": "item_11_Q",
-    "itemID": "Q7",
-    "mark": "line",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'mark': {'type': 'line'}, 'encoding': {'y': {'aggregate': '', 'type': 'quantitative', 'field': 'Savings'}, 'x': {'type': 'temporal', 'field': 'Date'}}, 'data': {'url': 'data/day_by_day_2022_JulAug.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710043519392,
-    "item_endTime": 1710043546888
-  },
-  {
-    "PID": "p28",
-    "item_order": "item_12_Q",
-    "itemID": "Q28",
-    "mark": "bar",
-    "x": "Month",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'encoding': {'color': {'type': 'nominal', 'field': 'Spending_Category'}, 'x': {'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'], 'field': 'Month', 'type': 'ordinal'}, 'y': {'type': 'quantitative', 'aggregate': 'sum', 'field': 'Spending'}}, 'mark': {'type': 'bar'}, 'data': {'url': 'data/day_by_day_2022_JulAugSeptOct.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710043547192,
-    "item_endTime": 1710043599351
-  },
-  {
-    "PID": "p28",
-    "item_order": "item_13_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'encoding': {'x': {'field': 'Date', 'type': 'temporal'}, 'y': {'aggregate': 'sum', 'type': 'quantitative', 'field': 'Savings'}}, 'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'area'}}",
-    "TF_answer": true,
-    "item_startTime": 1710043599624,
-    "item_endTime": 1710043620055
-  },
-  {
-    "PID": "p28",
-    "item_order": "item_14_Q",
-    "itemID": "Q3",
-    "mark": "bar",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'encoding': {'y': {'aggregate': 'sum', 'field': 'Savings', 'type': 'quantitative'}, 'x': {'type': 'temporal', 'field': 'Date'}}, 'data': {'url': 'data/day_by_day_2023_Jan.json'}, 'mark': {'type': 'bar'}}",
-    "TF_answer": true,
-    "item_startTime": 1710043620351,
-    "item_endTime": 1710043640191
   },
   {
     "PID": "p28",
@@ -2858,45 +1969,6 @@
     "text_answer": "This is false considering we see a majority of the data in between 10 and 30 dollars, whereas the range between $15 to $20 is unreasonable.",
     "item_startTime": 1710042474877,
     "item_endTime": 1710042854948
-  },
-  {
-    "PID": "p9",
-    "item_order": "item_2_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'mark': {'type': 'line'}, 'encoding': {'x': {'field': '', 'type': ''}, 'y': {'field': 'Date', 'type': 'temporal'}}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710042855154,
-    "item_endTime": 1710042875483
-  },
-  {
-    "PID": "p9",
-    "item_order": "item_3_Q",
-    "itemID": "Q2",
-    "mark": "bar",
-    "x": "Month",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'encoding': {'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'y': {'field': 'Spending', 'type': 'quantitative', 'aggregate': 'sum'}, 'x': {'type': 'ordinal', 'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'], 'field': 'Month'}, 'size': {'type': '', 'field': ''}}, 'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'bar'}}",
-    "TF_answer": true,
-    "text_answer": "This is true since we see that the monthly spending consists of different categories, and summed up, they are all well over $300.",
-    "item_startTime": 1710042875873,
-    "item_endTime": 1710042971020
-  },
-  {
-    "PID": "p9",
-    "item_order": "item_4_Q",
-    "itemID": "Q31",
-    "mark": "line",
-    "x": "Date",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'encoding': {'size': {'field': '', 'type': ''}, 'color': {'type': 'nominal', 'field': 'Spending_Category'}, 'y': {'type': 'quantitative', 'field': 'Spending'}, 'x': {'type': 'temporal', 'sort': '', 'field': 'Date'}}, 'mark': {'type': 'line'}, 'data': {'url': 'data/day_by_day_2022_JulAug_UE.json'}}",
-    "TF_answer": true,
-    "text_answer": "This is true since the model shows that the orange variable for Utilities has a much greater rate of change and range than the entertainment in blue.",
-    "item_startTime": 1710042971293,
-    "item_endTime": 1710043115370
   },
   {
     "PID": "p9",
@@ -2954,18 +2026,6 @@
   },
   {
     "PID": "p9",
-    "item_order": "item_9_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'mark': {'type': 'point'}, 'encoding': {'size': {'field': 'Spending', 'type': 'quantitative'}, 'y': {'type': '', 'field': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'x': {'type': '', 'field': ''}}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710043780600,
-    "item_endTime": 1710043813287
-  },
-  {
-    "PID": "p9",
     "item_order": "item_10_Q",
     "itemID": "Q9",
     "mark": "bar",
@@ -2989,18 +2049,6 @@
     "TF_answer": true,
     "item_startTime": 1710043958913,
     "item_endTime": 1710044082258
-  },
-  {
-    "PID": "p9",
-    "item_order": "item_12_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'x': {'type': 'temporal', 'field': 'Date'}, 'y': {'type': 'quantitative', 'field': 'Savings', 'aggregate': 'sum'}}, 'mark': {'type': 'area'}}",
-    "TF_answer": true,
-    "item_startTime": 1710044082660,
-    "item_endTime": 1710044105240
   },
   {
     "PID": "p9",
@@ -3042,18 +2090,6 @@
   },
   {
     "PID": "p5",
-    "item_order": "item_1_Q",
-    "itemID": "Q28",
-    "mark": "bar",
-    "x": "Month",
-    "y": "Spending",
-    "vis_answer": "{'mark': {'type': 'bar'}, 'encoding': {'size': {'field': '', 'type': ''}, 'y': {'aggregate': 'sum', 'type': 'quantitative', 'field': 'Spending'}, 'color': {'field': '', 'type': ''}, 'x': {'type': 'ordinal', 'field': 'Month', 'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']}}, 'data': {'url': 'data/day_by_day_2022_JulAugSeptOct.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710042446641,
-    "item_endTime": 1710042569856
-  },
-  {
-    "PID": "p5",
     "item_order": "item_2_Q",
     "itemID": "Q24",
     "mark": "point",
@@ -3064,66 +2100,6 @@
     "TF_answer": false,
     "item_startTime": 1710042570137,
     "item_endTime": 1710042728492
-  },
-  {
-    "PID": "p5",
-    "item_order": "item_3_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'mark': {'type': 'area'}, 'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'x': {'field': 'Date', 'type': 'temporal'}, 'y': {'field': 'Savings', 'aggregate': 'sum', 'type': 'quantitative'}}}",
-    "TF_answer": true,
-    "item_startTime": 1710042728837,
-    "item_endTime": 1710042746566
-  },
-  {
-    "PID": "p5",
-    "item_order": "item_4_Q",
-    "itemID": "Q11",
-    "mark": "line",
-    "x": "Income",
-    "y": "Savings",
-    "vis_answer": "{'mark': {'type': 'line'}, 'encoding': {'y': {'field': 'Savings', 'type': 'quantitative', 'aggregate': ''}, 'x': {'aggregate': '', 'field': 'Income', 'type': 'quantitative'}}, 'data': {'url': 'data/day_by_day_2020_AprMay_TF.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710042747240,
-    "item_endTime": 1710042819492
-  },
-  {
-    "PID": "p5",
-    "item_order": "item_5_Q",
-    "itemID": "Q5",
-    "mark": "point",
-    "x": "Date",
-    "y": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'point'}, 'encoding': {'size': {'field': '', 'sort': '', 'type': ''}, 'color': {'type': '', 'field': ''}, 'x': {'type': 'temporal', 'field': 'Date'}, 'y': {'type': 'quantitative', 'field': 'Spending', 'aggregate': ''}}}",
-    "TF_answer": true,
-    "item_startTime": 1710042819841,
-    "item_endTime": 1710042862118
-  },
-  {
-    "PID": "p5",
-    "item_order": "item_6_Q",
-    "itemID": "Q32",
-    "mark": "area",
-    "x": "Month",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021_EF.json'}, 'encoding': {'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'x': {'field': 'Month', 'type': 'ordinal', 'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']}, 'y': {'type': 'quantitative', 'aggregate': 'sum', 'field': 'Spending'}}, 'mark': {'type': 'area'}}",
-    "TF_answer": false,
-    "item_startTime": 1710042862761,
-    "item_endTime": 1710042939244
-  },
-  {
-    "PID": "p5",
-    "item_order": "item_7_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'mark': {'type': 'line'}, 'encoding': {'y': {'type': 'temporal', 'field': 'Date'}, 'x': {'field': '', 'type': ''}}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710042939584,
-    "item_endTime": 1710042950040
   },
   {
     "PID": "p5",
@@ -3153,18 +2129,6 @@
   },
   {
     "PID": "p5",
-    "item_order": "item_10_Q",
-    "itemID": "Q15",
-    "mark": "bar",
-    "x": "Month",
-    "y": "Spending",
-    "vis_answer": "{'mark': {'type': 'bar'}, 'encoding': {'x': {'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'], 'field': 'Month', 'type': 'ordinal'}, 'y': {'aggregate': 'sum', 'field': 'Spending', 'type': 'quantitative'}}, 'data': {'url': 'data/day_by_day_2023.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710043033666,
-    "item_endTime": 1710043061388
-  },
-  {
-    "PID": "p5",
     "item_order": "item_11_Q",
     "itemID": "Q6",
     "mark": "area",
@@ -3175,18 +2139,6 @@
     "TF_answer": false,
     "item_startTime": 1710043061698,
     "item_endTime": 1710043101760
-  },
-  {
-    "PID": "p5",
-    "item_order": "item_12_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'mark': {'type': 'point'}, 'encoding': {'size': {'type': 'quantitative', 'field': 'Spending'}, 'x': {'type': '', 'field': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'y': {'type': '', 'field': ''}}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710043102107,
-    "item_endTime": 1710043120534
   },
   {
     "PID": "p5",
@@ -3213,43 +2165,6 @@
     "TF_answer": false,
     "item_startTime": 1710043257334,
     "item_endTime": 1710043444963
-  },
-  {
-    "PID": "p5",
-    "item_order": "item_15_Q",
-    "itemID": "Q14",
-    "mark": "bar",
-    "x": "Month",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021_EF.json'}, 'mark': {'type': 'bar'}, 'encoding': {'x': {'type': 'ordinal', 'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'], 'field': 'Month'}, 'y': {'type': 'quantitative', 'field': 'Spending', 'aggregate': 'sum'}, 'color': {'type': 'nominal', 'field': 'Spending_Category'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710043445412,
-    "item_endTime": 1710043466954
-  },
-  {
-    "PID": "p22",
-    "item_order": "item_1_Q",
-    "itemID": "Q4",
-    "mark": "bar",
-    "x": "Year",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'encoding': {'size': {'type': '', 'field': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'y': {'aggregate': 'sum', 'field': 'Spending', 'type': 'quantitative'}, 'x': {'type': 'ordinal', 'field': 'Year'}}, 'mark': {'type': 'bar'}, 'data': {'url': 'data/day_by_day_all.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710045283919,
-    "item_endTime": 1710045354205
-  },
-  {
-    "PID": "p22",
-    "item_order": "item_2_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'encoding': {'y': {'field': 'Date', 'type': 'temporal'}, 'x': {'type': '', 'field': ''}}, 'mark': {'type': 'line'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710045354467,
-    "item_endTime": 1710045369515
   },
   {
     "PID": "p22",
@@ -3303,44 +2218,6 @@
   },
   {
     "PID": "p22",
-    "item_order": "item_7_Q",
-    "itemID": "Q14",
-    "mark": "bar",
-    "x": "Month",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'mark': {'type': 'bar'}, 'encoding': {'y': {'bin': False, 'type': 'quantitative', 'field': 'Spending', 'aggregate': 'sum'}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'x': {'aggregate': '', 'field': 'Month', 'type': 'ordinal', 'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']}}, 'data': {'url': 'data/day_by_day_2021_EF.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710045977061,
-    "item_endTime": 1710046029675
-  },
-  {
-    "PID": "p22",
-    "item_order": "item_8_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'mark': {'type': 'point'}, 'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'size': {'field': 'Spending', 'type': 'quantitative'}, 'x': {'type': '', 'field': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'y': {'field': '', 'type': ''}}}",
-    "TF_answer": false,
-    "item_startTime": 1710046030014,
-    "item_endTime": 1710046044544
-  },
-  {
-    "PID": "p22",
-    "item_order": "item_9_Q",
-    "itemID": "Q22",
-    "mark": "bar",
-    "x": "Date",
-    "y": "Spending",
-    "color": "Year",
-    "vis_answer": "{'mark': {'type': 'bar'}, 'encoding': {'y': {'type': 'quantitative', 'field': 'Spending', 'aggregate': 'sum'}, 'x': {'field': 'Date', 'type': 'temporal'}, 'color': {'sort': '', 'type': 'ordinal', 'field': 'Year'}}, 'data': {'url': 'data/day_by_day_all.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710046044921,
-    "item_endTime": 1710046110828
-  },
-  {
-    "PID": "p22",
     "item_order": "item_10_Q",
     "itemID": "Q29",
     "mark": "bar",
@@ -3351,18 +2228,6 @@
     "TF_answer": false,
     "item_startTime": 1710046111221,
     "item_endTime": 1710046254184
-  },
-  {
-    "PID": "p22",
-    "item_order": "item_11_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'encoding': {'y': {'field': 'Savings', 'aggregate': 'sum', 'type': 'quantitative'}, 'x': {'type': 'temporal', 'field': 'Date'}}, 'mark': {'type': 'area'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710046254495,
-    "item_endTime": 1710046266446
   },
   {
     "PID": "p22",
@@ -3378,44 +2243,6 @@
     "item_endTime": 1710046337131
   },
   {
-    "PID": "p22",
-    "item_order": "item_13_Q",
-    "itemID": "Q3",
-    "mark": "line",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2023_Jan.json'}, 'encoding': {'y': {'field': 'Savings', 'aggregate': '', 'type': 'quantitative'}, 'x': {'field': 'Date', 'sort': '', 'type': 'temporal'}}, 'mark': {'type': 'line'}}",
-    "TF_answer": true,
-    "item_startTime": 1710046337500,
-    "item_endTime": 1710046366564
-  },
-  {
-    "PID": "p22",
-    "item_order": "item_14_Q",
-    "itemID": "Q32",
-    "mark": "bar",
-    "x": "Date",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'mark': {'type': 'bar'}, 'encoding': {'color': {'type': 'nominal', 'field': 'Spending_Category', 'sort': ''}, 'y': {'bin': False, 'aggregate': 'sum', 'field': 'Spending', 'type': 'quantitative'}, 'x': {'aggregate': '', 'field': 'Date', 'type': 'temporal', 'sort': ''}}, 'data': {'url': 'data/day_by_day_2021_EF.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710046366881,
-    "item_endTime": 1710046435353
-  },
-  {
-    "PID": "p22",
-    "item_order": "item_15_Q",
-    "itemID": "Q26",
-    "mark": "line",
-    "x": "Date",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2023_Jan.json'}, 'encoding': {'y': {'type': 'quantitative', 'field': 'Spending', 'aggregate': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'x': {'type': 'temporal', 'field': 'Date'}}, 'mark': {'type': 'line'}}",
-    "TF_answer": true,
-    "item_startTime": 1710046435792,
-    "item_endTime": 1710046454514
-  },
-  {
     "PID": "p15",
     "item_order": "item_1_Q",
     "itemID": "Q10",
@@ -3428,30 +2255,6 @@
     "text_answer": "You can see that the teal line which represents spending on utilities is above the 20 mark on the spending axis for the majority of dates.",
     "item_startTime": 1710038981987,
     "item_endTime": 1710039088400
-  },
-  {
-    "PID": "p15",
-    "item_order": "item_2_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'encoding': {'y': {'type': 'temporal', 'field': 'Date'}, 'x': {'field': '', 'type': ''}}, 'mark': {'type': 'line'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710039088572,
-    "item_endTime": 1710039105206
-  },
-  {
-    "PID": "p15",
-    "item_order": "item_3_Q",
-    "itemID": "Q30",
-    "mark": "line",
-    "x": "Date",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'mark': {'type': 'line'}, 'encoding': {'color': {'type': 'nominal', 'field': 'Spending_Category'}, 'y': {'field': 'Spending', 'type': 'quantitative'}, 'x': {'field': 'Date', 'type': 'temporal'}}, 'data': {'url': 'data/day_by_day_2022_Dec_TF.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710039105446,
-    "item_endTime": 1710039143910
   },
   {
     "PID": "p15",
@@ -3476,30 +2279,6 @@
     "TF_answer": false,
     "item_startTime": 1710039199525,
     "item_endTime": 1710039250733
-  },
-  {
-    "PID": "p15",
-    "item_order": "item_6_Q",
-    "itemID": "Q16",
-    "mark": "bar",
-    "x": "Month",
-    "y": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2023.json'}, 'mark': {'type': 'bar'}, 'encoding': {'x': {'field': 'Month', 'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'], 'type': 'ordinal'}, 'y': {'aggregate': 'sum', 'field': 'Spending', 'type': 'quantitative'}}}",
-    "TF_answer": true,
-    "item_startTime": 1710039250972,
-    "item_endTime": 1710039269259
-  },
-  {
-    "PID": "p15",
-    "item_order": "item_7_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'mark': {'type': 'point'}, 'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'x': {'type': '', 'field': ''}, 'y': {'type': '', 'field': ''}, 'size': {'field': 'Spending', 'type': 'quantitative'}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710039269673,
-    "item_endTime": 1710039286581
   },
   {
     "PID": "p15",
@@ -3557,18 +2336,6 @@
   },
   {
     "PID": "p15",
-    "item_order": "item_12_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'mark': {'type': 'area'}, 'encoding': {'y': {'field': 'Savings', 'aggregate': 'sum', 'type': 'quantitative'}, 'x': {'field': 'Date', 'type': 'temporal'}}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710039478512,
-    "item_endTime": 1710039493987
-  },
-  {
-    "PID": "p15",
     "item_order": "item_13_Q",
     "itemID": "Q17",
     "mark": "point",
@@ -3581,31 +2348,6 @@
     "text_answer": "no data shown",
     "item_startTime": 1710039494214,
     "item_endTime": 1710039532270
-  },
-  {
-    "PID": "p15",
-    "item_order": "item_14_Q",
-    "itemID": "Q13",
-    "mark": "bar",
-    "x": "Year",
-    "y": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_all_T.json'}, 'encoding': {'y': {'aggregate': 'sum', 'type': 'quantitative', 'field': 'Spending'}, 'x': {'field': 'Year', 'type': 'ordinal'}}, 'mark': {'type': 'bar'}}",
-    "TF_answer": true,
-    "item_startTime": 1710039532537,
-    "item_endTime": 1710039545950
-  },
-  {
-    "PID": "p15",
-    "item_order": "item_15_Q",
-    "itemID": "Q2",
-    "mark": "bar",
-    "x": "Month",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'encoding': {'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'x': {'type': 'ordinal', 'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'], 'field': 'Month'}, 'y': {'aggregate': 'sum', 'type': 'quantitative', 'field': 'Spending'}}, 'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'bar'}}",
-    "TF_answer": true,
-    "item_startTime": 1710039546158,
-    "item_endTime": 1710039574666
   },
   {
     "PID": "p12",
@@ -3632,18 +2374,6 @@
     "TF_answer": true,
     "item_startTime": 1710039114668,
     "item_endTime": 1710039201137
-  },
-  {
-    "PID": "p12",
-    "item_order": "item_3_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'encoding': {'y': {'type': 'quantitative', 'aggregate': 'sum', 'field': 'Savings'}, 'x': {'type': 'temporal', 'field': 'Date'}}, 'mark': {'type': 'area'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710039201609,
-    "item_endTime": 1710039236905
   },
   {
     "PID": "p12",
@@ -3693,18 +2423,6 @@
     "TF_answer": false,
     "item_startTime": 1710039394131,
     "item_endTime": 1710039413102
-  },
-  {
-    "PID": "p12",
-    "item_order": "item_8_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'x': {'field': '', 'type': ''}, 'y': {'field': '', 'type': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'size': {'type': 'quantitative', 'field': 'Spending'}}, 'mark': {'type': 'point'}}",
-    "TF_answer": false,
-    "item_startTime": 1710039413460,
-    "item_endTime": 1710039445518
   },
   {
     "PID": "p12",
@@ -3759,17 +2477,6 @@
   },
   {
     "PID": "p12",
-    "item_order": "item_13_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'encoding': {'y': {'type': 'temporal', 'field': 'Date'}, 'x': {'field': '', 'type': ''}}, 'mark': {'type': 'line'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710039588841,
-    "item_endTime": 1710039607483
-  },
-  {
-    "PID": "p12",
     "item_order": "item_14_Q",
     "itemID": "Q28",
     "mark": "area",
@@ -3819,29 +2526,6 @@
     "TF_answer": true,
     "item_startTime": 1710039631513,
     "item_endTime": 1710039984575
-  },
-  {
-    "PID": "p13",
-    "item_order": "item_3_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'encoding': {'y': {'field': 'Date', 'type': 'temporal'}, 'x': {'type': '', 'field': ''}}, 'mark': {'type': 'line'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710039984892,
-    "item_endTime": 1710040011182
-  },
-  {
-    "PID": "p13",
-    "item_order": "item_4_Q",
-    "itemID": "Q7",
-    "mark": "line",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2022_JulAug.json'}, 'encoding': {'color': {'type': '', 'field': ''}, 'x': {'type': 'temporal', 'field': 'Date'}, 'y': {'field': 'Savings', 'aggregate': '', 'type': 'quantitative'}}, 'mark': {'type': 'line'}}",
-    "TF_answer": true,
-    "item_startTime": 1710040011492,
-    "item_endTime": 1710040064635
   },
   {
     "PID": "p13",
@@ -3932,18 +2616,6 @@
   },
   {
     "PID": "p13",
-    "item_order": "item_12_Q",
-    "itemID": "Q13",
-    "mark": "bar",
-    "x": "Spending",
-    "y": "Year",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_all_T.json'}, 'mark': {'type': 'bar'}, 'encoding': {'y': {'field': 'Year', 'type': 'ordinal'}, 'x': {'aggregate': 'sum', 'field': 'Spending', 'type': 'quantitative'}}}",
-    "TF_answer": true,
-    "item_startTime": 1710041178543,
-    "item_endTime": 1710041194252
-  },
-  {
-    "PID": "p13",
     "item_order": "item_13_Q",
     "itemID": "Q31",
     "mark": "bar",
@@ -3983,18 +2655,6 @@
   },
   {
     "PID": "p17",
-    "item_order": "item_1_Q",
-    "itemID": "Q15",
-    "mark": "bar",
-    "x": "Month",
-    "y": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2023.json'}, 'mark': {'type': 'bar'}, 'encoding': {'y': {'field': 'Spending', 'type': 'quantitative', 'aggregate': 'sum'}, 'color': {'field': '', 'sort': '', 'type': ''}, 'x': {'field': 'Month', 'type': 'ordinal', 'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']}}}",
-    "TF_answer": false,
-    "item_startTime": 1710039275353,
-    "item_endTime": 1710039320144
-  },
-  {
-    "PID": "p17",
     "item_order": "item_2_Q",
     "itemID": "Q10",
     "mark": "area",
@@ -4017,67 +2677,6 @@
     "TF_answer": false,
     "item_startTime": 1710039396600,
     "item_endTime": 1710039450988
-  },
-  {
-    "PID": "p17",
-    "item_order": "item_4_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'area'}, 'encoding': {'y': {'field': 'Savings', 'aggregate': 'sum', 'type': 'quantitative'}, 'x': {'field': 'Date', 'type': 'temporal'}}}",
-    "TF_answer": true,
-    "item_startTime": 1710039451559,
-    "item_endTime": 1710039472354
-  },
-  {
-    "PID": "p17",
-    "item_order": "item_5_Q",
-    "itemID": "Q21",
-    "mark": "point",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'point'}, 'encoding': {'x': {'type': 'temporal', 'field': 'Date'}, 'y': {'field': 'Savings', 'type': 'quantitative', 'aggregate': ''}}}",
-    "TF_answer": false,
-    "item_startTime": 1710039472952,
-    "item_endTime": 1710039518405
-  },
-  {
-    "PID": "p17",
-    "item_order": "item_6_Q",
-    "itemID": "Q6",
-    "mark": "bar",
-    "x": "Date",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'mark': {'type': 'bar'}, 'encoding': {'y': {'aggregate': 'sum', 'field': 'Spending', 'type': 'quantitative'}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'x': {'type': 'temporal', 'field': 'Date'}}, 'data': {'url': 'data/day_by_day_2021_EF.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710039518946,
-    "item_endTime": 1710039574722
-  },
-  {
-    "PID": "p17",
-    "item_order": "item_7_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'mark': {'type': 'line'}, 'encoding': {'y': {'field': 'Date', 'type': 'temporal'}, 'x': {'field': '', 'type': ''}}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710039575303,
-    "item_endTime": 1710039587872
-  },
-  {
-    "PID": "p17",
-    "item_order": "item_8_Q",
-    "itemID": "Q32",
-    "mark": "bar",
-    "x": "Date",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021_EF.json'}, 'mark': {'type': 'bar'}, 'encoding': {'color': {'type': 'nominal', 'field': 'Spending_Category'}, 'y': {'aggregate': 'sum', 'type': 'quantitative', 'field': 'Spending'}, 'x': {'field': 'Date', 'type': 'temporal'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710039588403,
-    "item_endTime": 1710039623272
   },
   {
     "PID": "p17",
@@ -4107,30 +2706,6 @@
   },
   {
     "PID": "p17",
-    "item_order": "item_11_Q",
-    "itemID": "Q5",
-    "mark": "bar",
-    "x": "Date",
-    "y": "Spending",
-    "vis_answer": "{'mark': {'type': 'bar'}, 'encoding': {'y': {'field': 'Spending', 'type': 'quantitative', 'aggregate': 'sum'}, 'x': {'type': 'temporal', 'field': 'Date'}}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710039700931,
-    "item_endTime": 1710039719290
-  },
-  {
-    "PID": "p17",
-    "item_order": "item_12_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'point'}, 'encoding': {'x': {'type': '', 'field': ''}, 'color': {'type': 'nominal', 'field': 'Spending_Category'}, 'y': {'field': '', 'type': ''}, 'size': {'field': 'Spending', 'type': 'quantitative'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710039719799,
-    "item_endTime": 1710039746339
-  },
-  {
-    "PID": "p17",
     "item_order": "item_13_Q",
     "itemID": "Q8",
     "mark": "line",
@@ -4155,18 +2730,6 @@
     "item_endTime": 1710039816390
   },
   {
-    "PID": "p17",
-    "item_order": "item_15_Q",
-    "itemID": "Q27",
-    "mark": "line",
-    "x": "Date",
-    "y": "Income",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2023_Feb.json'}, 'mark': {'type': 'line'}, 'encoding': {'y': {'aggregate': '', 'type': 'quantitative', 'field': 'Income'}, 'x': {'type': 'temporal', 'field': 'Date'}}}",
-    "TF_answer": true,
-    "item_startTime": 1710039816990,
-    "item_endTime": 1710039838806
-  },
-  {
     "PID": "p26",
     "item_order": "item_1_Q",
     "itemID": "Q2",
@@ -4175,18 +2738,6 @@
     "text_answer": "I wasn't able to make any selections for this chart",
     "item_startTime": 1710039930743,
     "item_endTime": 1710040002911
-  },
-  {
-    "PID": "p26",
-    "item_order": "item_2_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'x': {'type': 'temporal', 'field': 'Date'}, 'y': {'aggregate': 'sum', 'type': 'quantitative', 'field': 'Savings'}}, 'mark': {'type': 'area'}}",
-    "TF_answer": true,
-    "item_startTime": 1710040003104,
-    "item_endTime": 1710040029134
   },
   {
     "PID": "p26",
@@ -4199,18 +2750,6 @@
     "TF_answer": true,
     "item_startTime": 1710040029482,
     "item_endTime": 1710040145838
-  },
-  {
-    "PID": "p26",
-    "item_order": "item_4_Q",
-    "itemID": "Q1",
-    "mark": "line",
-    "x": "Date",
-    "y": "Income",
-    "vis_answer": "{'encoding': {'x': {'field': 'Date', 'type': 'temporal'}, 'y': {'type': 'quantitative', 'field': 'Income'}}, 'data': {'url': 'data/day_by_day_2023_Jan.json'}, 'mark': {'type': 'line'}}",
-    "TF_answer": false,
-    "item_startTime": 1710040146098,
-    "item_endTime": 1710040202217
   },
   {
     "PID": "p26",
@@ -4238,18 +2777,6 @@
   },
   {
     "PID": "p26",
-    "item_order": "item_7_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'mark': {'type': 'point'}, 'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'y': {'field': '', 'type': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'x': {'type': '', 'field': ''}, 'size': {'type': 'quantitative', 'field': 'Spending'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710040314098,
-    "item_endTime": 1710040354580
-  },
-  {
-    "PID": "p26",
     "item_order": "item_8_Q",
     "itemID": "Q12",
     "mark": "line",
@@ -4262,19 +2789,6 @@
   },
   {
     "PID": "p26",
-    "item_order": "item_9_Q",
-    "itemID": "Q4",
-    "mark": "bar",
-    "x": "Year",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'encoding': {'color': {'type': 'nominal', 'field': 'Spending_Category'}, 'x': {'field': 'Year', 'type': 'ordinal'}, 'y': {'aggregate': 'sum', 'field': 'Spending', 'type': 'quantitative'}}, 'mark': {'type': 'bar'}, 'data': {'url': 'data/day_by_day_all.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710040457519,
-    "item_endTime": 1710040573494
-  },
-  {
-    "PID": "p26",
     "item_order": "item_10_Q",
     "itemID": "Q34",
     "mark": "point",
@@ -4284,17 +2798,6 @@
     "TF_answer": false,
     "item_startTime": 1710040573773,
     "item_endTime": 1710040667444
-  },
-  {
-    "PID": "p26",
-    "item_order": "item_11_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'mark': {'type': 'line'}, 'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'y': {'field': 'Date', 'type': 'temporal'}, 'x': {'field': '', 'type': ''}}}",
-    "TF_answer": false,
-    "item_startTime": 1710040667684,
-    "item_endTime": 1710040679092
   },
   {
     "PID": "p26",
@@ -4321,18 +2824,6 @@
     "TF_answer": false,
     "item_startTime": 1710040707974,
     "item_endTime": 1710040789959
-  },
-  {
-    "PID": "p26",
-    "item_order": "item_14_Q",
-    "itemID": "Q29",
-    "mark": "line",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'encoding': {'y': {'sort': '', 'field': 'Savings', 'type': 'quantitative', 'aggregate': '', 'bin': False}, 'x': {'bin': False, 'sort': '', 'type': 'temporal', 'field': 'Date', 'aggregate': ''}}, 'data': {'url': 'data/day_by_day_2023_Jan.json'}, 'mark': {'type': 'line'}}",
-    "TF_answer": false,
-    "item_startTime": 1710040790214,
-    "item_endTime": 1710040880257
   },
   {
     "PID": "p26",
@@ -4387,18 +2878,6 @@
   },
   {
     "PID": "p8",
-    "item_order": "item_4_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'mark': {'type': 'point'}, 'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'y': {'field': '', 'type': ''}, 'size': {'type': 'quantitative', 'field': 'Spending'}, 'x': {'type': '', 'field': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710040707712,
-    "item_endTime": 1710040728138
-  },
-  {
-    "PID": "p8",
     "item_order": "item_5_Q",
     "itemID": "Q10",
     "mark": "bar",
@@ -4436,18 +2915,6 @@
   },
   {
     "PID": "p8",
-    "item_order": "item_8_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'area'}, 'encoding': {'y': {'type': 'quantitative', 'field': 'Savings', 'aggregate': 'sum'}, 'x': {'type': 'temporal', 'field': 'Date'}}}",
-    "TF_answer": true,
-    "item_startTime": 1710041065225,
-    "item_endTime": 1710041145673
-  },
-  {
-    "PID": "p8",
     "item_order": "item_9_Q",
     "itemID": "Q12",
     "mark": "line",
@@ -4457,68 +2924,6 @@
     "TF_answer": false,
     "item_startTime": 1710041145988,
     "item_endTime": 1710041217916
-  },
-  {
-    "PID": "p8",
-    "item_order": "item_10_Q",
-    "itemID": "Q18",
-    "mark": "line",
-    "x": "Date",
-    "y": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2022_Jun_UEF.json'}, 'encoding': {'y': {'type': 'quantitative', 'field': 'Spending'}, 'x': {'field': 'Date', 'type': 'temporal'}}, 'mark': {'type': 'line'}}",
-    "TF_answer": true,
-    "item_startTime": 1710041218252,
-    "item_endTime": 1710041243662
-  },
-  {
-    "PID": "p8",
-    "item_order": "item_11_Q",
-    "itemID": "Q26",
-    "mark": "line",
-    "x": "Date",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'mark': {'type': 'line'}, 'data': {'url': 'data/day_by_day_2023_Jan.json'}, 'encoding': {'x': {'aggregate': '', 'bin': False, 'type': 'temporal', 'sort': '', 'field': 'Date'}, 'size': {'field': '', 'type': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'y': {'aggregate': '', 'field': 'Spending', 'sort': '', 'type': 'quantitative'}}}",
-    "TF_answer": true,
-    "item_startTime": 1710041244027,
-    "item_endTime": 1710041353023
-  },
-  {
-    "PID": "p8",
-    "item_order": "item_12_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'y': {'type': 'temporal', 'field': 'Date'}, 'x': {'field': '', 'type': ''}}, 'mark': {'type': 'line'}}",
-    "TF_answer": false,
-    "item_startTime": 1710041353248,
-    "item_endTime": 1710041365333
-  },
-  {
-    "PID": "p8",
-    "item_order": "item_13_Q",
-    "itemID": "Q14",
-    "mark": "bar",
-    "x": "Month",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021_EF.json'}, 'mark': {'type': 'bar'}, 'encoding': {'color': {'type': 'nominal', 'field': 'Spending_Category'}, 'y': {'field': 'Spending', 'aggregate': 'sum', 'type': 'quantitative'}, 'x': {'field': 'Month', 'type': 'ordinal', 'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']}}}",
-    "TF_answer": true,
-    "item_startTime": 1710041365560,
-    "item_endTime": 1710041432873
-  },
-  {
-    "PID": "p8",
-    "item_order": "item_14_Q",
-    "itemID": "Q38",
-    "mark": "bar",
-    "x": "Month",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'encoding': {'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'y': {'type': 'quantitative', 'field': 'Spending', 'aggregate': 'sum'}, 'x': {'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'], 'type': 'ordinal', 'field': 'Month'}}, 'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'bar'}}",
-    "TF_answer": false,
-    "item_startTime": 1710041433100,
-    "item_endTime": 1710041484449
   },
   {
     "PID": "p8",
@@ -4546,18 +2951,6 @@
   },
   {
     "PID": "p6",
-    "item_order": "item_2_Q",
-    "itemID": "Q13",
-    "mark": "bar",
-    "x": "Year",
-    "y": "Spending",
-    "vis_answer": "{'mark': {'type': 'bar'}, 'data': {'url': 'data/day_by_day_all_T.json'}, 'encoding': {'y': {'aggregate': 'sum', 'field': 'Spending', 'type': 'quantitative'}, 'x': {'field': 'Year', 'type': 'ordinal'}}}",
-    "TF_answer": true,
-    "item_startTime": 1710040829322,
-    "item_endTime": 1710040853032
-  },
-  {
-    "PID": "p6",
     "item_order": "item_3_Q",
     "itemID": "Q8",
     "mark": "line",
@@ -4567,17 +2960,6 @@
     "TF_answer": false,
     "item_startTime": 1710040853444,
     "item_endTime": 1710040925274
-  },
-  {
-    "PID": "p6",
-    "item_order": "item_4_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'mark': {'type': 'line'}, 'encoding': {'x': {'field': '', 'type': ''}, 'y': {'type': 'temporal', 'field': 'Date'}}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710040925602,
-    "item_endTime": 1710040953574
   },
   {
     "PID": "p6",
@@ -4606,18 +2988,6 @@
   },
   {
     "PID": "p6",
-    "item_order": "item_7_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'area'}, 'encoding': {'y': {'aggregate': 'sum', 'field': 'Savings', 'type': 'quantitative'}, 'x': {'type': 'temporal', 'field': 'Date'}}}",
-    "TF_answer": true,
-    "item_startTime": 1710041173198,
-    "item_endTime": 1710041196025
-  },
-  {
-    "PID": "p6",
     "item_order": "item_8_Q",
     "itemID": "Q22",
     "mark": "area",
@@ -4628,55 +2998,6 @@
     "TF_answer": true,
     "item_startTime": 1710041196413,
     "item_endTime": 1710041331213
-  },
-  {
-    "PID": "p6",
-    "item_order": "item_9_Q",
-    "itemID": "Q30",
-    "mark": "line",
-    "x": "Date",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2022_Dec_TF.json'}, 'mark': {'type': 'line'}, 'encoding': {'y': {'field': 'Spending', 'type': 'quantitative', 'aggregate': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'x': {'type': 'temporal', 'field': 'Date'}}}",
-    "TF_answer": true,
-    "item_startTime": 1710041331540,
-    "item_endTime": 1710041387487
-  },
-  {
-    "PID": "p6",
-    "item_order": "item_10_Q",
-    "itemID": "Q27",
-    "mark": "line",
-    "x": "Date",
-    "y": "Income",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2023_Feb.json'}, 'encoding': {'size': {'field': '', 'type': ''}, 'y': {'type': 'quantitative', 'aggregate': '', 'field': 'Income'}, 'color': {'type': '', 'field': ''}, 'x': {'field': 'Date', 'type': 'temporal', 'sort': ''}}, 'mark': {'type': 'line'}}",
-    "TF_answer": false,
-    "item_startTime": 1710041387825,
-    "item_endTime": 1710041493868
-  },
-  {
-    "PID": "p6",
-    "item_order": "item_11_Q",
-    "itemID": "Q7",
-    "mark": "line",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2022_JulAug.json'}, 'encoding': {'size': {'field': '', 'type': ''}, 'color': {'field': '', 'type': ''}, 'y': {'field': 'Savings', 'aggregate': '', 'type': 'quantitative'}, 'x': {'field': 'Date', 'type': 'temporal'}}, 'mark': {'type': 'line'}}",
-    "TF_answer": true,
-    "item_startTime": 1710041494209,
-    "item_endTime": 1710041569741
-  },
-  {
-    "PID": "p6",
-    "item_order": "item_12_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'y': {'type': '', 'field': ''}, 'size': {'type': 'quantitative', 'field': 'Spending'}, 'x': {'type': '', 'field': ''}}, 'mark': {'type': 'point'}}",
-    "TF_answer": false,
-    "item_startTime": 1710041570085,
-    "item_endTime": 1710041600392
   },
   {
     "PID": "p6",
@@ -4703,19 +3024,6 @@
     "TF_answer": true,
     "item_startTime": 1710041703883,
     "item_endTime": 1710041787788
-  },
-  {
-    "PID": "p6",
-    "item_order": "item_15_Q",
-    "itemID": "Q31",
-    "mark": "line",
-    "x": "Date",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'encoding': {'y': {'aggregate': '', 'type': 'quantitative', 'field': 'Spending'}, 'x': {'type': 'temporal', 'field': 'Date'}, 'color': {'type': 'nominal', 'field': 'Spending_Category'}}, 'data': {'url': 'data/day_by_day_2022_JulAug_UE.json'}, 'mark': {'type': 'line'}}",
-    "TF_answer": true,
-    "item_startTime": 1710041788119,
-    "item_endTime": 1710041846638
   },
   {
     "PID": "p20",
@@ -4745,18 +3053,6 @@
     "text_answer": "TOTALLY CONFUSING AND FORCING ME TO JUST GUESS",
     "item_startTime": 1710040853058,
     "item_endTime": 1710041017369
-  },
-  {
-    "PID": "p20",
-    "item_order": "item_3_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'encoding': {'x': {'field': '', 'type': ''}, 'y': {'type': '', 'field': ''}, 'size': {'field': 'Spending', 'type': 'quantitative'}, 'color': {'type': 'nominal', 'field': 'Spending_Category'}}, 'mark': {'type': 'point'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710041017630,
-    "item_endTime": 1710041078922
   },
   {
     "PID": "p20",
@@ -4819,18 +3115,6 @@
   },
   {
     "PID": "p20",
-    "item_order": "item_8_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'encoding': {'y': {'field': 'Savings', 'aggregate': 'sum', 'type': 'quantitative'}, 'x': {'field': 'Date', 'type': 'temporal'}}, 'mark': {'type': 'area'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710041472553,
-    "item_endTime": 1710041506298
-  },
-  {
-    "PID": "p20",
     "item_order": "item_9_Q",
     "itemID": "Q19",
     "mark": "area",
@@ -4856,17 +3140,6 @@
     "TF_answer": true,
     "item_startTime": 1710041598237,
     "item_endTime": 1710041678627
-  },
-  {
-    "PID": "p20",
-    "item_order": "item_11_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'encoding': {'y': {'type': 'temporal', 'field': 'Date'}, 'x': {'type': '', 'field': ''}}, 'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'line'}}",
-    "TF_answer": false,
-    "item_startTime": 1710041678948,
-    "item_endTime": 1710041705938
   },
   {
     "PID": "p20",
@@ -4934,18 +3207,6 @@
     "TF_answer": true,
     "item_startTime": 1710043654256,
     "item_endTime": 1710043869504
-  },
-  {
-    "PID": "p29",
-    "item_order": "item_2_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'encoding': {'y': {'type': 'quantitative', 'field': 'Savings', 'aggregate': 'sum'}, 'x': {'field': 'Date', 'type': 'temporal'}}, 'mark': {'type': 'area'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710043869896,
-    "item_endTime": 1710043936335
   },
   {
     "PID": "p29",
@@ -5066,17 +3327,6 @@
   },
   {
     "PID": "p29",
-    "item_order": "item_12_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'encoding': {'y': {'type': 'temporal', 'field': 'Date'}, 'x': {'field': '', 'type': ''}}, 'mark': {'type': 'line'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": false,
-    "item_startTime": 1710045229594,
-    "item_endTime": 1710045243721
-  },
-  {
-    "PID": "p29",
     "item_order": "item_13_Q",
     "itemID": "Q9",
     "mark": "point",
@@ -5144,72 +3394,6 @@
   },
   {
     "PID": "p3",
-    "item_order": "item_3_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'mark': {'type': 'area'}, 'encoding': {'x': {'type': 'temporal', 'field': 'Date'}, 'y': {'aggregate': 'sum', 'field': 'Savings', 'type': 'quantitative'}}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710043618428,
-    "item_endTime": 1710043652256
-  },
-  {
-    "PID": "p3",
-    "item_order": "item_4_Q",
-    "itemID": "Q26",
-    "mark": "line",
-    "x": "Date",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'encoding': {'y': {'bin': False, 'type': 'quantitative', 'aggregate': '', 'field': 'Spending'}, 'size': {'field': '', 'type': ''}, 'x': {'field': 'Date', 'aggregate': '', 'type': 'temporal', 'sort': ''}, 'color': {'type': 'nominal', 'sort': '', 'field': 'Spending_Category'}}, 'data': {'url': 'data/day_by_day_2023_Jan.json'}, 'mark': {'type': 'line'}}",
-    "TF_answer": true,
-    "text_answer": "entertainment dropped by around 80 in the middle of the month",
-    "item_startTime": 1710043652801,
-    "item_endTime": 1710043854057
-  },
-  {
-    "PID": "p3",
-    "item_order": "item_5_Q",
-    "itemID": "Q5",
-    "mark": "point",
-    "x": "Date",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'mark': {'type': 'point'}, 'encoding': {'size': {'field': '', 'type': ''}, 'color': {'sort': '', 'field': 'Spending_Category', 'type': 'nominal'}, 'x': {'field': 'Date', 'type': 'temporal', 'sort': '', 'aggregate': ''}, 'y': {'type': 'quantitative', 'aggregate': '', 'bin': False, 'field': 'Spending'}}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": true,
-    "text_answer": "very few points are above 90",
-    "item_startTime": 1710043854472,
-    "item_endTime": 1710044035034
-  },
-  {
-    "PID": "p3",
-    "item_order": "item_6_Q",
-    "itemID": "Q13",
-    "mark": "bar",
-    "x": "Year",
-    "y": "Spending",
-    "vis_answer": "{'mark': {'type': 'bar'}, 'data': {'url': 'data/day_by_day_all_T.json'}, 'encoding': {'y': {'type': 'quantitative', 'aggregate': 'sum', 'field': 'Spending'}, 'color': {'type': '', 'field': '', 'sort': ''}, 'size': {'field': '', 'type': ''}, 'x': {'field': 'Year', 'type': 'ordinal'}}}",
-    "TF_answer": true,
-    "text_answer": "spending increased from around 1600 to around 4100",
-    "item_startTime": 1710044035399,
-    "item_endTime": 1710044130412
-  },
-  {
-    "PID": "p3",
-    "item_order": "item_7_Q",
-    "itemID": "Q14",
-    "mark": "bar",
-    "x": "Month",
-    "y": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021_EF.json'}, 'encoding': {'x': {'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'], 'field': 'Month', 'type': 'ordinal'}, 'y': {'type': 'quantitative', 'field': 'Spending', 'aggregate': 'sum'}, 'size': {'field': '', 'type': ''}, 'color': {'type': '', 'field': ''}}, 'mark': {'type': 'bar'}}",
-    "TF_answer": true,
-    "text_answer": "somewhat true, there were some minor decreases but overall it did increase",
-    "item_startTime": 1710044130847,
-    "item_endTime": 1710044290260
-  },
-  {
-    "PID": "p3",
     "item_order": "item_8_Q",
     "itemID": "Q20",
     "mark": "point",
@@ -5224,70 +3408,6 @@
   },
   {
     "PID": "p3",
-    "item_order": "item_9_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'mark': {'type': 'line'}, 'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'x': {'field': '', 'type': ''}, 'y': {'type': 'temporal', 'field': 'Date'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710044680923,
-    "item_endTime": 1710044712771
-  },
-  {
-    "PID": "p3",
-    "item_order": "item_10_Q",
-    "itemID": "Q3",
-    "mark": "line",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2023_Jan.json'}, 'mark': {'type': 'line'}, 'encoding': {'y': {'field': 'Savings', 'aggregate': '', 'type': 'quantitative'}, 'x': {'field': 'Date', 'type': 'temporal'}, 'color': {'type': '', 'field': ''}, 'size': {'type': '', 'field': ''}}}",
-    "TF_answer": true,
-    "text_answer": "there appear to be only 3 below 20",
-    "item_startTime": 1710044713096,
-    "item_endTime": 1710044805964
-  },
-  {
-    "PID": "p3",
-    "item_order": "item_11_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'encoding': {'x': {'type': '', 'field': ''}, 'y': {'field': '', 'type': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'size': {'type': 'quantitative', 'field': 'Spending'}}, 'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'point'}}",
-    "TF_answer": false,
-    "item_startTime": 1710044806324,
-    "item_endTime": 1710044855062
-  },
-  {
-    "PID": "p3",
-    "item_order": "item_12_Q",
-    "itemID": "Q21",
-    "mark": "point",
-    "x": "Date",
-    "y": "Savings",
-    "color": "Spending_Category",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'x': {'field': 'Date', 'sort': '', 'type': 'temporal', 'aggregate': ''}, 'size': {'field': '', 'type': ''}, 'y': {'aggregate': '', 'type': 'quantitative', 'field': 'Savings', 'bin': False}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}}, 'mark': {'type': 'point'}}",
-    "TF_answer": false,
-    "text_answer": "savings were consistently above 15-20 and stayed close to the same throughout the year",
-    "item_startTime": 1710044855533,
-    "item_endTime": 1710045219822
-  },
-  {
-    "PID": "p3",
-    "item_order": "item_13_Q",
-    "itemID": "Q28",
-    "mark": "area",
-    "x": "Month",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'mark': {'type': 'area'}, 'encoding': {'x': {'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'], 'field': 'Month', 'aggregate': '', 'type': 'ordinal'}, 'color': {'field': 'Spending_Category', 'sort': '', 'type': 'nominal'}, 'y': {'type': 'quantitative', 'field': 'Spending', 'aggregate': 'sum'}, 'size': {'field': '', 'type': ''}}, 'data': {'url': 'data/day_by_day_2022_JulAugSeptOct.json'}}",
-    "TF_answer": false,
-    "text_answer": "all but entertainment increased",
-    "item_startTime": 1710045220570,
-    "item_endTime": 1710045364740
-  },
-  {
-    "PID": "p3",
     "item_order": "item_14_Q",
     "itemID": "Q33",
     "mark": "point",
@@ -5299,33 +3419,6 @@
     "text_answer": "most daily savings were in the range of 20-40, but fewer were above 40",
     "item_startTime": 1710045365385,
     "item_endTime": 1710045591849
-  },
-  {
-    "PID": "p3",
-    "item_order": "item_15_Q",
-    "itemID": "Q37",
-    "mark": "bar",
-    "x": "Year",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'encoding': {'x': {'type': 'ordinal', 'field': 'Year'}, 'size': {'field': '', 'type': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'y': {'field': 'Spending', 'type': 'quantitative', 'aggregate': 'sum'}}, 'data': {'url': 'data/day_by_day_20_23.json'}, 'mark': {'type': 'bar'}}",
-    "TF_answer": true,
-    "text_answer": "values are obviously higher in 2023 for all categories",
-    "item_startTime": 1710045592212,
-    "item_endTime": 1710045715539
-  },
-  {
-    "PID": "p24",
-    "item_order": "item_1_Q",
-    "itemID": "Q12",
-    "mark": "line",
-    "x": "Income",
-    "y": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2020_AprMay_TF.json'}, 'mark': {'type': 'line'}, 'encoding': {'size': {'field': '', 'type': ''}, 'y': {'field': 'Spending', 'type': 'quantitative'}, 'x': {'type': 'quantitative', 'field': 'Income'}}}",
-    "TF_answer": false,
-    "text_answer": "The lowest food spending was in the 200-300 income range.",
-    "item_startTime": 1710045556980,
-    "item_endTime": 1710045639724
   },
   {
     "PID": "p24",
@@ -5357,58 +3450,6 @@
   },
   {
     "PID": "p24",
-    "item_order": "item_4_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'encoding': {'y': {'field': 'Savings', 'aggregate': 'sum', 'type': 'quantitative'}, 'x': {'field': 'Date', 'type': 'temporal'}}, 'mark': {'type': 'area'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710046011636,
-    "item_endTime": 1710046038528
-  },
-  {
-    "PID": "p24",
-    "item_order": "item_5_Q",
-    "itemID": "Q24",
-    "mark": "line",
-    "x": "Income",
-    "y": "Savings",
-    "color": "Spending_Category",
-    "vis_answer": "{'mark': {'type': 'line'}, 'encoding': {'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'x': {'field': 'Income', 'aggregate': '', 'type': 'quantitative', 'bin': False}, 'y': {'type': 'quantitative', 'field': 'Savings', 'aggregate': ''}, 'size': {'sort': '', 'field': '', 'type': ''}}, 'data': {'url': 'data/day_by_day_2020_Mar.json'}}",
-    "TF_answer": false,
-    "text_answer": "Overall, it seems that transportation spending decreases, a the line gets lower ass income increases and savings decrease.",
-    "item_startTime": 1710046038901,
-    "item_endTime": 1710046185698
-  },
-  {
-    "PID": "p24",
-    "item_order": "item_6_Q",
-    "itemID": "Q25",
-    "mark": "line",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'mark': {'type': 'line'}, 'encoding': {'y': {'aggregate': '', 'field': 'Savings', 'type': 'quantitative'}, 'color': {'field': '', 'type': '', 'sort': ''}, 'x': {'field': 'Date', 'type': 'temporal'}, 'size': {'field': '', 'sort': '', 'type': ''}}, 'data': {'url': 'data/day_by_day_2023_Feb.json'}}",
-    "TF_answer": false,
-    "text_answer": "The range for the second half looks like 50, while the range in the first half is more like 45.",
-    "item_startTime": 1710046186339,
-    "item_endTime": 1710046285905
-  },
-  {
-    "PID": "p24",
-    "item_order": "item_7_Q",
-    "itemID": "Q27",
-    "mark": "line",
-    "x": "Date",
-    "y": "Income",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2023_Feb.json'}, 'encoding': {'x': {'type': 'temporal', 'field': 'Date'}, 'y': {'type': 'quantitative', 'aggregate': '', 'field': 'Income'}}, 'mark': {'type': 'line'}}",
-    "TF_answer": true,
-    "text_answer": "Daily income in the second half seems to trend higher, especially from the very high 700+ day in the second half of the month.",
-    "item_startTime": 1710046286325,
-    "item_endTime": 1710046339068
-  },
-  {
-    "PID": "p24",
     "item_order": "item_8_Q",
     "itemID": "Q22",
     "mark": "point",
@@ -5421,45 +3462,6 @@
     "text_answer": "The cluster of spending in the 50 range is larger in 2023 than 2020.",
     "item_startTime": 1710046339463,
     "item_endTime": 1710046469930
-  },
-  {
-    "PID": "p24",
-    "item_order": "item_9_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'size': {'field': 'Spending', 'type': 'quantitative'}, 'y': {'field': '', 'type': ''}, 'x': {'field': '', 'type': ''}}, 'mark': {'type': 'point'}}",
-    "TF_answer": false,
-    "item_startTime": 1710046470366,
-    "item_endTime": 1710046501605
-  },
-  {
-    "PID": "p24",
-    "item_order": "item_10_Q",
-    "itemID": "Q13",
-    "mark": "bar",
-    "x": "Year",
-    "y": "Spending",
-    "color": "Year",
-    "vis_answer": "{'encoding': {'x': {'type': 'ordinal', 'field': 'Year'}, 'y': {'field': 'Spending', 'aggregate': 'sum', 'type': 'quantitative'}, 'color': {'type': 'ordinal', 'field': 'Year'}, 'size': {'field': '', 'type': ''}}, 'data': {'url': 'data/day_by_day_all_T.json'}, 'mark': {'type': 'bar'}}",
-    "TF_answer": true,
-    "text_answer": "Spending increased by around 2500 from 2020 to 2023.",
-    "item_startTime": 1710046501995,
-    "item_endTime": 1710046549112
-  },
-  {
-    "PID": "p24",
-    "item_order": "item_11_Q",
-    "itemID": "Q19",
-    "mark": "line",
-    "x": "Income",
-    "y": "Savings",
-    "vis_answer": "{'mark': {'type': 'line'}, 'encoding': {'color': {'type': '', 'field': ''}, 'y': {'field': 'Savings', 'type': 'quantitative', 'aggregate': ''}, 'x': {'field': 'Income', 'type': 'quantitative', 'aggregate': ''}}, 'data': {'url': 'data/day_by_day_2023_Jan.json'}}",
-    "TF_answer": true,
-    "text_answer": "Savings trend upwards with increased income.",
-    "item_startTime": 1710046549568,
-    "item_endTime": 1710046597354
   },
   {
     "PID": "p24",
@@ -5477,81 +3479,6 @@
     "item_endTime": 1710046676594
   },
   {
-    "PID": "p24",
-    "item_order": "item_13_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'line'}, 'encoding': {'x': {'type': '', 'field': ''}, 'y': {'type': 'temporal', 'field': 'Date'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710046677016,
-    "item_endTime": 1710046699632
-  },
-  {
-    "PID": "p24",
-    "item_order": "item_14_Q",
-    "itemID": "Q9",
-    "mark": "bar",
-    "x": "Date",
-    "y": "Income",
-    "vis_answer": "{'mark': {'type': 'bar'}, 'encoding': {'color': {'type': '', 'field': ''}, 'y': {'aggregate': 'sum', 'type': 'quantitative', 'field': 'Income'}, 'size': {'field': '', 'type': ''}, 'x': {'field': 'Date', 'type': 'temporal'}}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": true,
-    "text_answer": "Most of the data points are between 100 to 400-500.",
-    "item_startTime": 1710046699997,
-    "item_endTime": 1710046754061
-  },
-  {
-    "PID": "p24",
-    "item_order": "item_15_Q",
-    "itemID": "Q28",
-    "mark": "bar",
-    "x": "Month",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2022_JulAugSeptOct.json'}, 'mark': {'type': 'bar'}, 'encoding': {'y': {'field': 'Spending', 'type': 'quantitative', 'aggregate': 'sum'}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'x': {'sort': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'], 'type': 'ordinal', 'field': 'Month'}}}",
-    "TF_answer": false,
-    "text_answer": "Some categories decreased (entertainment), but some increased (utilities).",
-    "item_startTime": 1710046754507,
-    "item_endTime": 1710046809200
-  },
-  {
-    "PID": "p16",
-    "item_order": "item_1_Q",
-    "itemID": "Q8",
-    "mark": "line",
-    "x": "Income",
-    "y": "Spending",
-    "vis_answer": "{'encoding': {'x': {'type': 'quantitative', 'aggregate': '', 'bin': False, 'field': 'Income'}, 'size': {'field': '', 'sort': '', 'type': ''}, 'y': {'field': 'Spending', 'type': 'quantitative', 'aggregate': '', 'sort': '', 'bin': False}, 'color': {'type': '', 'field': ''}}, 'data': {'url': 'data/day_by_day_2022_Jun_UEF.json'}, 'mark': {'type': 'line'}}",
-    "TF_answer": true,
-    "item_startTime": 1710047713618,
-    "item_endTime": 1710048490977
-  },
-  {
-    "PID": "p16",
-    "item_order": "item_2_Q",
-    "itemID": "Q41",
-    "mark": "area",
-    "x": "Date",
-    "y": "Savings",
-    "vis_answer": "{'encoding': {'x': {'type': 'temporal', 'field': 'Date'}, 'y': {'type': 'quantitative', 'field': 'Savings', 'aggregate': 'sum'}}, 'data': {'url': 'data/day_by_day_2021.json'}, 'mark': {'type': 'area'}}",
-    "TF_answer": true,
-    "item_startTime": 1710048491403,
-    "item_endTime": 1710048533411
-  },
-  {
-    "PID": "p16",
-    "item_order": "item_3_Q",
-    "itemID": "Q18",
-    "mark": "bar",
-    "x": "Spending",
-    "y": "Date",
-    "color": "Spending_Category",
-    "vis_answer": "{'encoding': {'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'x': {'aggregate': 'sum', 'type': 'quantitative', 'field': 'Spending', 'sort': '', 'bin': False}, 'size': {'sort': '', 'type': '', 'field': ''}, 'y': {'field': 'Date', 'type': 'temporal', 'sort': '', 'aggregate': ''}}, 'mark': {'type': 'bar'}, 'data': {'url': 'data/day_by_day_2022_Jun_UEF.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710048533861,
-    "item_endTime": 1710048849577
-  },
-  {
     "PID": "p16",
     "item_order": "item_4_Q",
     "itemID": "Q16",
@@ -5567,18 +3494,6 @@
   },
   {
     "PID": "p16",
-    "item_order": "item_5_Q",
-    "itemID": "Q9",
-    "mark": "bar",
-    "x": "Date",
-    "y": "Income",
-    "vis_answer": "{'encoding': {'size': {'sort': '', 'field': '', 'type': ''}, 'color': {'type': '', 'field': ''}, 'x': {'field': 'Date', 'sort': '', 'bin': False, 'aggregate': '', 'type': 'temporal'}, 'y': {'sort': '', 'type': 'quantitative', 'aggregate': 'sum', 'field': 'Income'}}, 'mark': {'type': 'bar'}, 'data': {'url': 'data/day_by_day_2021.json'}}",
-    "TF_answer": true,
-    "item_startTime": 1710048961122,
-    "item_endTime": 1710049203301
-  },
-  {
-    "PID": "p16",
     "item_order": "item_6_Q",
     "itemID": "Q15",
     "mark": "line",
@@ -5588,42 +3503,6 @@
     "TF_answer": false,
     "item_startTime": 1710049203988,
     "item_endTime": 1710049504904
-  },
-  {
-    "PID": "p16",
-    "item_order": "item_7_Q",
-    "itemID": "Q17",
-    "mark": "area",
-    "x": "Spending",
-    "y": "Date",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2020_Entertainment.json'}, 'encoding': {'color': {'field': '', 'type': ''}, 'y': {'sort': '', 'field': 'Date', 'type': 'temporal', 'aggregate': ''}, 'x': {'field': 'Spending', 'type': 'quantitative', 'bin': False, 'aggregate': 'sum', 'sort': ''}}, 'mark': {'type': 'area'}}",
-    "TF_answer": false,
-    "item_startTime": 1710049505348,
-    "item_endTime": 1710049637142
-  },
-  {
-    "PID": "p16",
-    "item_order": "item_8_Q",
-    "itemID": "Q39",
-    "mark": "line",
-    "y": "Date",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'y': {'type': 'temporal', 'field': 'Date'}, 'x': {'field': '', 'type': ''}}, 'mark': {'type': 'line'}}",
-    "TF_answer": false,
-    "item_startTime": 1710049637599,
-    "item_endTime": 1710049661885
-  },
-  {
-    "PID": "p16",
-    "item_order": "item_9_Q",
-    "itemID": "Q37",
-    "mark": "bar",
-    "x": "Year",
-    "y": "Spending",
-    "color": "Spending_Category",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_20_23.json'}, 'encoding': {'y': {'aggregate': 'sum', 'field': 'Spending', 'type': 'quantitative'}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}, 'x': {'field': 'Year', 'type': 'ordinal'}}, 'mark': {'type': 'bar'}}",
-    "TF_answer": true,
-    "item_startTime": 1710049662324,
-    "item_endTime": 1710049699164
   },
   {
     "PID": "p16",
@@ -5650,31 +3529,6 @@
     "TF_answer": false,
     "item_startTime": 1710049766094,
     "item_endTime": 1710049980668
-  },
-  {
-    "PID": "p16",
-    "item_order": "item_12_Q",
-    "itemID": "Q40",
-    "mark": "point",
-    "color": "Spending_Category",
-    "size": "Spending",
-    "vis_answer": "{'mark': {'type': 'point'}, 'data': {'url': 'data/day_by_day_2021.json'}, 'encoding': {'size': {'field': 'Spending', 'type': 'quantitative'}, 'y': {'type': '', 'field': ''}, 'x': {'field': '', 'type': ''}, 'color': {'field': 'Spending_Category', 'type': 'nominal'}}}",
-    "TF_answer": false,
-    "item_startTime": 1710049981099,
-    "item_endTime": 1710050015874
-  },
-  {
-    "PID": "p16",
-    "item_order": "item_13_Q",
-    "itemID": "Q12",
-    "mark": "bar",
-    "x": "Savings",
-    "y": "Income",
-    "color": "Spending_Category",
-    "vis_answer": "{'data': {'url': 'data/day_by_day_2020_AprMay_TF.json'}, 'mark': {'type': 'bar'}, 'encoding': {'color': {'type': 'nominal', 'sort': '', 'field': 'Spending_Category'}, 'x': {'bin': False, 'type': 'quantitative', 'aggregate': 'sum', 'field': 'Savings'}, 'size': {'field': '', 'type': '', 'sort': ''}, 'y': {'aggregate': '', 'field': 'Income', 'type': 'quantitative', 'sort': ''}}}",
-    "TF_answer": false,
-    "item_startTime": 1710050016323,
-    "item_endTime": 1710050612946
   },
   {
     "PID": "p16",

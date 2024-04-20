@@ -476,7 +476,7 @@ img {
   width: 800px;
 }
 
-#startNew, #done, #nextButton, .remove_button {
+#startNew, #done, #nextButton, .remove_button, #loadButton {
   margin: auto;
   width: fit-content;
   height: fit-content;
@@ -536,7 +536,7 @@ select {
   /* overflow: hidden; */
 }
 
-#globalContainerAnswer {
+#globalContainerAnswer, #answerList {
   display: flex;
   flex-direction: column;
   margin: auto;

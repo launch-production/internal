@@ -13,14 +13,11 @@ import QuestionText from './question-text.js';
 // import { DraftModeProvider } from 'next/dist/server/async-storage/draft-mode-provider';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation'
 
-async function addDataToFireStore(prolificID, questionID, usability_answers, item_start, text_answer) {
+async function addDataToFireStore(prolificID, questionID, text_answers) {
     try {
       const docRef = await setDoc(doc(db, prolificID, questionID), {
         timestamp: serverTimestamp(),
-        usability_answers: usability_answers,
-        item_startTime: item_start,
-        item_endTime: new Date().getTime(),
-        text_answer: text_answer
+        text_answers: text_answers
       }, { merge: true });
       console.log("Doc written with ID: ", prolificID);
       return true;
@@ -257,13 +254,14 @@ const AnswerLabeling = (props) => {
   const [currentProgress, setCurrentProgress] = useState({})
   const [redirectTo, setRedirectTo] = useState("")
   const [loading, setLoading] = useState(true);
+  const [itemPIDs, setItemPIDs] = useState([])
   
   console.log("in CREATE item component!")
   console.log(props)
   console.log(props.item_bank)
   console.log(pathname)
   console.log(searchParams)
-  const handleSubmit = async (e, questionID, item_start, text_answer) => {
+  const handleSubmit = async (e, questionID, text_answers) => {
     e.preventDefault();
     console.log("in handle submit!!")
     console.log(pID)
@@ -287,16 +285,23 @@ const AnswerLabeling = (props) => {
     //       alert("An error occurred. Please contact the survey administrator.");
     //     }
     //   }
-      const added = await addDataToFireStore(pID, questionID, usabilityItemAnswers, item_start, text_answer);
+      const added = await addDataToFireStore(pID, questionID, text_answers);
       if (!added) {
         // setPID("");
         setScore("");
         alert("An error occurred. Please contact the survey administrator.");
       } else {
         let url_pid = "?PROLIFIC_PID=" + pID;
-        // let next_item = props.item + 1
-        router.push('/instructions'+url_pid)
-
+        // if (props.item == 15) {
+        //     // location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
+        //     router.push('/end'+url_pid)
+        // }
+        // let url_pid = "?PROLIFIC_PID=" + pID;
+        let next_item = props.item + 1
+        // if (props.assessment) {
+            
+        // }
+        router.push('/labelingQ'+next_item+url_pid)
         
       }
     }
@@ -809,6 +814,8 @@ const AnswerLabeling = (props) => {
   const loadAnswers = (e) => {
     // <div id={"pilotVis-"+index}>{console.log(index)}</div>
     let item_id = "Q" + props.item
+    let p_id = []
+    console.log(itemPIDs)
     props.pilot_answers.map((item, index) => {
         if (item["itemID"] == item_id) {
             let container_div = document.createElement("div")
@@ -826,12 +833,27 @@ const AnswerLabeling = (props) => {
             text_answers_container.appendChild(OE_answer)
             container_div.appendChild(new_div)
             container_div.appendChild(text_answers_container)
-            document.getElementById("globalContainerAnswer").appendChild(container_div)
+            let text_input = document.createElement("textarea")
+            text_input.id = "label-"+index
+            // <textarea id="questionAnswer" name="questionAnswer" rows="2" cols="35" placeholder='Optional'></textarea>
+            container_div.appendChild(text_input)
+            document.getElementById("answerList").appendChild(container_div)
             let divider = document.createElement("HR")
             divider.setAttribute("width", "800px");
-            document.getElementById("globalContainerAnswer").appendChild(divider)
+            document.getElementById("answerList").appendChild(divider)
+            p_id.push(item["PID"])
+            // setItemPIDs([ // with a new array
+            //     ...itemPIDs, // that contains all the old items
+            //     p_id // and one new item at the end
+            // ])
+            // console.log(itemPIDs)
+
         }
     })
+
+    // console.log(p_id)
+    // setItemPIDs(p_id)
+    console.log(itemPIDs)
 
     props.pilot_answers.map((item, index) => {
         if (item["itemID"] == item_id) {
@@ -846,41 +868,58 @@ const AnswerLabeling = (props) => {
             }
         }
     })
+
+    document.getElementById("nextButton").classList.remove("hideDescription")
+    document.getElementById("loadButton").classList.add("hideDescription")
+    
   }
+
+
 
   const nextItem = (e) => {
     
     console.log("clicking next")
-    console.log(itemAnswer)
-    // if (showTextBox && itemAnswer == "no answer") {
-    //     document.getElementById("requiredLabel").classList.add("showDescription")
-    //     document.getElementById("requiredLabel").classList.remove("hideDescription")
-    // }
-    let ready = true
-    for (var key in usabilityItemAnswers) {
-        console.log(key)
-        if (usabilityItemAnswers[key] == 0) {
-            document.getElementById("usability_"+key).classList.add("highlightRequired")
-            document.getElementById("requiredLabel_"+key).classList.add("showDescription")
-            document.getElementById("requiredLabel_"+key).classList.remove("hideDescription")
-            // document.getElementById("usability_"+key).focus()
-            document.getElementById("scrollUp").classList.remove("hideDescription")
-            ready = false
-        } else {
-            document.getElementById("usability_"+key).classList.remove("highlightRequired")
-            document.getElementById("requiredLabel_"+key).classList.add("hideDescription")
-            document.getElementById("requiredLabel_"+key).classList.remove("showDescription")
-        }
-    }
 
-    if (ready) {
-        document.getElementById("scrollUp").classList.add("hideDescription")
-        document.getElementById("proceeding").classList.remove("hideDescription")
-        let text_answer = document.getElementById("usabilityQuestionAnswer").value
-        updateProgress(pID, "training_"+props.item)
-        // console.log(document.getElementById("nextButtonValue").value)
-        handleSubmit(e, "usability_checks", startTime, text_answer)
-    }
+    let label_dict = {}
+    let item_id = "Q" + props.item
+    props.pilot_answers.map((item, index) => { 
+        if (item["itemID"] == item_id) {
+            let label_answer = document.getElementById("label-"+index).value
+            label_dict[item["PID"]] = label_answer
+        }
+    })
+    console.log(label_dict)
+    handleSubmit(e, item_id, label_dict)
+    // console.log(itemAnswer)
+    // // if (showTextBox && itemAnswer == "no answer") {
+    // //     document.getElementById("requiredLabel").classList.add("showDescription")
+    // //     document.getElementById("requiredLabel").classList.remove("hideDescription")
+    // // }
+    // let ready = true
+    // for (var key in usabilityItemAnswers) {
+    //     console.log(key)
+    //     if (usabilityItemAnswers[key] == 0) {
+    //         document.getElementById("usability_"+key).classList.add("highlightRequired")
+    //         document.getElementById("requiredLabel_"+key).classList.add("showDescription")
+    //         document.getElementById("requiredLabel_"+key).classList.remove("hideDescription")
+    //         // document.getElementById("usability_"+key).focus()
+    //         document.getElementById("scrollUp").classList.remove("hideDescription")
+    //         ready = false
+    //     } else {
+    //         document.getElementById("usability_"+key).classList.remove("highlightRequired")
+    //         document.getElementById("requiredLabel_"+key).classList.add("hideDescription")
+    //         document.getElementById("requiredLabel_"+key).classList.remove("showDescription")
+    //     }
+    // }
+
+    // if (ready) {
+    //     document.getElementById("scrollUp").classList.add("hideDescription")
+    //     document.getElementById("proceeding").classList.remove("hideDescription")
+    //     let text_answer = document.getElementById("usabilityQuestionAnswer").value
+    //     updateProgress(pID, "training_"+props.item)
+    //     // console.log(document.getElementById("nextButtonValue").value)
+    //     handleSubmit(e, "usability_checks", startTime, text_answer)
+    // }
 
     // console.log(showTextBox)
     // if (props.assessment && !showTextBox) {
@@ -930,8 +969,16 @@ const AnswerLabeling = (props) => {
     <div id='questionContainer' className='stickyTop'>
         <p><i>{itemBank[currentItem]["question_meta_data"]["question_text"]}</i></p>
     </div>
-    <div id="nextButton" onClick={(e) => loadAnswers(e)}>
+    <div id="loadButton" onClick={(e) => loadAnswers(e)}>
         <p>Load</p>
+    </div>
+
+    <div id="answerList">
+
+    </div>
+
+    <div id="nextButton" className='hideDescription' onClick={(e) => nextItem(e)}>
+        <p>Next</p>
     </div>
     
     {/* {loading ? null  :
