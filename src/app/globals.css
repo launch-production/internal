@@ -543,15 +543,21 @@ select {
   text-align: center;
 }
 
+#answerList, #loadButton {
+  margin-top: 2rem;
+}
+
 .centerContainerContent {
   margin: auto;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .textAnswersContainer {
   width: 300px;
   text-align: left;
-  margin-left: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .stickyTop {
@@ -559,4 +565,9 @@ select {
   top: 0;
   background: white;
   z-index: 2;
+}
+
+.visAnswerContainer {
+  width: 500px;
+  height: auto;
 }

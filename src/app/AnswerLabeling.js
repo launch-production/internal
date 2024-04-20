@@ -822,7 +822,10 @@ const AnswerLabeling = (props) => {
             container_div.classList.add("answerAddedContainer")
             container_div.classList.add("centerContainerContent")
             let new_div = document.createElement("div")
-            new_div.id = "pilotVis-"+index
+            new_div.classList.add("visAnswerContainer")
+            let vis_div = document.createElement("div")
+            vis_div.id = "pilotVis-"+index
+            new_div.appendChild(vis_div)
             let text_answers_container = document.createElement("div")
             text_answers_container.classList.add("textAnswersContainer")
             let TF_answer = document.createElement("div")
@@ -838,9 +841,9 @@ const AnswerLabeling = (props) => {
             // <textarea id="questionAnswer" name="questionAnswer" rows="2" cols="35" placeholder='Optional'></textarea>
             container_div.appendChild(text_input)
             document.getElementById("answerList").appendChild(container_div)
-            let divider = document.createElement("HR")
-            divider.setAttribute("width", "800px");
-            document.getElementById("answerList").appendChild(divider)
+            // let divider = document.createElement("HR")
+            // divider.setAttribute("width", "1200px");
+            // document.getElementById("answerList").appendChild(divider)
             p_id.push(item["PID"])
             // setItemPIDs([ // with a new array
             //     ...itemPIDs, // that contains all the old items
