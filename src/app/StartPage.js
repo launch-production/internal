@@ -666,6 +666,11 @@ const StartPage = (props) => {
       randomized_IDS = ["1", "15", "24", "4", "33", "13", "8", "7", "27", "9", "36", "38", "17", "34", "16"]
     } else if (pID == "MK") {
       randomized_IDS = ["9", "36", "38", "17", "34", "16", "1", "15", "24", "4", "33", "13", "8", "7", "27"]
+    } else if (pID == "pilot_all") {
+      for (let i = 1; i <= 38; i += 1) {
+        randomized_IDS.push(i.toString())
+      }
+      console.log(randomized_IDS)
     } else {
       randomized_IDS = ["4", "33", "13", "8", "7", "27", "9", "36", "38", "17", "34", "16", "1", "15", "24"]
     }
