@@ -1148,7 +1148,7 @@ const ConstructionItemComponent = (props) => {
     // }
     
     if (props.assessment) {
-        if (next_item <= 16) {
+        if (next_item <= 39) {
 
             // let text_answer = ""
             // if (props.assessment) {
