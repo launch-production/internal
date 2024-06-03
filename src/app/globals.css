@@ -571,3 +571,27 @@ select {
   width: 500px;
   height: auto;
 }
+
+.rubricSpacing1 {
+  height: 2rem;
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+
+.rubricSpacing2 {
+  height: 2rem;
+  width: 3rem;
+  margin-bottom: 1rem;
+}
+
+.rubricSpacing3 {
+  height: 2rem;
+  width: 7rem;
+  margin-bottom: 1rem;
+}
+
+.rubricColumn {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}

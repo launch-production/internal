@@ -836,9 +836,59 @@ const AnswerLabeling = (props) => {
             text_answers_container.appendChild(OE_answer)
             container_div.appendChild(new_div)
             container_div.appendChild(text_answers_container)
+            // -- rubric items
+            let rubric_items = document.createElement("div")
+            rubric_items.classList.add("rubricColumn")
+            let initial_checks = document.createElement("textarea")
+            initial_checks.id = "initialcheck-"+index
+            initial_checks.placeholder = "Initial checks"
+            initial_checks.classList.add("rubricSpacing1")
+            let x_check = document.createElement("textarea")
+            x_check.id = "xcheck-"+index
+            x_check.placeholder = "x"
+            x_check.classList.add("rubricSpacing2")
+            let y_check = document.createElement("textarea")
+            y_check.id = "ycheck-"+index
+            y_check.placeholder = "y"
+            y_check.classList.add("rubricSpacing2")
+            let color_check = document.createElement("textarea")
+            color_check.id = "colorcheck-"+index
+            color_check.placeholder = "color"
+            color_check.classList.add("rubricSpacing2")
+            let size_check = document.createElement("textarea")
+            size_check.id = "sizecheck-"+index
+            size_check.placeholder = "size"
+            size_check.classList.add("rubricSpacing2")
+
+            let rubric_items_marks = document.createElement("div")
+            rubric_items_marks.classList.add("rubricColumn")
+            let mark_type_check = document.createElement("textarea")
+            mark_type_check.id = "marktypecheck-"+index
+            mark_type_check.placeholder = "mark"
+            mark_type_check.classList.add("rubricSpacing3")
+            let convention_check = document.createElement("textarea")
+            convention_check.id = "conventioncheck-"+index
+            convention_check.placeholder = "convention?"
+            convention_check.classList.add("rubricSpacing3")
+            let overplotting_check = document.createElement("textarea")
+            overplotting_check.id = "overplottingcheck-"+index
+            overplotting_check.placeholder = "overplotting?"
+            overplotting_check.classList.add("rubricSpacing3")
+            // -- rubric items
             let text_input = document.createElement("textarea")
             text_input.id = "label-"+index
+            text_input.placeholder = "Notes/comments"
             // <textarea id="questionAnswer" name="questionAnswer" rows="2" cols="35" placeholder='Optional'></textarea>
+            rubric_items.appendChild(initial_checks)
+            rubric_items.appendChild(x_check)
+            rubric_items.appendChild(y_check)
+            rubric_items.appendChild(color_check)
+            rubric_items.appendChild(size_check)
+            rubric_items_marks.appendChild(mark_type_check)
+            rubric_items_marks.appendChild(convention_check)
+            rubric_items_marks.appendChild(overplotting_check)
+            container_div.appendChild(rubric_items)
+            container_div.appendChild(rubric_items_marks)
             container_div.appendChild(text_input)
             document.getElementById("answerList").appendChild(container_div)
             // let divider = document.createElement("HR")
@@ -885,10 +935,23 @@ const AnswerLabeling = (props) => {
 
     let label_dict = {}
     let item_id = "Q" + props.item
+    let rubric_dict = {}
     props.pilot_answers.map((item, index) => { 
         if (item["itemID"] == item_id) {
+            if (!(item["PID"] in label_dict)) {
+              rubric_dict = {}
+            }
             let label_answer = document.getElementById("label-"+index).value
-            label_dict[item["PID"]] = label_answer
+            rubric_dict["initial"] = document.getElementById("initialcheck-"+index).value
+            rubric_dict["x"] = document.getElementById("xcheck-"+index).value
+            rubric_dict["y"] = document.getElementById("ycheck-"+index).value
+            rubric_dict["color"] = document.getElementById("colorcheck-"+index).value
+            rubric_dict["size"] = document.getElementById("sizecheck-"+index).value
+            rubric_dict["mark"] = document.getElementById("marktypecheck-"+index).value
+            rubric_dict["convention"] = document.getElementById("conventioncheck-"+index).value
+            rubric_dict["overplotting"] = document.getElementById("overplottingcheck-"+index).value
+            rubric_dict["notes"] = label_answer
+            label_dict[item["PID"]] = rubric_dict
         }
     })
     console.log(label_dict)
