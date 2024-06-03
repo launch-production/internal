@@ -332,7 +332,7 @@ const ConstructionItemComponent = (props) => {
         alert("An error occurred. Please contact the survey administrator.");
       } else {
         let url_pid = "?PROLIFIC_PID=" + pID;
-        if (props.item == 15) {
+        if (props.item == 38) {
             // location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
             router.push('/end'+url_pid)
         }
@@ -538,7 +538,7 @@ const ConstructionItemComponent = (props) => {
 
                 } else if (type == "item") {
                     let url_pid = "?PROLIFIC_PID=" + prolific_ID;
-                    if (display_item > 15) {
+                    if (display_item > 38) {
                     // location.href = "https://app.prolific.com/submissions/complete?cc=C17SX24M";
                       router.push('/end'+url_pid)
                     } else {
@@ -561,7 +561,7 @@ const ConstructionItemComponent = (props) => {
                 }
             }
         
-            if (props.assessment && props.item <= 15) {
+            if (props.assessment && props.item <= 38) {
                 let index = props.item
                 let item_order = current_progress["randomized_order"]
                 setCurrentItem(props.mode+item_order[index-1])
@@ -1148,7 +1148,7 @@ const ConstructionItemComponent = (props) => {
     // }
     
     if (props.assessment) {
-        if (next_item <= 16) {
+        if (next_item <= 39) {
 
             // let text_answer = ""
             // if (props.assessment) {
