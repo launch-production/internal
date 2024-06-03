@@ -872,7 +872,7 @@ const AnswerLabeling = (props) => {
             convention_check.classList.add("rubricSpacing3")
             let overplotting_check = document.createElement("textarea")
             overplotting_check.id = "overplottingcheck-"+index
-            overplotting_check.placeholder = "overplotting?"
+            overplotting_check.placeholder = "no overplotting?"
             overplotting_check.classList.add("rubricSpacing3")
             // -- rubric items
             let text_input = document.createElement("textarea")
