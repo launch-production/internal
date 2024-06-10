@@ -910,11 +910,11 @@ const AnswerLabeling = (props) => {
 
     props.pilot_answers.map((item, index) => {
         if (item["itemID"] == item_id) {
-            embed("#pilotVis-"+index, JSON.parse(parseJson(item["vis_answer"])), {"actions": false})
+            embed("#pilotVis-"+index, JSON.parse(parseJson(item["vis_answer"])))
             if (item["TF_answer"]) {
-                document.getElementById("TFanswer-"+index).innerHTML = "True"
+                document.getElementById("TFanswer-"+index).innerHTML = item["PID"]+": "+"True"
             } else {
-                document.getElementById("TFanswer-"+index).innerHTML = "False"
+                document.getElementById("TFanswer-"+index).innerHTML = item["PID"]+": "+"False"
             }
             if ("text_answer" in item) {
                 document.getElementById("OEanswer-"+index).innerHTML = item["text_answer"]
