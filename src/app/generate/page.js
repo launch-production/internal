@@ -1,0 +1,33 @@
+import GenerateSet from '../GenerateSet';
+
+export default function Page() {
+    // const router = useRouter()
+    var item_bank = require("../item_bank_pilot.json");
+    console.log(item_bank)
+
+    var generated_set = require("../autograded_Q1.json");
+    console.log(generated_set)
+
+    var pilot_answers = require("../pilot_data.json");
+    console.log(pilot_answers)
+
+    var tile_sets = require("../tile_sets.json");
+    console.log(tile_sets)
+
+    var constraints = require("../constraints.json");
+    console.log(constraints)
+    return (
+        <div>
+        <GenerateSet 
+            item={1} 
+            item_bank={item_bank}
+            generated_set={generated_set}
+            pilot_answers={pilot_answers}
+            tile_sets={tile_sets}
+            constraints={constraints}
+            assessment={true}
+            mode={"item"}
+            />
+    </div>
+    )
+  }
