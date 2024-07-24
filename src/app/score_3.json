@@ -1,0 +1,5689 @@
+[
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "aggregate": "sum"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal",
+                "aggregate": ""
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "",
+                "type": ""
+            },
+            "y": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "y": {
+                "field": "",
+                "type": ""
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "bar"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "",
+                "type": ""
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Date",
+                "type": "temporal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Month",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Income",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Savings",
+                "type": "quantitative"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Date",
+                "type": "temporal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Month",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Year",
+                "type": "ordinal"
+            }
+        }
+    },
+    {
+        "data": {
+            "url": "data/day_by_day_2023_Jan.json"
+        },
+        "mark": {
+            "type": "point"
+        },
+        "encoding": {
+            "x": {
+                "field": "Income",
+                "type": "quantitative",
+                "bin": true
+            },
+            "y": {
+                "field": "",
+                "type": "",
+                "aggregate": "count"
+            },
+            "color": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            },
+            "size": {
+                "field": "Spending_Category",
+                "type": "nominal"
+            }
+        }
+    }
+]

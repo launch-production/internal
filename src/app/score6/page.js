@@ -6,11 +6,11 @@ export default function Page() {
     console.log(item_bank)
 
     // var generated_set = require("../autograded_Q1.json"); // last 88
-    var generated_set = require("../need_manual_grading.json")
+    // var generated_set = require("../need_manual_grading.json")
     // var generated_set = require("../score_3.json")
     // var generated_set = require("../score_4.json")
     // var generated_set = require("../score_5.json")
-    // var generated_set = require("../score_6.json")
+    var generated_set = require("../score_6.json")
     console.log(generated_set)
 
     var pilot_answers = require("../pilot_data.json");
