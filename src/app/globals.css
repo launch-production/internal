@@ -536,11 +536,29 @@ select {
   /* overflow: hidden; */
 }
 
-#globalContainerAnswer, #answerList {
+#globalContainerAnswer {
   display: flex;
   flex-direction: column;
   margin: auto;
   text-align: center;
+}
+
+#answerList {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  flex-wrap: wrap;
+  height: 50rem;
+  overflow-y: scroll;
+}
+
+.answerListBorder {
+  border: 1px solid black;
+}
+
+#specRules {
+  display: flex;
+  flex-direction: row;
 }
 
 #answerList, #loadButton {
@@ -568,9 +586,10 @@ select {
 }
 
 .visAnswerContainer {
-  width: 500px;
+  width: 300px;
   height: auto;
 }
+
 
 .rubricSpacing1 {
   height: 2rem;

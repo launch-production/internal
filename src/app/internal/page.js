@@ -13,7 +13,7 @@ export default function Page() {
     return (
         <div>
         <InternalTest 
-            item={21} 
+            item={2} 
             item_bank={item_bank}
             tile_sets={tile_sets}
             constraints={constraints}

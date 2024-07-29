@@ -255,6 +255,8 @@ const GenerateSet = (props) => {
   const [redirectTo, setRedirectTo] = useState("")
   const [loading, setLoading] = useState(true);
   const [itemPIDs, setItemPIDs] = useState([])
+  const [ruleComboIndex, setRuleComboIndex] = useState(0)
+  const [rulesList, setRulesList] = useState(["NecessaryVars", "SizeVarType", "XYMapped", "SizeMarkType", "SizeColorVar", "CountSizeColor"])
   
   console.log("in CREATE item component!")
   console.log(props)
@@ -812,29 +814,83 @@ const GenerateSet = (props) => {
     return formatted
   }
 
+  const displayRuleCombo = (combo) => {
+    console.log(combo)
+    document.getElementById("answerList").innerHTML = ""
+    console.log(props.combos_list[combo])
+    for (let entry in props.generated_set) {
+      // console.log(props.generated_set[entry])
+      if (props.generated_set[entry]["score"] == props.score) {
+        let display = true
+        // console.log(props.generated_set[entry]["rules_passed"])
+        for (let index = 0; index < props.generated_set[entry]["rules_passed"].length; index += 1) {
+          // console.log(props.generated_set[entry]["rules_passed"][index])
+          if (!props.combos_list[combo].includes(props.generated_set[entry]["rules_passed"][index])) {
+            
+            display = false
+          }
+        }
+        if (display) {
+          let container_div = document.createElement("div")
+          container_div.classList.add("answerAddedContainer")
+          container_div.classList.add("centerContainerContent")
+          let new_div = document.createElement("div")
+          new_div.classList.add("visAnswerContainer")
+          let vis_div = document.createElement("div")
+          vis_div.id = "generatedVis-"+entry
+          new_div.appendChild(vis_div)
+          container_div.appendChild(new_div)
+          document.getElementById("answerList").appendChild(container_div)
+          document.getElementById("answerList").classList.add("answerListBorder")
+          embed("#generatedVis-"+entry, props.generated_set[entry]["spec"])
+        }
+        
+
+        
+      }
+      
+    }
+
+    let rules_set = ""
+    for (let index = 0; index < props.score; index += 1) {
+      // console.log(props.combos_list[combo][index])
+      // console.log(rulesList)
+      // console.log(rulesList[props.combos_list[combo][index]])
+      rules_set = rules_set.concat(rulesList[props.combos_list[combo][index]-1])
+    }
+    document.getElementById("rulesList").innerHTML = rules_set 
+    
+    
+    document.getElementById("nextButton").classList.remove("hideDescription")
+    document.getElementById("loadButton").classList.add("hideDescription")
+  }
+
   const loadAnswers = (e) => {
     // <div id={"pilotVis-"+index}>{console.log(index)}</div>
     // let item_id = "Q" + props.item
     // let p_id = []
     // console.log(itemPIDs)
 
-    props.generated_set.map((spec, index) => {
-        console.log(index)
-        let container_div = document.createElement("div")
-        container_div.classList.add("answerAddedContainer")
-        container_div.classList.add("centerContainerContent")
-        let new_div = document.createElement("div")
-        new_div.classList.add("visAnswerContainer")
-        let vis_div = document.createElement("div")
-        vis_div.id = "generatedVis-"+index
-        new_div.appendChild(vis_div)
-        container_div.appendChild(new_div)
-        document.getElementById("answerList").appendChild(container_div)
-        embed("#generatedVis-"+index, spec)
-    })
+    // props.generated_set.map((spec, index) => {
+    //     console.log(index)
+    //     let container_div = document.createElement("div")
+    //     container_div.classList.add("answerAddedContainer")
+    //     container_div.classList.add("centerContainerContent")
+    //     let new_div = document.createElement("div")
+    //     new_div.classList.add("visAnswerContainer")
+    //     let vis_div = document.createElement("div")
+    //     vis_div.id = "generatedVis-"+index
+    //     new_div.appendChild(vis_div)
+    //     container_div.appendChild(new_div)
+    //     document.getElementById("answerList").appendChild(container_div)
+    //     document.getElementById("answerList").classList.add("answerListBorder")
+    //     embed("#generatedVis-"+index, spec)
+    // })
 
-    document.getElementById("nextButton").classList.remove("hideDescription")
-    document.getElementById("loadButton").classList.add("hideDescription")
+    console.log(props.score)
+    console.log(props.combos_list)
+    console.log(props.combos_list.length)
+    displayRuleCombo(0)
 
 
     
@@ -844,31 +900,39 @@ const GenerateSet = (props) => {
 
   const nextItem = (e) => {
     
-    console.log("clicking next")
+    
+    // console.log("clicking next")
+    console.log(ruleComboIndex)
+    displayRuleCombo(ruleComboIndex+1)
+    setRuleComboIndex(ruleComboIndex + 1)
 
-    let label_dict = {}
-    let item_id = "Q" + props.item
-    let rubric_dict = {}
-    props.pilot_answers.map((item, index) => { 
-        if (item["itemID"] == item_id) {
-            if (!(item["PID"] in label_dict)) {
-              rubric_dict = {}
-            }
-            let label_answer = document.getElementById("label-"+index).value
-            rubric_dict["initial"] = document.getElementById("initialcheck-"+index).value
-            rubric_dict["x"] = document.getElementById("xcheck-"+index).value
-            rubric_dict["y"] = document.getElementById("ycheck-"+index).value
-            rubric_dict["color"] = document.getElementById("colorcheck-"+index).value
-            rubric_dict["size"] = document.getElementById("sizecheck-"+index).value
-            rubric_dict["mark"] = document.getElementById("marktypecheck-"+index).value
-            rubric_dict["convention"] = document.getElementById("conventioncheck-"+index).value
-            rubric_dict["overplotting"] = document.getElementById("overplottingcheck-"+index).value
-            rubric_dict["notes"] = label_answer
-            label_dict[item["PID"]] = rubric_dict
-        }
-    })
-    console.log(label_dict)
-    handleSubmit(e, item_id, label_dict)
+
+
+    // let label_dict = {}
+    // let item_id = "Q" + props.item
+    // let rubric_dict = {}
+    // props.pilot_answers.map((item, index) => { 
+    //     if (item["itemID"] == item_id) {
+    //         if (!(item["PID"] in label_dict)) {
+    //           rubric_dict = {}
+    //         }
+    //         let label_answer = document.getElementById("label-"+index).value
+    //         rubric_dict["initial"] = document.getElementById("initialcheck-"+index).value
+    //         rubric_dict["x"] = document.getElementById("xcheck-"+index).value
+    //         rubric_dict["y"] = document.getElementById("ycheck-"+index).value
+    //         rubric_dict["color"] = document.getElementById("colorcheck-"+index).value
+    //         rubric_dict["size"] = document.getElementById("sizecheck-"+index).value
+    //         rubric_dict["mark"] = document.getElementById("marktypecheck-"+index).value
+    //         rubric_dict["convention"] = document.getElementById("conventioncheck-"+index).value
+    //         rubric_dict["overplotting"] = document.getElementById("overplottingcheck-"+index).value
+    //         rubric_dict["notes"] = label_answer
+    //         label_dict[item["PID"]] = rubric_dict
+    //     }
+    // })
+    // console.log(label_dict)
+    // handleSubmit(e, item_id, label_dict)
+
+
     // console.log(itemAnswer)
     // // if (showTextBox && itemAnswer == "no answer") {
     // //     document.getElementById("requiredLabel").classList.add("showDescription")
@@ -952,8 +1016,12 @@ const GenerateSet = (props) => {
         <p>Load</p>
     </div>
 
+    <div id="specRules">
     <div id="answerList">
 
+    </div>
+
+    <div id="rulesList"></div>
     </div>
 
     <div id="nextButton" className='hideDescription' onClick={(e) => nextItem(e)}>
