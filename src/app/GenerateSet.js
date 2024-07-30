@@ -821,15 +821,15 @@ const GenerateSet = (props) => {
     let count = 0
     for (let entry in props.generated_set) {
       // console.log(props.generated_set[entry])
-      if (props.generated_set[entry]["score"] == props.score) {
+      if (props.generated_set[entry]["score"].toFixed() == props.score) {
         let display = true
         // console.log(props.generated_set[entry]["rules_passed"])
         for (let index = 0; index < props.generated_set[entry]["rules_passed"].length; index += 1) {
           // console.log(props.generated_set[entry]["rules_passed"][index])
-          if (!props.combos_list[combo].includes(props.generated_set[entry]["rules_passed"][index])) {
+          // if (!props.combos_list[combo].includes(props.generated_set[entry]["rules_passed"][index])) {
             
-            display = false
-          }
+          //   display = false
+          // }
         }
         if (display) {
           let container_div = document.createElement("div")
@@ -858,7 +858,7 @@ const GenerateSet = (props) => {
     let rules_container = document.getElementById("rulesList")
     rules_container.innerHTML = ""
     let rules_set = ""
-    for (let index = 0; index < props.score; index += 1) {
+    for (let index = 0; index < props.combos_list[combo].length; index += 1) {
       // console.log(props.combos_list[combo][index])
       // console.log(rulesList)
       // console.log(rulesList[props.combos_list[combo][index]])
