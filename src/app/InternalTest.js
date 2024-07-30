@@ -139,7 +139,7 @@ function updateDataEncoding(vis_spec, encoding, var_update_to, data_columns) {
         }
     }
     
-    embed('#questionVis', vis_spec, {"actions": false});
+    embed('#questionVis', vis_spec);
     return vis_spec
     
 }
@@ -166,7 +166,7 @@ function removeDataEncoding(vis_spec, encoding) {
 //   }
 
 //   document.getElementById("questionAnswer").focus()
-  embed('#questionVis', vis_spec, {"actions": false});
+  embed('#questionVis', vis_spec);
   return vis_spec
 }
 
@@ -198,7 +198,7 @@ function removeAction(vis_spec, encoding, action) {
   //   }
   
   //   document.getElementById("questionAnswer").focus()
-    embed('#questionVis', vis_spec, {"actions": false});
+    embed('#questionVis', vis_spec);
     return vis_spec
   }
 
@@ -208,7 +208,7 @@ function updateMark(vis_spec, mark) {
   console.log(vis_spec, mark)
   vis_spec["mark"]["type"] = mark;
 //   document.getElementById("questionAnswer").focus()
-  embed('#questionVis', vis_spec, {"actions": false});
+  embed('#questionVis', vis_spec);
   return vis_spec
 }
 
@@ -216,7 +216,7 @@ function updateMark(vis_spec, mark) {
 
 function clearVis(vis_spec) {
     vis_spec["encoding"] = {}
-    embed('#questionVis', vis_spec, {"actions": false});
+    embed('#questionVis', vis_spec);
     return vis_spec
 }
 
@@ -532,9 +532,9 @@ const InternalTest = (props) => {
     // console.log(props.item_bank["training"+props.item]["model_vis"])
 
     if (!loading) {
-         embed('#questionVis', loadVis, {"actions": false});
+         embed('#questionVis', loadVis);
         if (!props.assessment) {
-            embed("#toReconstruct", props.item_bank["training"+props.item]["model_vis"], {"actions": false})
+            embed("#toReconstruct", props.item_bank["training"+props.item]["model_vis"])
         }
     }
    

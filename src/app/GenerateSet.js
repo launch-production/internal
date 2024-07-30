@@ -256,7 +256,7 @@ const GenerateSet = (props) => {
   const [loading, setLoading] = useState(true);
   const [itemPIDs, setItemPIDs] = useState([])
   const [ruleComboIndex, setRuleComboIndex] = useState(0)
-  const [rulesList, setRulesList] = useState(["NecessaryVars", "SizeVarType", "XYMapped", "SizeMarkType", "SizeColorVar", "CountSizeColor"])
+  const [rulesList, setRulesList] = useState(["NecessaryVars: contains necessary variable(s)", "SizeVarType: It's better to map size to quantitative var", "XYMapped: Both x and y should be mapped to some var", "SizeMarkType: Size encoding only mapped to var when mark is point", "SizeColorVar: Size and color mapped to irrelevant var with too many values might lead to unnecessary confusion", "CountSizeColor: No size and color mapping with 'count' when mark is 'point'"])
   
   console.log("in CREATE item component!")
   console.log(props)
@@ -818,6 +818,7 @@ const GenerateSet = (props) => {
     console.log(combo)
     document.getElementById("answerList").innerHTML = ""
     console.log(props.combos_list[combo])
+    let count = 0
     for (let entry in props.generated_set) {
       // console.log(props.generated_set[entry])
       if (props.generated_set[entry]["score"] == props.score) {
@@ -843,6 +844,7 @@ const GenerateSet = (props) => {
           document.getElementById("answerList").appendChild(container_div)
           document.getElementById("answerList").classList.add("answerListBorder")
           embed("#generatedVis-"+entry, props.generated_set[entry]["spec"])
+          count += 1
         }
         
 
@@ -851,14 +853,22 @@ const GenerateSet = (props) => {
       
     }
 
+    console.log(count)
+
+    let rules_container = document.getElementById("rulesList")
+    rules_container.innerHTML = ""
     let rules_set = ""
     for (let index = 0; index < props.score; index += 1) {
       // console.log(props.combos_list[combo][index])
       // console.log(rulesList)
       // console.log(rulesList[props.combos_list[combo][index]])
-      rules_set = rules_set.concat(rulesList[props.combos_list[combo][index]-1])
+      let rules_div = document.createElement("div")
+      rules_div.innerHTML = rulesList[props.combos_list[combo][index]-1]
+      rules_container.appendChild(rules_div)
+
+      // rules_set = rules_set.concat(rulesList[props.combos_list[combo][index]-1])
     }
-    document.getElementById("rulesList").innerHTML = rules_set 
+    // document.getElementById("rulesList").innerHTML = rules_set 
     
     
     document.getElementById("nextButton").classList.remove("hideDescription")

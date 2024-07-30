@@ -5,7 +5,7 @@ export default function Page() {
     var item_bank = require("../item_bank_pilot.json");
     console.log(item_bank)
 
-    var generated_set = require("../autograded_Q1.json"); // last 88
+    var generated_set = require("../autograded_Q1.json"); 
     // var generated_set = require("../need_manual_grading.json")
     // var generated_set = require("../score_3.json")
     // var generated_set = require("../score_4.json")
