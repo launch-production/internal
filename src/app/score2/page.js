@@ -22,7 +22,7 @@ export default function Page() {
     var constraints = require("../constraints.json");
     console.log(constraints)
 
-    var combos_list = [[1, 2, 3, 4], [1, 2, 3, 5], [1, 2, 4, 5], [1, 3, 4, 5], [2, 3, 4, 5]]
+    var combos_list = [[1, 2], [1, 3], [1, 4], [1, 5], [2, 3], [2, 4], [2, 5], [3, 4], [3, 5], [4, 5]]
     
     
     return (
@@ -32,7 +32,7 @@ export default function Page() {
             item_bank={item_bank}
             generated_set={generated_set}
             combos_list={combos_list}
-            score={4}
+            score={2}
             pilot_answers={pilot_answers}
             tile_sets={tile_sets}
             constraints={constraints}

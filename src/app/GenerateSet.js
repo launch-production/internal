@@ -256,7 +256,7 @@ const GenerateSet = (props) => {
   const [loading, setLoading] = useState(true);
   const [itemPIDs, setItemPIDs] = useState([])
   const [ruleComboIndex, setRuleComboIndex] = useState(0)
-  const [rulesList, setRulesList] = useState(["NecessaryVars: contains necessary variable(s)", "SizeVarType: It's better to map size to quantitative var", "XYMapped: Both x and y should be mapped to some var", "SizeMarkType: Size encoding only mapped to var when mark is point", "SizeColorVar: Size and color mapped to irrelevant var with too many values might lead to unnecessary confusion", "CountSizeColor: No size and color mapping with 'count' when mark is 'point'"])
+  const [rulesList, setRulesList] = useState(["NecessaryVars: contains necessary variable(s)", "SizeVarType: It's better to map size to quantitative var", "SizeMarkType: Size encoding only mapped to var when mark is point", "SizeColorVar: Size and color mapped to irrelevant var with too many values might lead to unnecessary confusion", "CountSizeColor: No size and color mapping with 'count' when mark is 'point'"])
   
   console.log("in CREATE item component!")
   console.log(props)

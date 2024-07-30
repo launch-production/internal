@@ -22,7 +22,7 @@ export default function Page() {
     var constraints = require("../constraints.json");
     console.log(constraints)
 
-    var combos_list = [[1, 2, 3, 4, 5], [1, 2, 3, 4, 6], [1, 2, 3, 5, 6], [1, 2, 4, 5, 6], [1, 3, 4, 5, 6], [2, 3, 4, 5, 6]]
+    var combos_list = [[1, 2, 3, 4, 5]]
     
     
     return (
