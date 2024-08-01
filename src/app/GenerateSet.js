@@ -931,9 +931,12 @@ const GenerateSet = (props) => {
     
     
     // console.log("clicking next")
-    console.log(ruleComboIndex)
-    displayRuleCombo(ruleComboIndex+1)
-    setRuleComboIndex(ruleComboIndex + 1)
+    // console.log(ruleComboIndex)
+    // displayRuleCombo(ruleComboIndex+1)
+    // setRuleComboIndex(ruleComboIndex + 1)
+    let next_cluster = props.score+1
+    console.log(next_cluster)
+    router.push('/cluster'+next_cluster)
 
 
 
