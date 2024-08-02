@@ -960,7 +960,8 @@ const GenerateSet = (props) => {
     // setRuleComboIndex(ruleComboIndex + 1)
     let next_cluster = props.score+1
     console.log(next_cluster)
-    router.push('/cluster'+next_cluster)
+    console.log(props.item)
+    router.push('/Q'+props.item+'_cluster'+next_cluster)
 
 
 
