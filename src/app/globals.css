@@ -565,6 +565,16 @@ select {
   margin-top: 2rem;
 }
 
+#rulesList {
+  text-align: left;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.marginTop {
+  margin-top: 2rem;
+}
+
 .centerContainerContent {
   margin: auto;
   text-align: center;

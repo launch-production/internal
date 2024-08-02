@@ -819,6 +819,7 @@ const GenerateSet = (props) => {
     document.getElementById("answerList").innerHTML = ""
     console.log(props.combos_list[combo])
     let count = 0
+    let rules_set = new Set()
     for (let entry in props.generated_set) {
       // console.log(props.generated_set[entry])
       if (props.generated_set[entry]["score"] == props.score) {
@@ -844,6 +845,11 @@ const GenerateSet = (props) => {
           document.getElementById("answerList").appendChild(container_div)
           document.getElementById("answerList").classList.add("answerListBorder")
           embed("#generatedVis-"+entry, props.generated_set[entry]["spec"])
+
+          for (let rule = 0; rule < props.generated_set[entry]["rules_descriptions"].length; rule += 1) {
+            rules_set.add(props.generated_set[entry]["rules_descriptions"][rule])
+          }
+          
           count += 1
         }
         
@@ -853,30 +859,48 @@ const GenerateSet = (props) => {
       
     }
 
-    console.log(count)
+    console.log(rules_set)
 
     let rules_container = document.getElementById("rulesList")
     rules_container.innerHTML = ""
-    let rules_set = ""
-    if (props.score == 2) {
-      rules_set = ["# mark line does not have differing sizes but have differing colors", "# mark bar with count has no size mapping but has color mapping", "# mark bar has no size mapping but has color mapping"]
-      for (let index = 0; index < rules_set.length; index += 1) {
-        let rules_div = document.createElement("div")
-        rules_div.innerHTML = rules_set[index]
-        rules_container.appendChild(rules_div)
-      }
-    } else if (props.score == 3) {
+    // let rules_set = ""
+    let passed_rules = document.createElement("div")
+    passed_rules.classList.add("marginTop")
+    let failed_rules = document.createElement("div")
+    for (const rule of rules_set) {
+      console.log(rule)
       let rules_div = document.createElement("div")
-      rules_div.innerHTML = "# mark point with nominal size type"
-      rules_container.appendChild(rules_div)
-    } else if (props.score == 4) {
-      rules_set = ["# mark bar does not have differing sizes but have differing colors with count", "# size should not be mapped with bar charts", "# mark line should not have differing sizes and colors", "# mark point with count should not have differing sizes and colors", "# mark point with Income", "# mark area should not have differing sizes and colors"]
-      for (let index = 0; index < rules_set.length; index += 1) {
-        let rules_div = document.createElement("div")
-        rules_div.innerHTML = rules_set[index]
-        rules_container.appendChild(rules_div)
+      if (rule.includes("PASSED")) {
+        rules_div.innerHTML = rule
+        passed_rules.appendChild(rules_div)
+      } else if (rule.includes("FAILED")) {
+        rules_div.innerHTML = rule
+        failed_rules.appendChild(rules_div)
       }
     }
+    rules_container.appendChild(failed_rules)
+    rules_container.appendChild(passed_rules)
+
+
+    // if (props.score == 2) {
+    //   rules_set = ["# mark line does not have differing sizes but have differing colors", "# mark bar with count has no size mapping but has color mapping", "# mark bar has no size mapping but has color mapping"]
+    //   for (let index = 0; index < rules_set.length; index += 1) {
+    //     let rules_div = document.createElement("div")
+    //     rules_div.innerHTML = rules_set[index]
+    //     rules_container.appendChild(rules_div)
+    //   }
+    // } else if (props.score == 3) {
+    //   let rules_div = document.createElement("div")
+    //   rules_div.innerHTML = "# mark point with nominal size type"
+    //   rules_container.appendChild(rules_div)
+    // } else if (props.score == 4) {
+    //   rules_set = ["# mark bar does not have differing sizes but have differing colors with count", "# size should not be mapped with bar charts", "# mark line should not have differing sizes and colors", "# mark point with count should not have differing sizes and colors", "# mark point with Income", "# mark area should not have differing sizes and colors"]
+    //   for (let index = 0; index < rules_set.length; index += 1) {
+    //     let rules_div = document.createElement("div")
+    //     rules_div.innerHTML = rules_set[index]
+    //     rules_container.appendChild(rules_div)
+    //   }
+    // }
     // for (let index = 0; index < props.combos_list[combo].length; index += 1) {
     //   // console.log(props.combos_list[combo][index])
     //   // console.log(rulesList)
