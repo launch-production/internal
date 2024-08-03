@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "canvas": "^2.11.2",
     "file-saver": "^2.0.5",
     "firebase": "^10.7.1",
     "next": "^14.0.4",
