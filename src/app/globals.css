@@ -546,7 +546,7 @@ select {
 #answerList {
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 60%;
   flex-wrap: wrap;
   height: 50rem;
   overflow-y: scroll;
