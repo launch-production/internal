@@ -547,6 +547,7 @@ select {
   display: flex;
   flex-direction: row;
   width: 60%;
+  column-gap: 6rem;
   flex-wrap: wrap;
   height: 50rem;
   overflow-y: scroll;
